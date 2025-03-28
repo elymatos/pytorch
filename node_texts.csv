@@ -1,0 +1,5 @@
+node_id,text,label
+doc1,"Transformers are used in document classification.","Label A"
+doc2,"A novel approach for learning with GNNs.","Label B"
+doc3,"We extend attention models for citation prediction.","Label C"
+doc4,"This paper contradicts earlier claims on graph kernels.","Label D"

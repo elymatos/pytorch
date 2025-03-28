@@ -1,0 +1,6 @@
+source,target,edge_type
+doc1,doc2,cites
+doc2,doc3,supports
+doc3,doc4,contradicts
+doc4,doc1,cites
+doc2,doc4,extends

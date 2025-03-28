@@ -1,0 +1,5 @@
+node_id,predicted_label
+doc1,Label A
+doc2,Label B
+doc3,Label C
+doc4,Label C
