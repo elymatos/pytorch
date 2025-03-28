@@ -1,0 +1,145 @@
+    '%w1 causes %w2 in a agentive way',
+    '%w1 uses %w2 in a agentive way',
+    '%w1 causes %w2 indirectly',
+    'the occurrence of %w1 can cause emotion %w2',
+    '%w2 is caused by %w1 by natural means',
+    'the occurrence of %w1 can cause the reaction %w2',
+    'the occurrence of %w1 can cause the infection %w2',
+    '%w1 uses %w2 in a constitutive way',
+    '%w1 contains %w2',
+    '%w1 is caused by the agent %w2',
+    '%w1 is experienced by %w2',
+    'the occurrence of %w1 can cause the emotion %w2',
+    '%w1 has the attribute %w2',
+    '%w2 is a typical syntactic subject of %w1',
+    '%w2 is a typical syntactic object of %w1',
+    '%w2 is a typical semantic agent of %w1',
+    '%w2 is a typical semantic patient of %w1',
+    '%w1 typically occurs in the context of %w2',
+    '%w2 typically occurs in the context of %w1',
+    '%w1 has %w2 as source or origin',
+    '%w1 is the effect of %w2',
+    '%w1 is an instrument for %w2',
+    '%w1 is member of %w2',
+    '%w1 is the source or origin of %w2',
+    '%w1 is the typical location of %w2',
+    '%w1 influences %w2',
+    '%w1 includes %w2',
+    '%w1 is a follower of %w2',
+    '%w1 is a instance or example of %w2',
+    '%w1 is a kind of %w2',
+    '%w1 is a symbol of %w2',
+    '%w1 is the vice of %w2',
+    '%w1 is the activity of %w2',
+    '%w1 is affected by %w2',
+    '%w1 is associated to %w2',
+    '%w1 is caused intentionally by %w2',
+    '%w1 is created by %w2',
+    '%w1 derives from %w2',
+    '%w1 is found in %w2',
+    '%w1 is made of %w2',
+    '%w1 is measured by %w2',
+    '%w1 is part of %w2',
+    '%w1 is regulated by %w2',
+    '%w1 is resolved by %w2',
+    '%w1 is a subtype of %w2',
+    '%w1 is the ability of %w2',
+    '%w1 is the activity performed in %w2',
+    '%w1 is the habit of %w2',
+    '%w1 is the purpose of %w2',
+    '%w1 is the resulting state of %w2',
+    '%w1 is the workplace of %w2',
+    '%w1 is typical of %w2',
+    '%w1 is used against %w2',
+    '%w1 is used as %w2',
+    '%w1 is used by %w2',
+    '%w1 is used during %w2',
+    '%w1 is used for %w2',
+    '%w1 is valued by %w2',
+    '%w1 is a kinship to %w2',
+    '%w1 lives in %w2',
+    '%w1 measures %w2',
+    '%w1 precedes %w2',
+    '%w1 succeeds %w2',
+    '%w1 produces %w2 naturally',
+    '%w1 quantifies %w2',
+    '%w1 results from %w2',
+    '%w1 results in %w2',
+    '%w1 is located at %w2',
+    '%w1 is related to %w2',
+    '%w2 is a resulting state of %w1',
+    '%w1 is a inherent activity of %w2',
+    '%w1 occurs while %w2',
+
+
+
+
+agentivally causes
+agentivally uses
+causes
+causes emotion
+causes infection
+causes naturally
+causes reaction
+constitutively uses
+contains
+has as agentive cause
+has as agentive experience
+has as attribute
+has as building part
+has as colour
+has as effect
+has as instrument
+has as member
+has as origin
+has as part
+has as source
+has as typical location
+has diagnostic by
+has influence on
+includes
+is a follower of
+is a instance of
+is a kind of
+is a symbol of
+is a vice of
+is activity of
+is affected agentively by
+is associated with
+is caused agentively by
+is caused by
+is caused intentionally by
+is created by
+is derived from
+is found in
+is generally related to
+is idiosincrasy of
+is made of
+is measured by
+is part of
+is regulated by
+is resolved by
+is subtype of
+is the ability of
+is the activity of
+is the activity performed in
+is the habit of
+is the purpose of
+is the result state of
+is the workplace of
+is typical of
+is used against
+is used as
+is used by
+is used during
+is used for
+is valued by
+kinship
+lives in
+made of
+measures
+precedes
+produces naturally
+quantifies
+results from
+results in

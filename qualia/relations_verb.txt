@@ -1,0 +1,103 @@
+    '%w1 causes %w2',
+    '%w1 uses %w2',
+    'the occurrence of %w1 can cause emotion %w2',
+    '%w2 is caused by %w1 by natural means',
+    'the occurrence of %w1 can cause the reaction %w2',
+    '%w2 is a typical syntactic subject of %w1',
+    '%w2 is a typical syntactic object of %w1',
+    '%w2 is a typical semantic agent of %w1',
+    '%w2 is a typical semantic patient of %w1',
+    '%w1 typically occurs in the context of %w2',
+    '%w2 typically occurs in the context of %w1',
+    '%w2 is a instrument used in the process of %w1',
+    '%w1 is an example of %w2',
+    '%w1 is a subprocess of %w2',
+    '%w1 is located at %w2',
+    '%w1 is related to %w2',
+    '%w2 is a resulting state of %w1',
+    '%w1 is a inherent activity of %w2',
+    '%w1 produces %w2',
+    '%w1 occurs before %w2',
+    '%w1 occurs after %w2',
+    '%w1 is the purpose of %w2',
+    '%w1 is the activity of %w2',
+    '%w1 is the ability of %w2',
+    '%w1 is the habit of %w2',
+    '%w1 is used for %w2',
+    '%w1 is used against %w2',
+    '%w1 is the result of %w2',
+    '%w1 occurs while %w2',
+    '%w1 is a event experienced by %w2',
+    '%w1 is caused by %w2',
+    '%w1 has %w2 as source or origin',
+
+
+agentivally causes
+agentivally uses
+causes
+causes emotion
+causes infection
+causes naturally
+causes reaction
+constitutively uses
+contains
+has as agentive cause
+has as agentive experience
+has as attribute
+has as building part
+has as colour
+has as effect
+has as instrument
+has as member
+has as origin
+has as part
+has as source
+has as typical location
+has diagnostic by
+has influence on
+includes
+is a follower of
+is a instance of
+is a kind of
+is a symbol of
+is a vice of
+is activity of
+is affected agentively by
+is associated with
+is caused agentively by
+is caused by
+is caused intentionally by
+is created by
+is derived from
+is found in
+is generally related to
+is idiosincrasy of
+is made of
+is measured by
+is part of
+is regulated by
+is resolved by
+is subtype of
+is the ability of
+is the activity of
+is the activity performed in
+is the habit of
+is the purpose of
+is the result state of
+is the workplace of
+is typical of
+is used against
+is used as
+is used by
+is used during
+is used for
+is valued by
+kinship
+lives in
+made of
+measures
+precedes
+produces naturally
+quantifies
+results from
+results in
