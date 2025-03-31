@@ -13,6 +13,7 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - ipykernel
   - pip
   - pip:
       - torchtext  # Example of additional PyTorch-related package

@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="sequences" attr.type="string" />
+  <key id="d1" for="edge" attr.name="type" attr.type="string" />
+  <key id="d0" for="edge" attr.name="weight" attr.type="float" />
+  <graph edgedefault="directed">
+    <node id="cat" />
+    <node id="dog" />
+    <node id="ran" />
+    <node id="sat" />
+    <node id="the" />
+    <node id="L2_1" />
+    <node id="L2_0" />
+    <node id="L2_3" />
+    <node id="L2_7" />
+    <node id="L2_8" />
+    <node id="L2_9" />
+    <node id="L2_2" />
+    <node id="L2_4" />
+    <node id="L2_5" />
+    <node id="L2_6" />
+    <edge source="cat" target="cat">
+      <data key="d0">0.25888875</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="dog">
+      <data key="d0">0.38999978</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="ran">
+      <data key="d0">0.29374984</data>
+      <data key="d1">FF</data>
+      <data key="d2">2</data>
+    </edge>
+    <edge source="cat" target="sat">
+      <data key="d0">0.38999978</data>
+      <data key="d1">FF</data>
+      <data key="d2">0</data>
+    </edge>
+    <edge source="cat" target="the">
+      <data key="d0">0.33285695</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_1">
+      <data key="d0">0.089557044</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_0">
+      <data key="d0">0.1487074</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_3">
+      <data key="d0">0.098758414</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_7">
+      <data key="d0">0.11971883</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_8">
+      <data key="d0">0.08632555</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_9">
+      <data key="d0">0.09967115</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_2">
+      <data key="d0">0.114254326</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_4">
+      <data key="d0">0.16326936</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_6">
+      <data key="d0">0.11020579</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="cat" target="L2_5">
+      <data key="d0">0.092412814</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="cat">
+      <data key="d0">0.2924998</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="dog">
+      <data key="d0">0.3916664</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="ran">
+      <data key="d0">0.38833308</data>
+      <data key="d1">FF</data>
+      <data key="d2">1</data>
+    </edge>
+    <edge source="dog" target="sat">
+      <data key="d0">0.3916664</data>
+      <data key="d1">FF</data>
+      <data key="d2">3</data>
+    </edge>
+    <edge source="dog" target="the">
+      <data key="d0">0.38833308</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_0">
+      <data key="d0">0.1313179</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_2">
+      <data key="d0">0.12919648</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_4">
+      <data key="d0">0.114425436</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_9">
+      <data key="d0">0.07868927</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_1">
+      <data key="d0">0.12503175</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_3">
+      <data key="d0">0.10402702</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_7">
+      <data key="d0">0.09727059</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_5">
+      <data key="d0">0.10619413</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_6">
+      <data key="d0">0.08401565</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="dog" target="L2_8">
+      <data key="d0">0.0731786</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="cat">
+      <data key="d0">0.38833308</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="dog">
+      <data key="d0">0.5824997</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="ran">
+      <data key="d0">0.46599975</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="sat">
+      <data key="d0">0.5824997</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="the">
+      <data key="d0">0.46399975</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_2">
+      <data key="d0">0.14793432</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_3">
+      <data key="d0">0.12758203</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_4">
+      <data key="d0">0.10852247</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_5">
+      <data key="d0">0.16069536</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_8">
+      <data key="d0">0.098633386</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_1">
+      <data key="d0">0.114105485</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_9">
+      <data key="d0">0.13515793</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_6">
+      <data key="d0">0.11012187</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_7">
+      <data key="d0">0.09716656</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="ran" target="L2_0">
+      <data key="d0">0.102065906</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="cat">
+      <data key="d0">0.33714265</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="dog">
+      <data key="d0">0.4719997</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="ran">
+      <data key="d0">0.39499974</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="sat">
+      <data key="d0">0.4719997</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="the">
+      <data key="d0">0.39499974</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_1">
+      <data key="d0">0.11654011</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_3">
+      <data key="d0">0.16238327</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_8">
+      <data key="d0">0.10434079</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_0">
+      <data key="d0">0.13155732</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_2">
+      <data key="d0">0.10143703</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_6">
+      <data key="d0">0.20238264</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_4">
+      <data key="d0">0.11672945</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_5">
+      <data key="d0">0.15743522</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_7">
+      <data key="d0">0.12467213</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="sat" target="L2_9">
+      <data key="d0">0.16633317</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="cat">
+      <data key="d0">0.23799984</data>
+      <data key="d1">FF</data>
+      <data key="d2">0,2</data>
+    </edge>
+    <edge source="the" target="dog">
+      <data key="d0">0.46799976</data>
+      <data key="d1">FF</data>
+      <data key="d2">1,3</data>
+    </edge>
+    <edge source="the" target="ran">
+      <data key="d0">0.38999978</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="sat">
+      <data key="d0">0.46799976</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="the">
+      <data key="d0">0.38999978</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_1">
+      <data key="d0">0.11402406</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_3">
+      <data key="d0">0.08535875</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_4">
+      <data key="d0">0.10158229</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_5">
+      <data key="d0">0.16272703</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_0">
+      <data key="d0">0.13394606</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_2">
+      <data key="d0">0.13311554</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_6">
+      <data key="d0">0.12117756</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_7">
+      <data key="d0">0.085966155</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_9">
+      <data key="d0">0.115191</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="the" target="L2_8">
+      <data key="d0">0.11028595</data>
+      <data key="d1">FF</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_1" target="cat">
+      <data key="d0">0.11553323</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_1" target="dog">
+      <data key="d0">0.118542194</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_1" target="ran">
+      <data key="d0">0.086398385</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_1" target="sat">
+      <data key="d0">0.12664025</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_1" target="the">
+      <data key="d0">0.13670178</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_0" target="cat">
+      <data key="d0">0.13506523</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_0" target="dog">
+      <data key="d0">0.12026505</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_0" target="ran">
+      <data key="d0">0.08149194</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_0" target="sat">
+      <data key="d0">0.0734568</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_0" target="the">
+      <data key="d0">0.09025235</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_3" target="cat">
+      <data key="d0">0.12065915</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_3" target="dog">
+      <data key="d0">0.1183262</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_3" target="ran">
+      <data key="d0">0.120669805</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_3" target="sat">
+      <data key="d0">0.12925899</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_3" target="the">
+      <data key="d0">0.1163735</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_7" target="cat">
+      <data key="d0">0.06903544</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_7" target="dog">
+      <data key="d0">0.1357003</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_7" target="ran">
+      <data key="d0">0.108058795</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_7" target="the">
+      <data key="d0">0.093219094</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_8" target="cat">
+      <data key="d0">0.13022164</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_8" target="dog">
+      <data key="d0">0.09083219</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_8" target="ran">
+      <data key="d0">0.095051736</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_8" target="sat">
+      <data key="d0">0.1414473</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_8" target="the">
+      <data key="d0">0.16831808</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_9" target="cat">
+      <data key="d0">0.08719208</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_9" target="dog">
+      <data key="d0">0.13456333</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_9" target="ran">
+      <data key="d0">0.08110892</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_9" target="sat">
+      <data key="d0">0.12347242</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_9" target="the">
+      <data key="d0">0.06579487</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_2" target="cat">
+      <data key="d0">0.11853423</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_2" target="dog">
+      <data key="d0">0.10666493</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_2" target="ran">
+      <data key="d0">0.11984368</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_2" target="sat">
+      <data key="d0">0.13222912</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_2" target="the">
+      <data key="d0">0.13166875</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_4" target="cat">
+      <data key="d0">0.095113754</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_4" target="dog">
+      <data key="d0">0.091867484</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_4" target="ran">
+      <data key="d0">0.114362985</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_4" target="sat">
+      <data key="d0">0.09610421</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_4" target="the">
+      <data key="d0">0.087775305</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_5" target="cat">
+      <data key="d0">0.09802603</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_5" target="dog">
+      <data key="d0">0.0664599</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_5" target="ran">
+      <data key="d0">0.116539314</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_5" target="sat">
+      <data key="d0">0.109173656</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_5" target="the">
+      <data key="d0">0.12313415</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_6" target="cat">
+      <data key="d0">0.10778145</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_6" target="dog">
+      <data key="d0">0.15341222</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_6" target="ran">
+      <data key="d0">0.13262661</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_6" target="sat">
+      <data key="d0">0.1029194</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+    <edge source="L2_6" target="the">
+      <data key="d0">0.12477008</data>
+      <data key="d1">FB</data>
+      <data key="d2" />
+    </edge>
+  </graph>
+</graphml>

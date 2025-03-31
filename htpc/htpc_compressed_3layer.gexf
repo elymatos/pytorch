@@ -1,0 +1,835 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-03-30">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="sequences" type="string" />
+    </attributes>
+    <nodes>
+      <node id="cat" label="cat" />
+      <node id="dog" label="dog" />
+      <node id="ran" label="ran" />
+      <node id="sat" label="sat" />
+      <node id="the" label="the" />
+      <node id="L2_3" label="L2_3" />
+      <node id="L2_4" label="L2_4" />
+      <node id="L2_6" label="L2_6" />
+      <node id="L2_7" label="L2_7" />
+      <node id="L2_9" label="L2_9" />
+      <node id="L2_2" label="L2_2" />
+      <node id="L2_8" label="L2_8" />
+      <node id="L2_5" label="L2_5" />
+      <node id="L2_0" label="L2_0" />
+      <node id="L2_1" label="L2_1" />
+      <node id="L3_0" label="L3_0" />
+      <node id="L3_1" label="L3_1" />
+      <node id="L3_2" label="L3_2" />
+      <node id="L3_4" label="L3_4" />
+      <node id="L3_3" label="L3_3" />
+    </nodes>
+    <edges>
+      <edge source="cat" target="cat" id="0" weight="0.39499986" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="dog" id="1" weight="0.3933332" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="ran" id="2" weight="0.39499986" type="FF">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="sat" id="3" weight="0.39499986" type="FF">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="the" id="4" weight="0.3933332" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_3" id="5" weight="0.11045434" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_4" id="6" weight="0.112954624" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_6" id="7" weight="0.07606935" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_7" id="8" weight="0.09947128" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_9" id="9" weight="0.14641923" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_0" id="10" weight="0.15567723" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_1" id="11" weight="0.10669262" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_2" id="12" weight="0.12705626" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_8" id="13" weight="0.08429533" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="cat" target="L2_5" id="14" weight="0.11958553" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="cat" id="15" weight="0.4619998" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="dog" id="16" weight="0.38833317" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="ran" id="17" weight="0.4639998" type="FF">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="sat" id="18" weight="0.4619998" type="FF">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="the" id="19" weight="0.38833317" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_2" id="20" weight="0.19446833" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_3" id="21" weight="0.08921928" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_8" id="22" weight="0.10380634" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_7" id="23" weight="0.19501574" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_0" id="24" weight="0.060884696" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_9" id="25" weight="0.103579804" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_1" id="26" weight="0.101046726" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_5" id="27" weight="0.11432416" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_6" id="28" weight="0.114055246" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="dog" target="L2_4" id="29" weight="0.097025424" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="cat" id="30" weight="0.38999984" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="dog" id="31" weight="0.38833317" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="ran" id="32" weight="0.38999984" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="sat" id="33" weight="0.3916665" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="the" id="34" weight="0.38833317" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_5" id="35" weight="0.1312486" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_6" id="36" weight="0.17543595" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_8" id="37" weight="0.1000333" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_0" id="38" weight="0.11189538" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_1" id="39" weight="0.10056821" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_2" id="40" weight="0.10638734" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_4" id="41" weight="0.09352986" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_9" id="42" weight="0.095122516" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_7" id="43" weight="0.09721201" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="ran" target="L2_3" id="44" weight="0.11945667" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="cat" id="45" weight="0.38666654" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="dog" id="46" weight="0.3883332" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="ran" id="47" weight="0.38666654" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="sat" id="48" weight="0.38666654" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="the" id="49" weight="0.3883332" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_0" id="50" weight="0.115320645" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_1" id="51" weight="0.12906145" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_3" id="52" weight="0.12073678" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_6" id="53" weight="0.13988979" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_8" id="54" weight="0.10772363" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_4" id="55" weight="0.09309285" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_2" id="56" weight="0.104955755" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_7" id="57" weight="0.08210808" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_5" id="58" weight="0.14462309" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="sat" target="L2_9" id="59" weight="0.109638244" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="cat" id="60" weight="0.4619998" type="FF">
+        <attvalues>
+          <attvalue for="0" value="0,2" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="dog" id="61" weight="0.4639998" type="FF">
+        <attvalues>
+          <attvalue for="0" value="1,3" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="ran" id="62" weight="0.4639998" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="sat" id="63" weight="0.4619998" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="the" id="64" weight="0.4639998" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_0" id="65" weight="0.1602382" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_2" id="66" weight="0.11791204" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_3" id="67" weight="0.10797346" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_4" id="68" weight="0.11731587" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_5" id="69" weight="0.14366981" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_9" id="70" weight="0.15162893" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_7" id="71" weight="0.13670091" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_1" id="72" weight="0.08771567" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_6" id="73" weight="0.10100162" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="the" target="L2_8" id="74" weight="0.09568071" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_3" target="cat" id="75" weight="0.10805223" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_3" target="dog" id="76" weight="0.10822448" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_3" target="ran" id="77" weight="0.12833484" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_3" target="sat" id="78" weight="0.14627564" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_3" target="the" id="79" weight="0.065392174" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_3" target="L3_0" id="80" weight="0.06336951" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_3" target="L3_4" id="81" weight="0.09663732" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_4" target="cat" id="82" weight="0.09668176" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_4" target="dog" id="83" weight="0.10761367" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_4" target="ran" id="84" weight="0.15069488" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_4" target="sat" id="85" weight="0.0979023" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_4" target="the" id="86" weight="0.07974496" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_4" target="L3_4" id="87" weight="0.15447478" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_6" target="cat" id="88" weight="0.06651546" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_6" target="dog" id="89" weight="0.13235356" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_6" target="ran" id="90" weight="0.1565935" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_6" target="sat" id="91" weight="0.120784104" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_6" target="the" id="92" weight="0.108906776" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_6" target="L3_1" id="93" weight="0.30385515" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_6" target="L3_3" id="94" weight="0.14335361" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_7" target="cat" id="95" weight="0.12825406" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_7" target="dog" id="96" weight="0.13149299" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_7" target="ran" id="97" weight="0.10143315" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_7" target="sat" id="98" weight="0.1144521" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_7" target="the" id="99" weight="0.13135406" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_7" target="L3_0" id="100" weight="0.051143453" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_7" target="L3_3" id="101" weight="0.060265783" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_9" target="cat" id="102" weight="0.16815399" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_9" target="dog" id="103" weight="0.0740743" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_9" target="ran" id="104" weight="0.110598706" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_9" target="sat" id="105" weight="0.08515897" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_9" target="the" id="106" weight="0.123276755" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_9" target="L3_0" id="107" weight="0.13699605" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_9" target="L3_1" id="108" weight="0.07951085" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_9" target="L3_2" id="109" weight="0.109435864" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_2" target="cat" id="110" weight="0.10319381" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_2" target="dog" id="111" weight="0.12022604" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_2" target="ran" id="112" weight="0.09369198" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_2" target="sat" id="113" weight="0.10907241" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_2" target="the" id="114" weight="0.12293264" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_8" target="cat" id="115" weight="0.12319643" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_8" target="dog" id="116" weight="0.14786907" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_8" target="ran" id="117" weight="0.107772134" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_8" target="sat" id="118" weight="0.13204533" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_8" target="the" id="119" weight="0.0864658" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_8" target="L3_1" id="120" weight="0.072902665" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_5" target="cat" id="121" weight="0.08869278" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_5" target="dog" id="122" weight="0.12494245" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_5" target="ran" id="123" weight="0.13374984" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_5" target="sat" id="124" weight="0.10922909" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_5" target="the" id="125" weight="0.09543574" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_5" target="L3_0" id="126" weight="0.11859658" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_5" target="L3_2" id="127" weight="0.112368405" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_5" target="L3_3" id="128" weight="0.11229943" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_0" target="cat" id="129" weight="0.09085933" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_0" target="dog" id="130" weight="0.13725229" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_0" target="ran" id="131" weight="0.1712424" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_0" target="sat" id="132" weight="0.14256564" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_0" target="the" id="133" weight="0.17043868" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_0" target="L3_0" id="134" weight="0.089307986" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_0" target="L3_1" id="135" weight="0.11761512" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_1" target="cat" id="136" weight="0.09523293" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_1" target="dog" id="137" weight="0.08520763" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_1" target="ran" id="138" weight="0.11443224" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_1" target="sat" id="139" weight="0.127109" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_1" target="the" id="140" weight="0.13184471" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_1" target="L3_0" id="141" weight="0.056808546" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L2_1" target="L3_2" id="142" weight="0.06597278" type="FF">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_0" target="L2_4" id="143" weight="0.12707593" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_0" target="L2_5" id="144" weight="0.07149481" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_0" target="L2_6" id="145" weight="0.0604632" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_0" target="L2_8" id="146" weight="0.2680202" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_0" target="L2_9" id="147" weight="0.10959943" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_1" target="L2_3" id="148" weight="0.06194032" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_1" target="L2_6" id="149" weight="0.12971352" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_1" target="L2_8" id="150" weight="0.05357737" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_4" target="L2_1" id="151" weight="0.15191144" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_4" target="L2_6" id="152" weight="0.11851088" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_4" target="L2_8" id="153" weight="0.10763365" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_3" target="L2_0" id="154" weight="0.08963986" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_3" target="L2_4" id="155" weight="0.10331353" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_3" target="L2_5" id="156" weight="0.050552048" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_3" target="L2_7" id="157" weight="0.11441596" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_3" target="L2_8" id="158" weight="0.11862896" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+      <edge source="L3_3" target="L2_9" id="159" weight="0.15069869" type="FB">
+        <attvalues>
+          <attvalue for="0" value="" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
