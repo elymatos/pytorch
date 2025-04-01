@@ -1,0 +1,9 @@
+node_id,field,value
+node1,name,Ada Lovelace
+node1,birthdate,1815-12-10
+node1,city,London
+node1,country,United Kingdom
+node2,name,Alan Turing
+node2,birthdate,1912-06-23
+node2,city,Maida Vale
+node2,country,United Kingdom

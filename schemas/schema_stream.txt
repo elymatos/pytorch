@@ -1,0 +1,5 @@
+spec noun
+pron verb
+spec noun verb
+verb pron
+spec noun verb pron
