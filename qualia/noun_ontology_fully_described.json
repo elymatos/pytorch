@@ -1,0 +1,451 @@
+{
+  "@telic": {
+    "definition": "Entities that denote goals, purposes, or final objectives.",
+    "examples": [
+      "meta",
+      "objetivo",
+      "propósito"
+    ]
+  },
+  "@agentive": {
+    "definition": "Entities that denote causes, origins, or motivations for events or actions.",
+    "examples": [
+      "razão",
+      "origem",
+      "causa"
+    ]
+  },
+  "@cause": {
+    "definition": "Entities or forces that produce effects or bring about changes.",
+    "examples": [
+      "fator",
+      "estímulo",
+      "gatilho"
+    ]
+  },
+  "@part": {
+    "definition": "Simple parts or fragments of entities.",
+    "examples": [
+      "pedaço",
+      "folha",
+      "casca"
+    ]
+  },
+  "@body_part": {
+    "definition": "Parts of the human or animal body.",
+    "examples": [
+      "mão",
+      "cabeça",
+      "cauda"
+    ]
+  },
+  "@group": {
+    "definition": "Collections or sets of entities grouped together.",
+    "examples": [
+      "grupo",
+      "coleção",
+      "par"
+    ]
+  },
+  "@human_group": {
+    "definition": "Groups or collectives composed specifically of humans.",
+    "examples": [
+      "banda",
+      "senado",
+      "plateia"
+    ]
+  },
+  "@amount": {
+    "definition": "Quantities or degrees of measure for other entities.",
+    "examples": [
+      "gota",
+      "pitada",
+      "montão"
+    ]
+  },
+  "@entity": {
+    "definition": "Stable things or beings in the world.",
+    "examples": [
+      "coisa",
+      "espírito",
+      "deus"
+    ]
+  },
+  "@locale": {
+    "definition": "General locations, either geographic or natural.",
+    "examples": [
+      "local",
+      "lugar"
+    ]
+  },
+  "@geopolitical_location": {
+    "definition": "Political or administrative regions and locations.",
+    "examples": [
+      "cidade",
+      "país",
+      "estado"
+    ]
+  },
+  "@natural_feature": {
+    "definition": "Naturally occurring areas, surfaces or geographic forms.",
+    "examples": [
+      "praia",
+      "campo",
+      "caverna"
+    ]
+  },
+  "@opening": {
+    "definition": "Holes, entries, or access points in physical space.",
+    "examples": [
+      "buraco",
+      "janela",
+      "porta"
+    ]
+  },
+  "@building": {
+    "definition": "Constructed structures with an enclosed space.",
+    "examples": [
+      "casa",
+      "escola",
+      "igreja"
+    ]
+  },
+  "@artifactual_area": {
+    "definition": "Man-made spaces used for activities or transit.",
+    "examples": [
+      "praça",
+      "estrada"
+    ]
+  },
+  "@material": {
+    "definition": "Substances used in the creation of other things.",
+    "examples": [
+      "matéria-prima",
+      "ingrediente"
+    ]
+  },
+  "@artifact": {
+    "definition": "Objects made or modified by humans for a purpose.",
+    "examples": [
+      "ferramenta",
+      "máquina",
+      "objeto"
+    ]
+  },
+  "@artifactual_material": {
+    "definition": "Materials of artificial origin used to make artifacts.",
+    "examples": [
+      "plástico",
+      "concreto",
+      "couro"
+    ]
+  },
+  "@furniture": {
+    "definition": "Large movable equipment used to make a space functional.",
+    "examples": [
+      "mesa",
+      "cadeira",
+      "guarda-roupa"
+    ]
+  },
+  "@utensils": {
+    "definition": "Handheld tools used in domestic or practical tasks.",
+    "examples": [
+      "colher",
+      "faca",
+      "espátula"
+    ]
+  },
+  "@toys": {
+    "definition": "Objects designed for play or entertainment.",
+    "examples": [
+      "boneca",
+      "bola",
+      "quebra-cabeça"
+    ]
+  },
+  "@clothing": {
+    "definition": "Garments or attire worn on the body.",
+    "examples": [
+      "camisa",
+      "calça",
+      "sapato"
+    ]
+  },
+  "@container": {
+    "definition": "Objects used to hold or store other things.",
+    "examples": [
+      "caixa",
+      "garrafa",
+      "frasco"
+    ]
+  },
+  "@physical_artwork": {
+    "definition": "Tangible artistic creations.",
+    "examples": [
+      "pintura",
+      "escultura",
+      "desenho"
+    ]
+  },
+  "@instrument": {
+    "definition": "Tools used to perform specific tasks or functions.",
+    "examples": [
+      "martelo",
+      "violino",
+      "termômetro"
+    ]
+  },
+  "@money": {
+    "definition": "Items representing or storing financial value.",
+    "examples": [
+      "moeda",
+      "nota",
+      "dinheiro"
+    ]
+  },
+  "@vehicle": {
+    "definition": "Objects used to transport people or goods.",
+    "examples": [
+      "carro",
+      "navio",
+      "bicicleta"
+    ]
+  },
+  "@semiotic_artifact": {
+    "definition": "Physical carriers of meaning or information.",
+    "examples": [
+      "livro",
+      "documento",
+      "cartaz"
+    ]
+  },
+  "@food": {
+    "definition": "Items consumed for nutritional purposes.",
+    "examples": [
+      "maçã",
+      "arroz",
+      "carne"
+    ]
+  },
+  "@artifact_food": {
+    "definition": "Prepared or processed foods made by humans.",
+    "examples": [
+      "bolo",
+      "sopa",
+      "lasanha"
+    ]
+  },
+  "@ingredients": {
+    "definition": "Substances added to prepare or season food.",
+    "examples": [
+      "sal",
+      "pimenta",
+      "azeite"
+    ]
+  },
+  "@physical_object": {
+    "definition": "Tangible, shaped, and naturally occurring entities.",
+    "examples": [
+      "pedra",
+      "tronco",
+      "montanha"
+    ]
+  },
+  "@organic_object": {
+    "definition": "Physical entities with distinct boundaries and properties.",
+    "examples": []
+  },
+  "@animal": {
+    "definition": "Entities referring to animals or non-human living beings.",
+    "examples": []
+  },
+  "@human": {
+    "definition": "Entities referring to humans categorized by human.",
+    "examples": []
+  },
+  "@people": {
+    "definition": "Entities referring to humans categorized by people.",
+    "examples": []
+  },
+  "@people_by_age": {
+    "definition": "Entities referring to humans categorized by people by age.",
+    "examples": []
+  },
+  "@people_by_religion": {
+    "definition": "Entities referring to humans categorized by people by religion.",
+    "examples": []
+  },
+  "@people_by_jurisdiction": {
+    "definition": "Entities referring to humans categorized by people by jurisdiction.",
+    "examples": []
+  },
+  "@people_by_morality": {
+    "definition": "Entities referring to humans categorized by people by morality.",
+    "examples": []
+  },
+  "@people_along_political_spectrum": {
+    "definition": "Entities referring to humans categorized by people along political spectrum.",
+    "examples": []
+  },
+  "@People_by_leisure_activity": {
+    "definition": "Entities referring to humans categorized by people by leisure activity.",
+    "examples": []
+  },
+  "@people_by_origin": {
+    "definition": "Entities referring to humans categorized by people by origin.",
+    "examples": []
+  },
+  "@people_by_ethnicity": {
+    "definition": "Entities referring to humans categorized by people by ethnicity.",
+    "examples": []
+  },
+  "@people_by_transitory_activity": {
+    "definition": "Entities referring to humans categorized by people by transitory activity.",
+    "examples": []
+  },
+  "@people_by_gender_or_sexual_orientation": {
+    "definition": "Entities referring to humans categorized by people by gender or sexual orientation.",
+    "examples": []
+  },
+  "@people_by_health_condition": {
+    "definition": "Entities referring to humans categorized by people by health condition.",
+    "examples": []
+  },
+  "@people_with_disabilities": {
+    "definition": "Entities referring to humans categorized by people with disabilities.",
+    "examples": []
+  },
+  "@people_by_persistent_activity": {
+    "definition": "Entities referring to humans categorized by people by persistent activity.",
+    "examples": []
+  },
+  "@people_by_profession": {
+    "definition": "Entities referring to humans categorized by people by profession.",
+    "examples": []
+  },
+  "@role": {
+    "definition": "Functions or identities assumed by individuals in a social or organizational context.",
+    "examples": []
+  },
+  "@people_by_ideo": {
+    "definition": "Entities referring to humans categorized by people by ideo.",
+    "examples": []
+  },
+  "@kinship": {
+    "definition": "Entities related to kinship.",
+    "examples": []
+  },
+  "@social_status": {
+    "definition": "Entities related to social status.",
+    "examples": []
+  },
+  "@vegetal": {
+    "definition": "Entities referring to plants or vegetation.",
+    "examples": []
+  },
+  "@fruit": {
+    "definition": "Entities related to fruit.",
+    "examples": []
+  },
+  "@micro-organism": {
+    "definition": "Entities related to micro-organism.",
+    "examples": []
+  },
+  "@substance": {
+    "definition": "Materials or matter from which things are made.",
+    "examples": []
+  },
+  "@natural_substance": {
+    "definition": "Materials or matter from which things are made.",
+    "examples": []
+  },
+  "@substance_food": {
+    "definition": "Materials or matter from which things are made.",
+    "examples": []
+  },
+  "@drink": {
+    "definition": "Liquids that are consumed for refreshment or nutrition.",
+    "examples": []
+  },
+  "@artifactual_drink": {
+    "definition": "Objects or materials created or shaped by humans for a specific purpose.",
+    "examples": []
+  },
+  "@quality": {
+    "definition": "Abstract attributes or characteristics related to quality.",
+    "examples": []
+  },
+  "@psychological_prperty": {
+    "definition": "Entities related to psychological prperty.",
+    "examples": []
+  },
+  "@dimension": {
+    "definition": "Attributes that quantify spatial, temporal, or other measurable aspects.",
+    "examples": []
+  },
+  "@sense": {
+    "definition": "Physiological faculties through which perception occurs.",
+    "examples": []
+  },
+  "@social_property": {
+    "definition": "Abstract attributes or characteristics related to social property.",
+    "examples": []
+  },
+  "@domain": {
+    "definition": "Fields of knowledge or areas of human activity.",
+    "examples": []
+  },
+  "@time": {
+    "definition": "Concepts referring to points or intervals on a temporal scale.",
+    "examples": []
+  },
+  "@moral_standards": {
+    "definition": "Norms or standards relating to right and wrong behavior.",
+    "examples": []
+  },
+  "@cognitive_fact": {
+    "definition": "Concepts related to knowledge, reasoning, or intellectual processes.",
+    "examples": []
+  },
+  "@movement_of_thought": {
+    "definition": "Collective ideologies or trends within society or thought.",
+    "examples": []
+  },
+  "@institution": {
+    "definition": "Organizations or structures with a social, legal, or cultural function.",
+    "examples": []
+  },
+  "@convention": {
+    "definition": "Socially or legally established rules or agreements.",
+    "examples": []
+  },
+  "@representation": {
+    "definition": "Entities that stand in for or depict something else.",
+    "examples": []
+  },
+  "@language": {
+    "definition": "Systems of communication using words or symbols.",
+    "examples": []
+  },
+  "@sign": {
+    "definition": "Elements used to convey meaning or represent concepts.",
+    "examples": []
+  },
+  "@information": {
+    "definition": "Content or data communicated or received through symbols or representations.",
+    "examples": []
+  },
+  "@number": {
+    "definition": "Numerical values expressing quantity or order.",
+    "examples": []
+  },
+  "@unit_of_measurement": {
+    "definition": "Standard quantities used to express dimensions or amounts.",
+    "examples": []
+  },
+  "@business": {
+    "definition": "Entities or concepts related to commerce, trade, or economic activity.",
+    "examples": []
+  }
+}

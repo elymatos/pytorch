@@ -3,4 +3,4 @@ pron verb
 spec noun verb
 verb pron
 spec noun verb pron
-spec noun fin spec noun adp noun
+spec noun fin spec|pron noun adp noun

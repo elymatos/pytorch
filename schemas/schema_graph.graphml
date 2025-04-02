@@ -1,4 +1,365 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <graph edgedefault="directed" />
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="edge" attr.name="order" attr.type="long" />
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="color" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="spec">
+      <data key="d0">lightblue</data>
+    </node>
+    <node id="noun">
+      <data key="d0">lightblue</data>
+    </node>
+    <node id="verb">
+      <data key="d0">lightblue</data>
+    </node>
+    <node id="pron">
+      <data key="d0">lightblue</data>
+    </node>
+    <node id="cxn_01">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_03">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_02">
+      <data key="d0">red</data>
+    </node>
+    <node id="fin">
+      <data key="d0">lightblue</data>
+    </node>
+    <node id="adp">
+      <data key="d0">lightblue</data>
+    </node>
+    <node id="cxn_4557f5">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_d9e4a0">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_50b287">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_553141">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_ff7a6a">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_d5835a">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_98d6e1">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_0c1662">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_d76d2f">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_740fd3">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_c45a02">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_54f46c">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_7b32d0">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_681b8f">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_b40d87">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_fc68f8">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_bbb1a5">
+      <data key="d0">red</data>
+    </node>
+    <node id="cxn_15d29f">
+      <data key="d0">red</data>
+    </node>
+    <edge source="cxn_01" target="spec">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_01" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_03" target="adp">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_03" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_02" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_02" target="verb">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_4557f5" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_4557f5" target="verb">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_d9e4a0" target="verb">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_d9e4a0" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_50b287" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_50b287" target="verb">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_50b287" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_553141" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_553141" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_ff7a6a" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.6666666666666666</data>
+    </edge>
+    <edge source="cxn_ff7a6a" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_d5835a" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_d5835a" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_d5835a" target="cxn_03">
+      <data key="d1">has_field</data>
+      <data key="d2">4</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_98d6e1" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_98d6e1" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_0c1662" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_0c1662" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_0c1662" target="cxn_03">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_d76d2f" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_d76d2f" target="cxn_03">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_740fd3" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_740fd3" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_740fd3" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_c45a02" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_c45a02" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_c45a02" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_c45a02" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">4</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_54f46c" target="cxn_01">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.2</data>
+    </edge>
+    <edge source="cxn_54f46c" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.2</data>
+    </edge>
+    <edge source="cxn_54f46c" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.2</data>
+    </edge>
+    <edge source="cxn_54f46c" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">4</data>
+      <data key="d3">0.2</data>
+    </edge>
+    <edge source="cxn_54f46c" target="cxn_03">
+      <data key="d1">has_field</data>
+      <data key="d2">5</data>
+      <data key="d3">0.2</data>
+    </edge>
+    <edge source="cxn_7b32d0" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_7b32d0" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_681b8f" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_681b8f" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_681b8f" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_b40d87" target="fin">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_b40d87" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_b40d87" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_b40d87" target="cxn_03">
+      <data key="d1">has_field</data>
+      <data key="d2">4</data>
+      <data key="d3">0.25</data>
+    </edge>
+    <edge source="cxn_fc68f8" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_fc68f8" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_bbb1a5" target="pron">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_bbb1a5" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_bbb1a5" target="cxn_03">
+      <data key="d1">has_field</data>
+      <data key="d2">3</data>
+      <data key="d3">0.3333333333333333</data>
+    </edge>
+    <edge source="cxn_15d29f" target="noun">
+      <data key="d1">has_field</data>
+      <data key="d2">1</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="cxn_15d29f" target="cxn_03">
+      <data key="d1">has_field</data>
+      <data key="d2">2</data>
+      <data key="d3">0.5</data>
+    </edge>
+  </graph>
 </graphml>
