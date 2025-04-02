@@ -1,0 +1,3410 @@
+albergue.n
+alojamento.n
+apartamento.n
+camping.n
+casa.n
+chalé.n
+complexo de condomínio.n
+complexo residencial.n
+granja.n
+hospedagem domiciliar.n
+hospedagem.n
+hostel.n
+hotel fazenda.n
+hotel.n
+motel.n
+pensão.n
+pousada.n
+resort.n
+bistrô.n
+botequim.n
+cafeteria.n
+cervejaria.n
+choperia.n
+churrascaria.n
+lanchonete.n
+loja de bebidas alcoólicas.n
+loja de bebidas.n
+loja de cervejas.n
+pizzaria.n
+estádio de futebol.n
+ginásio poliesportivo.n
+parque ecológico.n
+parque municipal.n
+parque nacional.n
+universidade particular.n
+praça.n
+quadra de tênis.n
+atração turística.n
+adega.n
+butique.n
+comércio de pneu.n
+concessionária.n
+confecção.n
+confeitaria.n
+doceria.n
+entrega de refeições prontas.n
+hamburgueria.n
+joalheria.n
+livraria.n
+clinica de reabilitação.n
+galeria de arte.n
+jardim botânico.n
+maternidade.n
+policlínica.n
+posto de saúde comunitário.n
+secretaria municipal do meio ambiente.n
+secretaria municipal de segurança.n
+sauna gay.n
+sala de concertos.n
+salão de dança.n
+salão de festa.n
+pronto atendimento.n
+loja de acessórios de moda.n
+loja de artigos para cama mesa e banho.n
+loja de artigos para dança.n
+loja de artigos para festas.n
+loja de azulejos.n
+loja de brinquedos.n
+loja de calçado.n
+loja de CDs usados.n
+loja de colchões.n
+loja de conveniência.n
+loja de costura.n
+loja de decoração.n
+loja de departamento.n
+loja de discos.n
+loja de eletrodomésticos.n
+loja de eletrônicos.n
+loja de jogos.n
+loja de madeiras.n
+loja de materiais artísticos.n
+loja de materiais de construção.n
+loja de materiais para artesanato.n
+loja de música.n
+loja de presentes.n
+loja de produtos naturais.n
+loja de roupa.n
+loja de roupas de banho.n
+loja de roupas de cama.n
+loja de roupas de praia.n
+loja de videogame.n
+oficina de carroceria.n
+ótica.n
+perfumaria.n
+pet shop.n
+provedor de internet.n
+serviço de ajuste de roupas.n
+mercado.n
+mercearia.n
+pastelaria.n
+food truck.n
+pesque-pague.n
+pesqueiro.n
+restaurante.n
+self-service.a
+sorveteria.n
+supermercado.n
+trailer.n
+azeite de dendê.n
+caldo.n
+carne-seca.n
+carneiro.n
+catupiry.n
+charque.n
+cheddar.n
+chimarrão.n
+chocolate.n
+chouriço.n
+churro.n
+cocada.n
+compota.n
+coquetel.n
+cuca.n
+dobradinha.n
+drinque.n
+fécula.n
+guloseima.n
+hambúrguer.n
+linguiça.n
+moqueca capixaba.n
+mousse.n
+nutella.n
+paçoca.n
+pastel.n
+picadinho.n
+polvilho.n
+quentão.n
+rosca.n
+salsicha.n
+salsichão.n
+sonho.n
+sorvete.n
+steak.n
+tapioca.n
+torresmo.n
+padaria.n
+pizza.n
+chácara.n
+rancho.n
+sítio.n
+bangalô.n
+acampamento.n
+city tour.n
+traslado.n
+meia pensão.n
+pensão completa.n
+refeição.n
+acomodação.n
+passeio.n
+câmbio.n
+troca.n
+universidade.n
+organização.n
+sede.n
+sindicato.n
+marco histórico.n
+instituição de ensino.n
+instituição educacional.n
+instituição.n
+chafariz.n
+balão
+teleférico
+turista.n
+naturista.n
+visitante.n
+viajante.n
+geek.n
+frequentador.n
+folião.n
+aventureiro.n
+academia.n
+agência.n
+agropecuária.n
+antiquário.n
+assistência médica.n
+atacadista.n
+banco.n
+bomboniere.n
+casa noturna.n
+club.n
+consultoria de recursos humanos.n
+consultório.n
+corporação.n
+delivery.n
+drogaria.n
+editora de jornais.n
+empreendimento.n
+empresa.n
+estabelecimento.n
+farmácia.n
+feira de artesanato.n
+franquia.n
+lava-rápido.n
+local com música ao vivo.n
+local para eventos.n
+loja.n
+mercadinho.n
+operadora.n
+posto de combustível.n
+posto de gasolina.n
+produtora de cine e vídeo.n
+salão de beleza.n
+serviço público.n
+serviço de alinhamento e balanceamento.n
+serviço veterinário de emergência.n
+venda.n
+vinícola.n
+ingresso.n
+pacote.n
+pacote turístico.n
+cobertura.n
+duplex.n
+vila.n
+triplex.n
+estrutura.n
+fazenda.n
+spa.n
+atração.n
+quitinete.n
+mapa.n
+igreja.n
+abertura.n
+encerramento.n
+medalha.n
+analista de desempenho.n
+auxiliar técnico.n
+auxiliar.n
+chef.n
+coordenador.n
+cozinheiro.n
+diretor.n
+fisiologista.n
+fisioterapeuta.n
+fotógrafo.n
+gerente.n
+instrutor.n
+massagista.n
+médico.n
+nutricionista.n
+observador técnico.n
+olheiro.n
+preparador de goleiro.n
+preparador físico.n
+psicólogo.n
+roupeiro.n
+segurança.n
+supervisor.n
+técnico.n
+treinador assistente.n
+treinador.n
+veterinário.n
+whisky.n
+ponta esquerda.n
+tocar.v
+toque.n
+saque.n
+sacar.v
+fuga.n
+ala.n
+capitão.n
+cruzar.v
+bicicleta.n
+borboleta.n
+costas.n
+peito.n
+nado livre.n
+café.n
+tesoura.n
+gancho.n
+meia.n
+servidor.n
+apito.n
+arco.n
+argola.n
+arma.n
+bandeira.n
+barco.n
+barra.n
+barras assimétricas.n
+barras paralelas.n
+bastão.n
+bike.n
+bola.n
+caiaque.n
+câmera digital.n
+caneleira.n
+canoa.n
+capacete.n
+cartão.n
+cavalo com alças.n
+cavalo.n
+clipe nasal.n
+coquilha.n
+corda.n
+cotoveleira.n
+volante.n
+vela.n
+vara.n
+trave.n
+trampolim.n
+taco.n
+dardo.n
+disco.n
+embarcação.n
+espada.n
+solo.n
+skate.n
+sabre.n
+fita.n
+flecha.n
+florete.n
+joelheira.n
+maça.n
+máscara facial.n
+remo.n
+raquete.n
+protetor nasal.n
+protetor de ouvido.n
+protetor de orelha.n
+protetor de garganta.n
+protetor bucal.n
+protetor de cabeça.n
+prancha.n
+pistola.n
+pistola de partida.n
+peteca.n
+peso.n
+pena.n
+óculos.n
+óculos de natação.n
+mesa.n
+martelo.n
+máscara.n
+mesa de salto.n
+lençol.n
+artilheiro.n
+cruzamento.n
+amazona.n
+arqueiro.n
+arremessador.n
+atirador.n
+boxeador.n
+caiaquista.n
+fundista.n
+ginasta.n
+escalador.n
+canoísta.n
+carateca.n
+cavaleiro.n
+ciclista.n
+corredor.n
+decatleta.n
+esgrimista.n
+velocista.n
+velejador.n
+triatleta.n
+trampolinista.n
+trampoliner.n
+tenista.n
+surfista.n
+skatista.n
+saltador.n
+remador.n
+pugilista.n
+pentatleta.n
+golfista.n
+grequista.n
+halterofilista.n
+heptatleta.n
+judoca.n
+lançador.n
+levantador.n
+lutador.n
+maratonista.n
+marchador.n
+pesista.n
+nadador.n
+meio-fundista.n
+mesatenista.n
+jogador.n
+esportista.n
+desportista.n
+ala-armador.n
+ala-pivô.n
+apanhador.n
+armador central.n
+armador.n
+asa.n
+atacante.n
+ataque.n
+avançado.n
+zagueiro.n
+zaga.n
+batedor.n
+cabeça de área.n
+central armador.n
+jogador de badminton.n
+jogador de basquete.n
+jogador de futebol.n
+jogador de handball.n
+jogador de vôlei.n
+jogador de rúgbi.n
+jogador de pólo.n
+jogador de hóquei sobre grama.n
+centro.n
+centroavante.n
+contra-proa.n
+contra-voga.n
+craque.n
+defensor externo.n
+defensor interno.n
+defensor.n
+defesa direita.n
+lateral.n
+hooker.n
+goleiro.n
+full back.n
+fly half.n
+flanqueador.n
+extremo.n
+entrada de rede.n
+defesa.n
+defesa esquerda.n
+leme.n
+líbero.n
+médio central.n
+médio.n
+meia armador.n
+meia direita.n
+meia esquerda.n
+meio de campo.n
+meio de rede.n
+meio scrum.n
+meio-campista.n
+meio-campo.n
+meio.n
+número cinco.n
+número dois.n
+número oito.n
+número quatro.n
+número seis.n
+número sete.n
+número três.n
+oitavo.n
+pilar aberto.n
+pilar fechado.n
+pivô.n
+ponta direita.n
+ponteiro.n
+primeiro centro.n
+primeiro lateral.n
+primeiro ponta.n
+proa.n
+rebatedor.n
+recebedor.n
+receptor.n
+reserva.n
+sacador.n
+saída de rede.n
+segundo centro.n
+segundo lateral.n
+segundo ponta.n
+sota-proa.n
+sota-voga.n
+talonador.n
+titular.n
+voga.n
+barra fixa.n
+aparelho.n
+maratona.n
+atletismo.n
+badminton.n
+baseball.n
+basquete.n
+basquetebol.n
+beisebol.n
+boxe.n
+canoagem.n
+caratê.n
+ciclismo.n
+escalada.n
+esgrima.n
+esqueite.n
+esqueitismo.n
+futebol.n
+futsal.n
+ginástica.n
+voleibol.n
+vôlei.n
+vôlei de praia.n
+triatlo.n
+tiro esportivo.n
+tiro com arco.n
+tênis.n
+tênis de mesa.n
+taekwondo.n
+surfe.n
+softbol.n
+softball.n
+salto ornamental.n
+rugby.n
+rugbi.n
+pólo aquático.n
+pentatlo moderno.n
+golfe.n
+halterofilismo.n
+handebol.n
+hipismo.n
+hóquei sobre grama.n
+judô.n
+karatê.n
+levantamento de peso.n
+nado sincronizado.n
+natação.n
+atleta.n
+profissional.n
+ponta.n
+ciclismo BMX corrida.n
+ciclismo BMX freestyle.n
+ciclismo BMX manobras.n
+ciclismo BMX racing.n
+advertência.n
+cartão amarelo.n
+cartão preto.n
+cartão vermelho.n
+desclassificação.n
+desqualificação.n
+exclusão.n
+expulsão.n
+impedimento.n
+inelegibilidade.n
+lance-livre.n
+man-up.n
+passe à frente.n
+passividade.n
+penalidade.n
+pênalti.n
+vantagem.n
+tiro livre.n
+suspensão.n
+carrinho.n
+derrubar.v
+entrada.n
+splashing.n
+cavar.v
+condução.n
+conduzir.v
+dois toques.n
+dupla falta.n
+falta de pé.n
+invadir.v
+invasão.n
+jogo perigoso.n
+mão.n
+queimar a largada.v
+queimar.v
+simulação.n
+simular.v
+estilo.n
+lance.n
+manobra.n
+técnica.n
+esporte.n
+arremesso.n
+canoagem slalom.n
+canoagem velocidade.n
+ciclismo BMX.n
+decatlo.n
+trampolim acrobático.n
+street.n
+salto.n
+salto em distância.n
+salto com vara.n
+park.n
+revezamento.n
+marcha atlética.n
+ciclismo de estrada.n
+ciclismo de pista.n
+ciclismo mountain bike.n
+concurso completo de equitação.n
+corrida com obstáculos.n
+corrida de velocidade.n
+corrida.n
+ginástica artística.n
+ginástica de trampolim.n
+ginástica rítmica.n
+luta greco-romana.n
+hipismo CCE.n
+heptatlo.n
+hipismo adestramento.n
+hipismo saltos.n
+lançamento.n
+luta estilo livre.n
+salto em altura.n
+salto triplo.n
+corrida de fundo.n
+corrida de longa distância.n
+meio-fundo.n
+modalidade.n
+jogador de beisebol.n
+jogador de softbol.n
+arbitragem.n
+árbitro assistente.n
+árbitro reserva.n
+árbitro.n
+bandeirinha.n
+juiz.n
+quarto árbitro.n
+segundo árbitro.n
+trio de arbitragem.n
+vibrar.v
+ver.v
+vaiar.v
+ovacionar.v
+observar.v
+gritar.v
+explodir.v
+despertar.v
+comemorar.v
+comemoração.n
+chorar.v
+assistir.v
+apoiar.v
+aplaudir.v
+espectador.n
+fã.n
+telespectador.n
+torcedor.n
+campeonato.n
+combate.n
+concorrência.n
+desafio.n
+disputa.n
+jogo.n
+torneio.n
+liga.n
+competição.n
+defesa central.n
+acertar.v
+afundar.v
+agachamento.n
+agachar.v
+agarramento.n
+agarrar.v
+alinhamento.n
+amorti.n
+approach.n
+aproveitar rebote.v
+aproximação.n
+arranque.n
+arremessar.v
+atacar.v
+atirar.v
+avançar.v
+avanço.n
+back swing.n
+backhand clear.n
+backhand.n
+bate-pronto.n
+bater.v
+batida.n
+boggey.n
+braçada.n
+cabeceada.n
+cabecear.v
+cabeceio.n
+caminhar.v
+china.n
+chutar.v
+chute.n
+cobrança.n
+cobrar.v
+concha.n
+correr.v
+cortada.n
+cortar.v
+crawl.n
+crol.n
+cruzada.n
+disparar.v
+double boggey.n
+drive.n
+drop goal.n
+drop shot.n
+drop.n
+eagle.n
+empurrão.n
+erguer.v
+escalar.v
+escanteio.n
+espalmar.v
+estilo livre.n
+flick.n
+fresh air.n
+forehand.n
+girar.v
+giro.n
+lançar.v
+lance livre.n
+voleio.n
+v.n
+velejar.v
+topspin.n
+tiro de meta.n
+tiro de gol.n
+tiro de canto.n
+tacar.v
+tacada.n
+swing.n
+sprint.n
+soltar.v
+smash.n
+shot.n
+servir.v
+serviço.n
+segurar.v
+saltar.v
+rolar.v
+rolamento.n
+remada.n
+remar.v
+rebote.n
+quique.n
+quicar.v
+push-hit.n
+push and pump.n
+pulo.n
+pular.v
+progressão.n
+pontapé.n
+pontapé de ressalto.n
+pontapé de penalidade.n
+piaffe.n
+pernada.n
+penalty goal.n
+peixinho.n
+lineout.n
+deixadinha.n
+chop.n
+levantamento.n
+pancada leve.n
+paralela.n
+medley.n
+levantar.v
+livre.n
+meio passo.n
+marco.n
+nadar.v
+nado.n
+obstrução.n
+passada.n
+pegar rebote.v
+pegar.v
+carregar.v
+carregada.n
+passador.n
+primeira linha.n
+segunda linha.n
+terceira linha.n
+timoneiro.n
+sanção.n
+suspender.v
+parar.v
+paralisar.v
+mostrar.v
+marcar.v
+marcar falta.v
+interromper.v
+iniciar.v
+expulsar.v
+encerrar.v
+desqualificar.v
+desclassificar.v
+conceder.v
+apitar.v
+apitar início.v
+apitar fim.v
+reiniciar.v
+temporada.n
+regata.n
+prova.n
+partida.n
+apresentação.n
+Copa do Mundo.n
+Copa.n
+duelo.n
+game.n
+jogos olímpicos.n
+luta.n
+mundial.n
+olimpíada.n
+luva.n
+calção.n
+sapato.n
+bermuda.n
+bermudas.n
+jaqueta.n
+calça.n
+zubon.n
+uwagi.n
+uniforme.n
+faixa.n
+casaco.n
+quimono.n
+sunga.n
+touca.n
+maiô.n
+camisa.n
+short.n
+colete.n
+block pass.n
+block.n
+bloquear.v
+bloqueio.n
+carretilha.n
+chapéu.n
+uppercut.n
+ultrapassar.v
+trocar.v
+toco.n
+tackle.n
+tabelar.v
+tabela.n
+soco.n
+socar.v
+ruck.n
+roubo de bola.n
+recepção.n
+receber.v
+queda.n
+pressionar.v
+passe.n
+passe seco.n
+passe molhado.n
+passar.v
+passagem.n
+passagem do bastão.n
+parada.n
+meia-lua.n
+maul.n
+marcação.n
+lutar.v
+livrar.v
+leque.n
+lambreta.n
+knockdown.n
+jab.n
+interceptar.v
+interceptação.n
+imobilizar.v
+imobilização.n
+golpear.v
+golpe.n
+finta.n
+estrangulamento.n
+estabilização.n
+esquivar.v
+esquiva.n
+escalão.n
+drible.n
+clear.n
+clinche.n
+combinar.v
+contra-atacar.v
+contra-ataque.n
+cruzado.n
+defender.v
+defletir.v
+deflexão.n
+derrubada.n
+devolução.n
+devolver.v
+direto.n
+driblar.v
+drible da vaca.n
+yuko.n
+abrir marcador.v
+abrir placar.v
+ace.n
+adolph.n
+albatross.n
+ampliar.v
+assistência.n
+back half twist.n
+back three quarter.n
+back.n
+balançar.v
+balanço.n
+ball out.n
+break-point.n
+bombeiro.n
+birdie.n
+barani.n
+barani out.n
+bandeja.n
+can can.n
+carpado.n
+chave.n
+cesta.n
+cody.n
+completar.v
+compulsory.n
+concluir.v
+gol olímpico.n
+whipback.n
+wipe-out.n
+conclusão.n
+conner spin.n
+converter.v
+cravada.n
+cravar.v
+decolagem.n
+diamidov.n
+double back.n
+double full.n
+double mini tramp.n
+duplo twist carpado.n
+duplo-duplo.n
+empunhaduras.n
+enterrada.n
+enterrar.v
+equilíbrio.n
+espacate.n
+espacato.n
+espargata.n
+estendida.n
+esticada.n
+finalização.n
+finalizar.v
+flic-flac.n
+fliffis.n
+flutuador.n
+front full.n
+front three quarter.n
+front.n
+full.n
+game point.n
+giro gigante.n
+gol contra.n
+gol.n
+golden score.n
+grupado.n
+guindaste.n
+gut wrench.n
+half in half out.n
+half nelson.n
+half.n
+handspring.n
+hole in one.n
+hypolito três.n
+in.n
+janz.n
+ippon.n
+koka.n
+korbut.n
+largada.n
+largar.v
+mão aberta.n
+marcar gol.n
+match point.n
+midle.n
+miller.n
+moinho.n
+morte súbita.n
+nocaute.n
+onda.n
+out.n
+parada de mãos.n
+pegada.n
+pike.n
+pirueta.n
+pivot.n
+pivote.n
+ponte aérea.n
+pullover.n
+randolph.n
+randy.n
+retomada.n
+retomar.v
+rolê.n
+round-off.n
+rudolph.n
+rudy out.n
+rudy.n
+saída.n
+salto pak.n
+set point.n
+side.n
+stützkehre.n
+suplê.n
+takedown.n
+tkachev.n
+voo.n
+wazari.n
+voluntary.n
+voar.v
+véu.n
+vertical.n
+tuck.n
+triplo-duplo.n
+triple back.n
+triffis.n
+mortal.n
+evento.n
+campo de atletismo.n
+campo de beisebol.n
+campo de futebol.n
+campo de golfe.n
+campo de hóquei.n
+campo de rúgbi.n
+campo para equitação.n
+área para canoagem.n
+arena.n
+campo.n
+centro aquático.n
+centro de ginástica olímpica.n
+circuito.n
+estádio.n
+ginásio.n
+lagoa.n
+mar.n
+pavilhão.n
+pista de atletismo.n
+pista de ciclismo.n
+pista.n
+praia.n
+velódromo.n
+sambódromo.n
+rua.n
+quadra.n
+quadra de badminton.n
+quadra de basquete.n
+quadra de handebol.n
+quadra de vôlei.n
+instalação.n
+cerimônia.n
+wi-fi.n
+jogo de ida.n
+jogo de volta.n
+jogo em casa.n
+jogo fora de casa.n
+partida de ida.n
+partida de volta.n
+partida em casa.n
+partida fora de casa.n
+nado borboleta.n
+nado costas.n
+nado peito.n
+luta olímpica.n
+kilt.n
+escocês.n
+homem.n
+cefaleia.n
+dorsalgia.n
+gastralgia.n
+cervicalgia.n
+lombalgia.n
+nucalgia.n
+otalgia.n
+odontalgia.n
+neuralgia.n
+artralgia.n
+mialgia.n
+tendinite.n
+bronquiolite.n
+pneumonia.n
+gastrite.n
+bronquite.n
+amigdalite.n
+labirintite.n
+pústula.n
+espinha.n
+fibromialgia.n
+sinusite.n
+neoplasia.n
+dislalia.n
+hérnia.n
+hemorroida.n
+otite.n
+herpes.n
+urticária.n
+escoriação.n
+erisipela.n
+contusão.n
+demência.n
+cisto.n
+frieira.n
+luxação.n
+úlcera.n
+hipocondria.n
+distensão.n
+hemangioma.n
+entorse.n
+celulite.n
+bursite.n
+surdez.n
+diabetes.n
+afta.n
+galo.n
+carcinoma.n
+cistite.n
+mordedura.n
+enterorragia.n
+pancreatite.n
+anemia falciforme.n
+intoxicação alimentar.n
+intoxicação exógena.n
+metrorragia.n
+dermatite.n
+anosmia.n
+abdome ascítico.n
+abdome globoso.n
+ageusia.n
+alcoolismo.n
+apneia.n
+artrite.n
+artrose.n
+acidente vascular cerebral isquêmico.n
+acidente vascular cerebral prévio.n
+acidente vascular cerebral.n
+broncopneumonia.n
+bexigoma.n
+bronquite asmática.n
+cálculo.n
+cálculo renal.n
+cárie.n
+catapora.n
+caxumba.n
+cirrose hepática.n
+coledocolitíase.n
+cólera.n
+colite.n
+conjuntivite.n
+déficit.n
+delirium.n
+derrame pleural.n
+doença inflamatória pélvica.n
+disfunção.n
+diverticulite.n
+disgeusia.n
+doença pulmonar obstrutiva crônica.n
+doenças sexualmente transmissíveis.n
+encefalopatia.n
+enxaqueca.n
+espondilite anquilosante.n
+espondilite.n
+estomatite.n
+etilismo.n
+fibrilação atrial.n
+faringite.n
+fotofobia.n
+furúnculo.n
+furunculose.n
+gota.n
+hipertensão arterial sistêmica.n
+hemiparesia.n
+hemiplegia.n
+hepatite.n
+herpes zóster.n
+hordéolo.n
+imunodeficiência.n
+influenza.n
+insuficiência renal.n
+insuficiência renal crônica.n
+laringite.n
+linfoma.n
+lesão por pressão.n
+malaria.n
+melanoma.n
+meningite.n
+mieloma.n
+mioma.n
+neuropatia diabética.n
+nódulo.n
+obstipação.n
+oligúria.n
+paresia.n
+pielonefrite.n
+poliomielite.n
+pressão baixa.n
+queimadura.n
+raiva.n
+reumatismo.n
+sarna.n
+síndrome da imunodeficiência adquirida.n
+síndrome de rotor.n
+sífilis.n
+transtorno bipolar.n
+traumatismo crânio-encefálico.n
+tromboembolismo pulmonar.n
+terçol.n
+tétano.n
+pneumonia torácica.n
+tuberculose.n
+vaginite.n
+valvulopatia.n
+zoster.n
+coriza.n
+cólica.n
+arder.v
+queimação.n
+calafrio.n
+precordialgia.n
+náusea.n
+disúria.n
+vertigem.n
+tontura.n
+pus.n
+êmese.n
+tremedeira.n
+tremor.n
+cansaço.n
+febril.a
+vômito.n
+coceira.n
+catarro.n
+cólica menstrual.n
+escarro.n
+pigarro.n
+secreção ocular.n
+espasmo.n
+canseira.n
+prurido.n
+cianose.n
+indisposição.n
+fisgamento.n
+palidez.n
+bolinhas vermelhas.n
+dormência.n
+fadigar.v
+câimbra.n
+ânsia.n
+congestionamento nasal.n
+rouquidão.n
+palpitação.n
+exsudato.n
+pinicar.v
+moleza.n
+desequilíbrio.n
+íngua.n
+eritema.n
+pontada.n
+convulsão.n
+hemotórax.n
+hiperemia.n
+sudorese fria.n
+arma de fogo.n
+arma branca.n
+abusador.n
+arranhão.n
+perfuração.n
+atropelamento.n
+ferida.n
+lesão.n
+agressão.n
+automutilação.n
+laceração.n
+autoflagelo.n
+perfuração por arma branca.n
+autoagressão.n
+enforcamento.n
+mutilação.n
+arranhar.v
+capotar.v
+trincar.v
+fraturar.v
+automutilar.v
+tapa.n
+sufocado.a
+agredido.a
+corte.n
+puxão.n
+maus-tratos.n
+garrafada.n
+murro.n
+agressão física.n
+espancamento.n
+facada.n
+tijolada.n
+paulada.n
+politraumatismo.n
+joelhada.n
+cadeirada.n
+soco labial.n
+luta corporal.n
+polegar.n
+hálux.n
+pelve.n
+costela.n
+cóccix.n
+escápula.n
+jugular.n
+clavícula.n
+glúteo.n
+maléolo.n
+seio.n
+trocanter.n
+tornozelo.n
+trapézio.n
+tíbia.n
+esterno.n
+molar.n
+falange.n
+metatarso.n
+siso.n
+latíssimo do dorso.n
+esfíncter.n
+carpo.n
+mindinho.n
+glândula.n
+úmero.n
+paratireoide.n
+períneo.n
+ilíaco.n
+mama.n
+ciático.n
+mandíbula.n
+coxa.n
+pele.n
+dedo anelar.n
+bacia.n
+calcâneo.n
+submandibular.a
+lacrimal.a
+bufê.n
+restaurante árabe.n
+restaurante brasileiro.n
+restaurante chinês.n
+restaurante europeu.n
+restaurante francês.n
+restaurante italiano.n
+restaurante japonês.n
+restaurante mexicano.n
+restaurante mineiro.n
+restaurante português.n
+restaurante self-service.n
+restaurante vegano.n
+associação social.n
+centro educacional.n
+escola de artes.n
+escola de balé.n
+escola de música.n
+escola técnica.n
+faculdade de odontologia.n
+faculdade de direito.n
+organização de proteção dos animais.n
+organização de serviço social.n
+organização sem fins lucrativos.n
+cirurgião plástico.n
+joalheiro.n
+operador de turismo.n
+polícia civil.n
+professor de dança de salão.n
+tabelião.n
+aeroporto regional.n
+academia de dança.n
+agência de entretenimento.n
+agência de turismo.n
+agência de viagens a pontos turísticos.n
+empresa de lembrancinhas de festa.n
+empresa de organização de eventos.n
+empresa de vigilância.n
+departamento de passaporte.n
+departamento de polícia do estado.n
+departamento de segurança pública.n
+departamento universitário.n
+hospital geral.n
+hospital infantil.n
+hospital militar.n
+hospital municipal.n
+hospital particular.n
+hospital psiquiátrico.n
+igreja batista.n
+museu de arte moderna.n
+museu de arte.n
+museu do patrimônio.n
+museu histórico local.n
+museu histórico.n
+museu marítimo.n
+museu militar.n
+templo.n
+arquipélago.n
+arrecife.n
+baía.n
+balneário.n
+beleza natural.n
+bosque.n
+cachoeira.n
+canal.n
+cascata.n
+catarata.n
+caudal.n
+caverna.n
+chapada.n
+cordilheira.n
+córrego.n
+deserto.n
+duna.n
+enseada.n
+estreito.n
+floresta.n
+gruta.n
+ilha.n
+lago.n
+mangue.n
+margem.n
+mata.n
+mirante.n
+montanha.n
+monte.n
+morro.n
+oceano.n
+orla.n
+pantanal.n
+parque.n
+península.n
+pico de montanha.n
+piscina natural.n
+ponto panorâmico.n
+queda d água.n
+queda de água.n
+recife.n
+reserva natural.n
+riacho.n
+ribeira.n
+ribeirão.n
+rio.n
+trilha de caminhada.n
+vale.n
+birosca.n
+pé-sujo.n
+boteco.n
+pub.n
+temakeria.n
+buffet.n
+vegetariano.n
+abacaxi.n
+açaí.n
+aguardente.n
+aipim.n
+amor perfeito.n
+anchova.n
+arroz-doce.n
+azeite de oliva.n
+bacalhau.n
+badejo.n
+bacuri.n
+banana-da-terra.n
+banana.n
+batata.n
+bebida alcoólica.n
+brigadeiro.n
+buriti.n
+cação.n
+cacau.n
+cachaça.n
+caipirinha.n
+caipivodka.n
+cajá.n
+caju.n
+cajuína.n
+cajuzinho.n
+caldo de cana.n
+caldo de carne.n
+cana-de-açúcar.n
+canela.n
+canjica.n
+breja.n
+capivara.n
+caruru.n
+catchup.n
+cebola.n
+cerveja.n
+chocolate em pó.n
+chocolate granulado.n
+chope.n
+chopp.n
+chuchu.n
+coco.n
+cravo.n
+coentro.n
+croquete.n
+curau.n
+dendê.n
+doce de leite.n
+einsbein.n
+empada.n
+espresso.n
+expresso.n
+farinha de mandioca.n
+filé.n
+frango.n
+galinha.n
+goiabada.n
+gorgonzola.n
+jaca.n
+jambu.n
+javali.n
+joelho de porco.n
+ketchup.n
+kibe.n
+leite.n
+licor.n
+limonada.n
+lombo.n
+macaxeira.n
+maionese.n
+mandioca-brava.n
+macaxeira-brava.n
+mandioca.n
+manga.n
+mangaba.n
+maniçoba.n
+mel.n
+milho.n
+milkshake.n
+moranga.n
+murici.n
+ora-pro-nóbis.n
+pacu.n
+paio.n
+bolinho.n
+pé-de-moleque.n
+peito de frango.n
+peixe.n
+pequi.n
+pernil.n
+peru.n
+picanha.n
+pinhão.n
+pimenta.n
+piranha.n
+pirarucu.n
+pudim.n
+quibe.n
+quiabo.n
+rabada.n
+refrigerante.n
+repolho.n
+salmão.n
+sapoti.n
+sardinha.n
+suco.n
+tacacá.n
+tomate.n
+tucumã.n
+tucunaré.n
+tucupi.n
+umbu.n
+vinho.n
+wasabi.n
+wurst.n
+caldeirada.n
+cana.n
+podrão.n
+cupuaçu.n
+geleia.n
+guaraná.n
+maniva.n
+pirarucu de casaca.n
+risoto.n
+sopa.n
+sopa agnolini.n
+tererê.n
+açaiteria.n
+fast-food.n
+galinha ao molho pardo.n
+galinha ensopada.n
+feijoada.n
+arroz.n
+canjiquinha.n
+leitão à pururuca.n
+vaca atolada.n
+paella de mariscos.n
+paella.n
+pamonha.n
+moqueca.n
+pirão.n
+quirera.n
+sarapatel.n
+vatapá.n
+barreado.n
+bobó.n
+água.n
+desembarcar.v
+desembarque.n
+casa de férias.n
+almoço.n
+café da manhã.n
+jantar.n
+lanche.n
+acordo.n
+autorização.n
+carta.n
+comprovante de vacinação.n
+concessão.n
+confirmação.n
+contrato.n
+declaração.n
+depoimento.n
+diploma.n
+escritura.n
+garantia.n
+identificação.n
+intimação.n
+licença.n
+nota.n
+ordem.n
+passaporte.n
+permissão.n
+testamento.n
+título.n
+tratado.n
+visto.n
+capital.n
+frevo.n
+faculdade.n
+escola.n
+periferia.n
+centro da cidade.n
+avião.n
+balsa.n
+barca.n
+barco de passeio
+bonde.n
+carro.n
+helicóptero.n
+metrô.n
+navio de cruzeiro.n
+navio.n
+ônibus de passeio.n
+ônibus.n
+táxi aéreo.n
+táxi.n
+trem.n
+veículo.n
+veleiro.n
+camarão.n
+caranguejo.n
+crustáceo.n
+lagosta.n
+marisco.n
+academia de ginástica.n
+caixa eletrônico.n
+casa de dança.n
+casa de show.n
+boate.n
+desenvolvedora de imóveis.n
+distribuidor de bebidas.n
+fábrica.n
+firma.n
+fornecedor de artigos hospitalares.n
+floricultura.n
+frutaria.n
+jornal.n
+loja de moda feminina.n
+loja de moda infantil.n
+loja de lingerie.n
+loja de moda masculina.n
+loja de móveis infantis.n
+loja de roupas para bebês.n
+loja para bebê.n
+negócio.n
+academia de dança do ventre.n
+amizade.n
+casamento.n
+noivado.n
+paquera.n
+pegação.n
+romance.n
+parceria.n
+alagoano.n
+alemão.n
+americano.n
+boliviano.n
+brasileiro.n
+britânico.n
+californiano.n
+carioca.n
+espanhol.n
+estrangeiro.n
+ET.n
+francês.n
+francesa.n
+grego.n
+holandês.n
+índio.n
+inglês.n
+inglesa.n
+iraniano.n
+irlandês.n
+italiano.n
+mexicano.n
+nova iorquino.n
+otomano.n
+persa.n
+português.n
+turco.n
+operador.n
+prato principal.n
+sobremesa.n
+acompanhamento.n
+acepipe.n
+excursão.n
+expedição.n
+jornada.n
+odisseia.n
+peregrinação.n
+safari.n
+tour.n
+direito.n
+convocação.n
+decisão.n
+descoberta.n
+opinião.n
+sumário.n
+testemunho.n
+abade.n
+advogado.n
+agente duplo.n
+agente.n
+alfaiate.n
+ambientalista.n
+antropólogo.n
+apóstolo.n
+arqueólogo.n
+arquiteto.n
+artesão.n
+artista.n
+atendente.n
+ator.n
+atriz.n
+barman.n
+beato.n
+biólogo.n
+bispo.n
+cabeleireiro.n
+camareiro.n
+cantor.n
+cardeal.n
+carpinteiro.n
+chefe de cozinha.n
+cientista.n
+comerciante.n
+consultor.n
+correspondente.n
+criado.n
+dançarino.n
+dentista.n
+desenhista.n
+desenvolvedor de software.n
+desenvolvedor web.n
+detetive particular.n
+detetive.n
+diácono.n
+dono de casa.n
+editor.n
+empresário.n
+enfermeiro.n
+engenheiro.n
+escritor.n
+escriturário.n
+especulador.n
+espião.n
+estudante.n
+executivo.n
+extrativista.n
+faxineiro.n
+fazendeiro.n
+físico.n
+freira.n
+funcionário.n
+garçom.n
+garçonete.n
+guarda-costas.n
+guia turístico.n
+guia.n
+jardineiro.n
+jornalista.n
+linguista.n
+mágico.n
+magistrado.n
+magnata do petróleo.n
+malabarista.n
+manobrista.n
+maqueiro.n
+maquinista.n
+matemático.n
+mecânico.n
+medium.n
+mergulhador.n
+missionário.n
+monge.n
+monsenhor.n
+motorista.n
+músico.n
+neurocientista.n
+oficial.n
+padre.n
+palestrante.n
+palhaço.n
+paraquedista.n
+pastor.n
+pedreiro.n
+pesquisador.n
+piloto.n
+pintor.n
+policial.n
+político.n
+porta-voz.n
+presbítero.n
+produtor.n
+professor.n
+profeta.n
+programador.n
+psiquiatra.n
+químico.n
+recepcionista.n
+repórter.n
+sacerdote.n
+senador.n
+seringueiro.n
+servente.n
+sociologista.n
+toxicologista.n
+trabalhador.n
+vendedor.n
+voluntário.n
+polícia.n
+policiamento.n
+delegacia.n
+aeroporto.n
+agência de aluguel de carros.n
+agência de viagens de helicóptero.n
+bicicletaria.n
+estação de metrô.n
+estação.n
+estacionamento.n
+locadora de veículos.n
+ponto.n
+porto.n
+rodoviária.n
+ponto de ônibus.n
+ponto de táxi.n
+serviço de transporte.n
+transporte público.n
+itinerário.n
+linha.n
+paisagem.n
+abrigo.n
+acrópole.n
+anexo.n
+aquário.n
+armazém.n
+arquivo estadual.n
+arranha-céu.n
+auditório.n
+basílica.n
+biblioteca.n
+cabana.n
+câmara municipal.n
+canil.n
+caravançará.n
+casa da fazenda.n
+casa de campo.n
+casa de cultura.n
+casa de jogos.n
+casa fluvial.n
+casebre.n
+castelo.n
+catedral.n
+celeiro.n
+construção.n
+cidadela.n
+cinema.n
+circo.n
+clube de futebol.n
+clube de tiro.n
+companhia de saneamento.n
+companhia teatral.n
+condomínio.n
+conservatório.n
+delegacia de polícia.n
+departamento.n
+dependência.n
+discoteca.n
+domicílio.n
+dormitório.n
+edifício.n
+zoológico.n
+zoo.n
+torre.n
+terminal.n
+termas.n
+tenda.n
+tenda índia.n
+teatro.n
+escola de samba.n
+escritório de empresa.n
+estábulo.n
+estação de rádio.n
+estação de tratamento de água.n
+estação ferroviária.n
+estufa.n
+farol.n
+fortaleza.n
+forte.n
+fortificação.n
+shopping.n
+shopping center.n
+serviço de saúde mental.n
+sauna.n
+salão.n
+ruína.n
+rotunda.n
+residência.n
+repartição pública municipal.n
+quiosque.n
+quartel.n
+galeria.n
+galpão.n
+garagem.n
+gazebo.n
+guarda municipal.n
+habitação.n
+herdade.n
+hipódromo.n
+hospital.n
+iglu.n
+imobiliária.n
+jardim zoológico.n
+lar.n
+mesquita.n
+mosteiro.n
+sinagoga.n
+museu.n
+pagode.n
+palácio.n
+parque de diversão.n
+parque temático.n
+pavilhão de eventos.n
+pinacoteca.n
+prédio.n
+prefeitura.n
+campanário.n
+mansão.n
+elevador panorâmico.n
+banheiro.n
+ante-sala.n
+antecâmara.n
+closet.n
+cozinha.n
+despensa.n
+lavabo.n
+lavanderia.n
+porão.n
+quarto de hóspedes.n
+quarto principal.n
+quarto.n
+sótão.n
+terraço.n
+saguão.n
+sala de estar.n
+sala de estudos.n
+sala de jantar.n
+sala de TV.n
+sala.n
+banheiro privativo.n
+família.n
+feijão-tropeiro.n
+canivete.n
+faca.n
+facão.n
+estilete.n
+garrafa.n
+lança.n
+pedra.n
+navalha.n
+faca de serra.n
+punhal.n
+prego.n
+porrete.n
+serra de cozinha.n
+mangueira.n
+pau.n
+lâmina de barbear.n
+parafusadeira.n
+serra.n
+tijolo.n
+revólver.n
+cano.n
+vidro.n
+ferro.n
+ginecologista.n
+nefrologista.n
+neurologista.n
+odontologista.n
+oftalmologista.n
+oncologista.n
+ortopedista.n
+patologista.n
+pediatra.n
+cardiologista.n
+dermatologista.n
+gastrologista.n
+pneumologista.n
+reumatologista.n
+urologista.n
+droga.n
+cocaína.n
+casal.n
+banda.n
+bar.n
+governo.n
+dueto.n
+dupla.n
+equipe.n
+trio.n
+time.n
+seleção.n
+pelotão.n
+comissão técnica.n
+bateria.n
+clube.n
+confederação.n
+delegação.n
+plateia.n
+torcida.n
+fisioterapia.n
+ginecologia.n
+nefrologia.n
+neurologia.n
+odontologia.n
+oftalmologia.n
+oncologia.n
+ortopedia.n
+patologia.n
+pediatria.n
+podologia.n
+psiquiatria.n
+cardiologia.n
+dermatologia.n
+enfermagem.n
+farmacologia.n
+fonoaudiologia.n
+gastrologia.n
+pneumologia.n
+psicologia.n
+reumatologia.n
+urologia.n
+celular.n
+carne.n
+país.n
+estado.n
+acontecimento.n
+embarque.n
+viagem.n
+relação.n
+carnaval.n
+corpo.n
+piscina.n
+área.n
+braço.n
+cabeça.n
+olho.n
+crânio.n
+membro inferior.n
+nariz.n
+joelho.n
+pododáctilo.n
+barriga.n
+boca.n
+pescoço.n
+dorso.n
+perna.n
+quirodáctilo.n
+pé.n
+membro superior.n
+rosto.n
+membro superior esquerdo.n
+pénis.n
+vagina.n
+orelha.n
+tronco.n
+faringe.n
+coração.n
+cérebro.n
+vulva.n
+intestino.n
+unha.n
+arcada dentária.n
+acarajé.n
+manteiga.n
+banana frita.n
+biscoito.n
+bolo.n
+carpaccio.n
+churrasco.n
+coalhada.n
+doce.n
+farofa.n
+nachos.n
+pão.n
+pipoca.n
+salgado.n
+salpicão.n
+sanduíche.n
+salada.n
+sashimi.n
+sushi.n
+torta.n
+tortelli.n
+cadeira.n
+cama.n
+poltrona.n
+documento.n
+abdome.n
+comida caiçara.n
+bebida.n
+cidade.n
+município.n
+diocese.n
+mundo.n
+área industrial.n
+aldeia.n
+área de recreação.n
+fase.n
+reservar.v
+brincar.v
+check-in.n
+cortejar.v
+coabitar.v
+comprar.v
+contratar.v
+câncer.n
+dor.n
+hipotireoidismo.n
+cardiopatia.n
+doença.n
+inflamação.n
+trombose.n
+tumor.n
+alzheimer.n
+escoliose.n
+hipertensão.n
+distrofia.n
+transporte.n
+pessoa.n
+iguaria.n
+rodízio.n
+maremoto.n
+avalanche.n
+desertificação.n
+contratual.a
+tirolesa.n
+pintura.n
+paróquia.n
+arquidiocese.n
+balnear.a
+ecoturismo.n
+agroturismo.n
+vista.n
+turismo gastronômico.n
+turismo ferroviário.n
+banhista.n
+adversário.n
+competidor.n
+desafiante.n
+oponente.n
+rival.n
+participante.n
+asma.n
+anemia.n
+alergia.n
+rinite.n
+intolerância.n
+gripe.n
+gravidez.n
+mudo.n
+autismo.n
+bipolaridade.n
+depressão.n
+parkinson.n
+obesidade.n
+infecção.n
+hipoglicemia.n
+icterícia.n
+cirrose.n
+ascite.n
+dispneia.n
+dengue.n
+deficiência.n
+catatonia.n
+tabagismo.n
+dependência química.n
+letargia.n
+constipação.n
+hipoatividade.n
+covid.n
+torção.n
+anúria.n
+incontinência.n
+disfagia.n
+parestesia.n
+hipotensão.n
+hipertermia.n
+colelitíase.n
+enfisema.n
+epigastralgia.n
+cálculo vesicular.n
+poliúria.n
+hematúria.n
+disenteria.n
+derrame.n
+retardo mental.n
+abscesso.n
+rebaixamento de nível consciência.n
+endometriose.n
+hiponatremia.n
+halitose.n
+ansiedade.n
+osteogênese.n
+exantema.n
+algia.n
+trauma.n
+epistaxe.n
+trombose venosa profunda.n
+equimose.n
+esquizofrenia.n
+sialorreia.n
+disartria.n
+retocolite.n
+leucemia linfoide aguda.n
+hipoplasia.n
+metástase.n
+prolapso.n
+bacilo de koch.n
+transtorno afetivo estacional.n
+litíase.n
+aborto.n
+embolia.n
+amnésia.n
+edema.n
+psoríase.n
+síndrome nefrótica.n
+rinorréia.n
+plaquetopenia.n
+engasgo.n
+arritmia.n
+esporão.n
+desidratação.n
+hiporexia.n
+afonia.n
+caroço.n
+escabiose.n
+insuficiência cardíaca congestiva.n
+nefrolitíase.n
+varizes.n
+crise alérgica.n
+hemoptise.n
+necrose.n
+necrosar.v
+broncoaspiração.n
+rash cutâneo.n
+neuropatia.n
+colite ulcerativa.n
+bruxismo.n
+doenças respiratórias ocupacionais.n
+fasciculação.n
+pirose.n
+astenia.n
+coxo.n
+epilepsia.n
+hepatopatia.n
+aneurisma.n
+paralisia.n
+isquemia.n
+estenose.n
+abaulamento.n
+esclerose.n
+nevralgia.n
+reação alérgica.n
+crise convulsiva.n
+síndrome de munchausen.n
+penfigoide.n
+hálux rígido.n
+urgência miccional.n
+púrpura trombocitopênica idiopática.n
+transtorno psiquiátrico.n
+taquipneia.n
+hiperemia ocular.n
+diabetes mellitus.n
+policitemia.n
+discalculia.n
+menopausa.n
+bico de papagaio.n
+diurese.n
+saco escrotal.n
+urina.n
+órgão.n
+testículo.n
+sangue.n
+visão.n
+estômago.n
+membro.n
+genitália.n
+som.n
+cabelo.n
+ventre.n
+esôfago.n
+respiração.n
+língua.n
+pálpebra.n
+limpeza.n
+petróleo.n
+líquido.a
+ar.n
+pulmonar.a
+vaginal.a
+pélvico.a
+lombar.a
+inguinal.a
+precordial.a
+abdominal.a
+dorsal.a
+renal.a
+superciliar.a
+gástrico.a
+anal.a
+uretral.a
+corporal.a
+suprapúbica.a
+genital.a
+costal.a
+púbico.a
+intercostal.a
+gastrointestinal.a
+cerebral.a
+estomacal.a
+vesicular.a
+nasal.a
+mandibular.a
+supraorbital.a
+ocular.a
+escrotal.a
+retal.a
+escapular.a
+hipogástrico.a
+arterial.a
+auricular.a
+dentário.a
+respiratório.a
+gengival.a
+occipital.a
+nodular.a
+umbilical.a
+capilar.a
+patelar.a
+periumbilical.a
+mesogástrico.a
+mental.a
+orofaríngeo.a
+brônquico.a
+lingual.a
+cutâneo.a
+muscular.a
+oral.a
+ungueal.a
+vesical.a
+osteomuscular.a
+retro-orbitário.a
+perianal.a
+auriculoventricular.a
+torácico.a
+intestinal.a
+axilar.a
+peniano.a
+uterino.a
+glúteo.a
+labial.a
+pubiano.a
+facial.a
+íntimo.a
+intracraniano.a
+perineal.a
+frontal.a
+cefálico.a
+cervical.a
+esternal.a
+subgaleal.a
+pleural.a
+físico.a
+venoso.a
+vagal.a
+epigástrico.a
+decidir.v
+falha.n
+falta.n
+infração.n
+ferimento.n
+óbito.n
+morte.n
+confusão mental.n
+pedrada.n
+tiro.n
+euforia.n
+delírio.n
+taquicardia.n
+vermelhidão.n
+adultério.n
+açúcar.n
+capoeira.n
+loja de ração.n
+pontuação.n
+passear.v
+pagar.v
+disponibilizar.v
+oferecer.v
+proporcionar.v
+ter.v
+vender.v
+ficar.v
+hospedar.v
+viajar.v
+fazer um tour.v
+planejar.v
+check-out.n
+frustração.n
+torcer.v
+jogada.n
+jogar.v
+disputar.v
+competir.v
+treinar.v
+treino.n
+lesionar.v
+morder.v
+agredir.v
+sufocar.v
+brigar.v
+desorientar.v
+danificar.v
+ferir.v
+prensar.v
+perfurar.v
+furar.v
+empurrar.v
+puxar.v
+espancar.v
+atear.v
+violentar.v
+forcar.v
+maçar.v
+pisar.v
+enforcar.v
+matar.v
+atropelar.v
+abusar.v
+esfaquear.v
+atingir.v
+cotovelar.v
+dopar.v
+estuprar.v
+controlar.v
+xingar.v
+manipular.v
+assediar.v
+ofender.v
+briga.n
+ameaçar.v
+morrer.v
+falecer.v
+afogamento.n
+alvejar.v
+machucar.v
+pedrar.v
+atentar.v
+incendiar.v
+mutilar.v
+injuriar.v
+debilitar.v
+maltratar.v
+balear.v
+apedrejar.v
+esmurrar.v
+beliscar.v
+lacerar.v
+limpar.v
+estudar.v
+braçadeira.n
+toalha.n
+chuteira.n
+equipamento.n
+agressor.n
+crack.n
+álcool.n
+maconha.n
+entorpecente.n
+pedras de crack.n
+lança-perfume.n
+cola.n
+arquibancada.n
+cemitério.n
+centro de arte.n
+santuário.n
+coronhada.n
+apresentar.v
+atrair.v
+destacar-se.v
+surpreender.v
+centro médico.n
+centro médico público.n
+centro espírita.n
+centro cultural.n
+centro de conferências.n
+centro de convenções.n
+centro de diversões infantil.n
+centro de eventos.n
+centro tecnológico.n
+hotelaria.n
+esquadrão de resgate.n
+remédio.n
+sensibilidade.n
+bactéria.n
+síncope.n
+esclerose lateral amiotrófica.n
+pancada.n
+vírus.n
+bullying.n
+sexo.n
+deformidade.n
+exercício.n
+hipercolesterolemia.n
+sedentarismo.n
+ácaro.n
+frio.n
+envelhecer.v
+acidente.n
+menstruação retrógrada.n
+alimento.n
+estresse.n
+fumar.v
+defeito congênito.n
+fobia.n
+surto.n
+crise.n
+hiperglicemia.n
+virose.n
+síndrome.n
+dessaturação.n
+distúrbio.n
+ressecamento.n
+coágulo.n
+fungo.n
+parto.n
+movimento.n
+pressão alta.n
+cirurgia.n
+alimentação.n
+variz.n
+abstinência.n
+transtorno.n
+diarreia.n
+sudorese.n
+tosse.n
+fratura.n
+alimento gorduroso.n
+mofo.n
+fumaça.n
+poeira.n
+fraqueza.n
+tensão muscular.n
+esforço.n
+indigestão.n
+refluxo.n
+hipóxia.n
+esofagite.n
+miastenia grave.n
+esclerodermia.n
+boca seca.n
+hemorragia.n
+talassemia.n
+aplasia medular.n
+calor.n
+cigarro.n
+caquexia.n
+jejum.n
+cafeína.n
+hereditário.n
+ameba.n
+verme.n
+lúpus.n
+radioterapia.n
+desnutrição.n
+insuficiência hepática.n
+intoxicação.n
+desequilíbrio hormonal.n
+luz.n
+ataque cardíaco.n
+fadiga.n
+doença hereditária.n
+anticoncepcional.n
+gestação.n
+infecção das vias aéreas superiores.n
+medicação.n
+inseto.n
+infartar.v
+parasita.a
+produto químico.n
+radiação.n
+planta.n
+animal.n
+frio.a
+hiperuricemia.n
+chumbo.n
+irritação.n
+psicológico.a
+falta de sensibilidade.n
+imobilidade.n
+insónia.n
+poluição.n
+maquiagem.n
+cloro.n
+dificuldade respiratória.n
+traumatismo.n
+febre.n
+fissura.n
+produtos de limpeza.n
+inalação.n
+transtorno mental.n
+mosquito.n
+flatulência.n
+sal.n
+dipirona.n
+dorflex.n
+paracetamol.n
+nimesulida.n
+loratadina.n
+cefalexina.n
+cetoprofeno.n
+azitromicina.n
+novalgina.n
+losartana.n
+tramal.n
+dramin.n
+antiinflamatório.n
+analgésico.n
+atenolol.n
+ciprofloxacino.n
+cimegripe.n
+lisador.n
+ceftriaxona.n
+vonau.n
+corticóide.n
+ibuprofeno.n
+buscopan.n
+tandrilax.n
+captopril.n
+decadron.n
+levofloxacino.n
+paroxetina.n
+meloxican.n
+diosmin.n
+xarelto.n
+nistatina.n
+gabapentina.n
+arnica.n
+ritalina.n
+enalapril.n
+bromazepam.n
+roacutan.n
+repoflor.n
+floratil.n
+spidufen.n
+traturil.n
+zofran.n
+tramadol.n
+alivium.n
+nitrofurantoina.n
+condroflex.n
+piroxicam.n
+hixizine.n
+tylenol.n
+rivotril.n
+aerolin.n
+luftal.n
+tobrex.n
+morfina.n
+norfloxacino.n
+acetilcisteína.n
+pregabalina.n
+domperidona.n
+escitalopram.n
+alprazolam.n
+salbutamol.n
+predsin.n
+voltaren.n
+decongex.n
+polaramine.n
+prednisona.n
+diazepam.n
+buprovil.n
+dexametasona.n
+zolpidem.n
+amitriptilina.n
+fluoxetina.n
+benzodiazepina.n
+codeína.n
+imosec.n
+metropolol.n
+passiflora.n
+deocil.n
+xilocaína.n
+carbocisteína.n
+rocefin.n
+antialérgico.n
+omeprazol.n
+plasil.n
+ciclobenzaprina.n
+astro.n
+diclofenaco.n
+tylex.n
+benegripe.n
+pyridium.n
+macrodantina.n
+carbamazepina.n
+lactulose.n
+paco.n
+mioflex.n
+torsilax.n
+cystex.n
+ponstan.n
+infralax.n
+nebacetin.n
+profenid.n
+clenil.n
+neosaldina.n
+ondansetrona.n
+fenobarbital.n
+naproxeno.n
+benzetacil.n
+flanax.n
+furosemida.n
+clavulanato.n
+clindamicina.n
+resfenol.n
+anticonvulsivante.n
+tilatil.n
+beserol.n
+flancox.n
+simeticona.n
+axetilcefuroxima.n
+cimelide.n
+flurbiprofeno.n
+prednisolona.n
+budesonida.n
+venlafaxina.n
+metronidazol.n
+cetoconazol.n
+antidepressivo.n
+clavulin.n
+desloratadina.n
+estomazil.n
+labirin.n
+emplastro.n
+biperideno.n
+depakene.n
+reumotec.n
+noripurum.n
+tropinal.n
+neocopan.n
+sonrisal.n
+salonpas.n
+hidroxizina.n
+celestamine.n
+apracur.n
+stugeron.n
+mylanta.n
+coristina.n
+prelone.n
+isordil.n
+penicilina.n
+aciclovir.n
+naldecon.n
+metoprolol.n
+levomepromazina.n
+buspirona.n
+queimalivre.n
+fenergan.n
+filgrastim.n
+sinot.n
+benzilpenicilina.n
+diurético.a
+traum.n
+alginac.n
+berotec.n
+doril.n
+duloxetina.n
+anlodipino.n
+allegra.n
+claritromicina.n
+fluconazol.n
+moxifloxacino.n
+aradois.n
+clexane.n
+anador.n
+alenia.n
+prebictal.n
+trileptal.n
+sintocalmy.n
+vertix.n
+oxicodona.n
+mirtazapina.n
+lamotrigina.n
+tetraciclina.n
+sertralina.n
+quetiapina.n
+clomipramina.n
+flogoral.n
+tilenol.n
+donaren.n
+valeriana.n
+cefuroxima.n
+marevan.n
+codex.n
+naramig.n
+vibral.n
+frontal.n
+expec.n
+azeite.n
+queijo.n
+farinha.n
+prato.n
+infraestrutura.n
+monumento.n
+texto.n
+móvel.n
+atividade.n
+posição.n
+roupa.n
+local.n
+rede.n
+saia.n
+bolha.n
+protuberância.n
+rompimento.n
+secreção.n
+ardor.n
+arrepio.n
+enjoo.n
+mal-estar.n
+sensação de desmaio.n
+agitação.n
+desconforto.n
+contração.n
+descorar.v
+adormecimento.n
+congestão.n
+inchaço.n
+violência.n
+suicídio.n
+dedo.n
+osso.n
+veia.n
+músculo.n
+articulação.n
+dente.n
+nervo.n
+associação.n
+natureza.n
+fruta.n
+legume.n
+tempero.n
+vegetal.n
+molho.n
+fruto.n
+prato típico.n
+chegar.v
+chegada.n
+dança.n
+frutos do mar.n
+indústria.n
+ser vivo.n
+rota.n
+elevador.n
+cômodo.n
+tradição.n
+cinderela.n
+k-othrine.n
+esposa.n
+esposo.n
+marido.n
+viúva.n
+viúvo.n
+noiva.n
+noivo.n
+namorado.n
+amigo.n
+podólogo.n
+farmacêutico.n
+fonoaudiólogo.n
+tela.n
+interior.n
+vagão leito.n
+término.n
+planejamento.n
+preparação.n
+travessão.n
+motor.n
+raia.n
+série.n
+rotina.n
+início.n
+final.n
+assalto.n
+round.n
+volta.n
+rodada.n
+intervalo.n
+tempo.n
+acréscimo.n
+prorrogação.n
+set.n
+tempo regulamentar.n
+tentativa.n
+grande área.n
+marca de pênalti.n
+aro.n
+colchão.n
+tábua de salto.n
+ombro.n
+ouvido.n
+occipital.n
+quadril.n
+nádega.n
+narina.n
+patela.n
+lábio.n
+tireoide.n
+coluna vertebral.n
+fémur.n
+calcanhar.n
+cílio.n
+panturrilha.n
+cotovelo.n
+glande.n
+queixo.n
+têmpora.n
+axila.n
+útero.n
+face.n
+ligamento.n
+gengiva.n
+maxila.n
+palato.n
+pulso.n
+menisco.n
+trago.n
+peitoral.n
+orofaringe.n
+cintura.n
+pericárdio.n
+arcos costais.n
+dedo indicador.n
+dedo médio.n
+dedo mindinho.n
+nervo ciático.n
+nervo trigêmeo.n
+esclera.n
+testa.n
+mamilo.n
+reto.n
+cutícula.n
+palma.n
+ovo.n
+bacon.n
+erva-mate.n
+banha de porco.n
+agnolini.n
+madeira.n
+papel.n
+feijão.n
+fermento.n
+cereal.n
+catolicismo.n
+protestantismo.n
+espiritismo.n
+budismo.n
+judaísmo.n
+islamismo.n
+umbanda.n
+candomblé.n
+tablado.n
+plataforma.n
+garganta.n
+hipocôndrio.n
+virilha.n
+fúrcula.n
+nuca.n
+flanco.n
+leito ungueal.n
+hemicorpo.n
+shitake.n
+arvorismo.n
+distrito.n
+artesanato.n
+sinuca.n
+eliminatórias.n
+fase classificatória.n
+fase de grupos.n
+fase preliminar.n
+preliminares.n
+disputa do terceiro lugar.n
+mata-mata.n
+oitavas de final.n
+oitavas.n
+quartas de final.n
+quartas.n
+repescagem.n
+semi.n
+semifinais.n
+sistema eliminatório.n
+criança.n
+pretendente.n
+fígado.n
+vesícula.n
+tórax.n
+pulmão.n
+lombar.n
+ovário.n
+próstata.n
+ânus.n
+pâncreas.n
+tendão.n
+amígdala.n
+rim.n
+linfonodo.n
+pinta.n
+tendão de aquiles.n
+sistema nervoso central.n
+gordura.n
+musculatura.n
+globo ocular.n
+aéreo.a
+rodoviário.a
+atrativo.a
+personalidade.n
+dinheiro.n
+asmático.a
+pré-diabético.n
+apático.a
+alérgico.a
+etilista.a
+afônico.a
+gestante.a
+deficiente.a
+diabético.a
+autista.a
+bipolar.a
+hipertenso.a
+sonolento.a
+cardiopata.a
+cardíaco.a
+doente.a
+grávida.a
+sudoreico.a
+ictérico.a
+hepático.a
+ascítico.a
+dispineico.a
+prostrado.a
+cadeirante.a
+catatônico.a
+alcoolizado.a
+tabagista.a
+usuário.a
+letárgico.a
+convulsivo.a
+constipado.a
+contuso.a
+dependente.a
+hipoativo.a
+umbigo.n
+coluna.n
+bexiga.n
+vaso sanguíneo.n
+vaso linfático.n
+artéria.n
+bochecha.n
+apêndice.n
+punho.n
+saliva.n
+uretra.n
+sistema urinário.n
+sistema digestivo.n
+laringe.n
+baço.n
+sistema respiratório.n
+tecido corporal.n
+via respitarória.n
+cavidade oral.n
+válvula aórtica.n
+canal medular.n
+tecido conjuntivo.n
+vertebral.n
+medula espinhal.n
+paladar.n
+dedão.n
+medula óssea.n
+conjuntiva.n
+sistema imunológico.n
+peritônio.n
+escroto.n
+sola.n
+colo.n
+bumbum.n
+região íntima.n
+pavilhão auricular.n
+couro cabeludo.n
+hipofaringe.n
+musculatura acessória.n
+palato mole.n
+gasolina.n
+spray.n
+gás.n
+precórdio.n
+supercílio.n
+púbis.n
+hipogástrio.n
+via aérea.n
+mente.n
+brônquios.n
+átrio.n
+ventrículo.n
+cervical.n
+pleura.n
+nervo vago.n
+mordida.n
+distender.v
+empurrado.a
+raspão.n
+cair.v
+abandonar.v
+energético.n
+água sanitária.n
+sabão.n
+amante.n
+tacacazeira.n
+africano.a
+cartógrafo.n
+destilaria.n
+hóspede.n
+racumin.n
+chumbinho.n
+aluno.n
+banco de reservas.n
+placar eletrônico.n
+placar.n
+rampa.n
+ringue.n
+setor.n
+tapete.n
+tatame.n
+área de lazer.n
+altar.n
+andar.n
+berçário.n
+catacumba.n
+sacristia.n
+brinquedoteca.n
+cantina.n
+capela.n
+depósito de bagagem.n
+refeitório.n
+chancelaria.n
+área de serviço.n
+cela.n
+vestiário.n
+térreo.a
+subsolo.n
+solário.n
+atelier.n
+ludoteca.n
+zona de lançamento.n
+círculo de lançamento.n
+área de lançamento.n
+alto-falante.n
+assento.n
+cabine de transmissão.n
+camarote.n
+bilheteria.n
+área técnica.n
+telão.n
+alvo.n
+área de aterrissagem.n
+área de queda.n
+caixa de areia.n
+caixa de aterrissagem.n
+encaixe.n
+gaiola.n
+sarrafo.n
+tábua de impulsão.n
+zona de aterrissagem.n
+barreira.n
+bloco de partida.n
+bloco inicial.n
+fosso com água.n
+fosso de água.n
+obstáculo.n
+base do rebatedor.n
+quarta base.n
+caixa do técnico.n
+limite de campo interno.n
+limite de campo externo.n
+linha de falta.n
+mastro de falta.n
+monte do lançador.n
+pista de alerta.n
+primeira base.n
+segunda base.n
+terceira base.n
+baliza.n
+bandeira de escanteio.n
+círculo central.n
+gramado.n
+grande-área.n
+linha central.n
+linha de fundo.n
+linha de gol.n
+linha de meio-campo.n
+linha lateral.n
+pequena área.n
+poste.n
+marca central.n
+linha da grande área.n
+linha da pequena área.n
+striking circle.n
+círculo de disparo.n
+linha de vinte e três metros.n
+linha de sete metros.n
+linha de arremesso livre.n
+linha de tiro livre.n
+linha de seis metros.n
+linha de restrição do goleiro.n
+linha de saque.n
+zona de serviço.n
+área de saque.n
+zona de trás.n
+zona frontal.n
+zona livre.n
+linha de ataque.n
+linha de dez metros.n
+área interna do gol.n
+linha de zona morta.n
+try line.n
+linha de arremesso lateral.n
+linha de vinte e dois metros.n
+área de lance livre.n
+linha de lance livre.n
+linha de três pontos.n
+arco de três pontos.n
+garrafão.n
+área restritiva.n
+zona de dois pontos.n
+zona de passagem.n
+orar.v
+guiar.v
+coronha.n
+material.n
+fiel.n
+cliente.n
+residente.n
+paciente.n
+bancário.n
+padeiro.n
+contador.n
+esteticista.n
+frentista.n
+zelador.n
+bibliotecário.n
+delegado.n
+radialista.n
+historiador.n
+prostração.n
+rubor.n
+azia.n
+anorexia.n
+olho vermelho.n
+erupção cutânea.n
+atordoamento.n
+hipotonia.n
+regurgitar.v
+hematoma.n
+rigidez.n
+apatia.n
+burnout.n
+desmaio.n
+visão turva.n
+sonolência.n
+desorientação.n
+agnosia.n
+alucinação.n
+formigamento.n
+hiperinflação.n
+prisão de ventre.n
+hiperpigmentação.n
+distonia.n
+sangue nas fezes.n
+infertilidade.n
+perda energética.n
+mobilidade reduzida.n
+ardência.n
+angústia.n
+tensão.n
+torcicolo.n
+mau hálito.n
+noctúria.n
+fome.n
+nariz entupido.n
+perda auditiva.n
+problema respiratório.n
+mancha.n
+cãibra.n
+falta de ar.n
+sangramento.n
+petéquia.n
+bócio.n
+metabolismo lento.n
+alteração dermatológica.n
+atrofia.n
+babar.v
+dificuldade na fala.n
+hipermetria.n
+ataxia.n
+corrimento vaginal.n
+incômodo.a
+dificuldade em andar.n
+polifagia.n
+cetoacidose.n
+desânimo.n
+sangue na urina.n
+pressão sanguínea baixa.n
+espirro.n
+coma.n
+fala arrastada.n
+esquecer.v
+pele amarelada.n
+olho amarelado.n
+colúria.n
+acolia fecal.n
+menorragia.n
+odor.n
+inquietação.n
+agressividade.n
+olheira.n
+pápula.n
+flogístico.a
+resfriado.n
+esternutação.n
+descamação.n
+expectoração.n
+boca torta.n
+embaçamento ocular.n
+retenção de líquido.n
+fotossensibilidade.n
+respiração curta.n
+verruga.n
+espasmos involuntários.n
+alterações visuais.n
+alteração comportamental.n
+lacrimejar.v
+edemaciado.a
+descoordenação.n
+zumbido.n
+coração acelerado.n
+ronco.n
+enrijecimento.n
+retenção urinária.n
+pensamentos suicidas.n
+sibilância.n
+estufamento.n
+empachamento.n
+polaciúria.n
+corrimento.n
+emagrecimento.n
+fluxo menstrual intenso.n
+desmotivação.n
+tédio.n
+distração.n
+atraso menstrual.n
+sintomas gripais.n
+inflamar.v
+coagular.v
+tristeza.n
+fecaloma.n
+medo.n
+confusão.n
+irritabilidade.n
+suple.n
+copa.n
