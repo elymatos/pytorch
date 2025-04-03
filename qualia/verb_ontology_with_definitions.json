@@ -1,0 +1,290 @@
+{
+  "@causative_act": {
+    "definition": "Ação intencional realizada por um agente.",
+    "examples": [
+      "construir",
+      "matar",
+      "empurrar"
+    ]
+  },
+  "@speech_act": {
+    "definition": "Ato relativo à expressão verbal ou linguística.",
+    "examples": [
+      "falar",
+      "dizer",
+      "gritar"
+    ]
+  },
+  "@movement": {
+    "definition": "Representa algum tipo de movimento ou deslocamento.",
+    "examples": [
+      "caminhar",
+      "correr",
+      "voar"
+    ]
+  },
+  "@causative_movement": {
+    "definition": "Movimento causado por alguma força ou evento.",
+    "examples": [
+      "empurrar",
+      "transportar",
+      "deslocar"
+    ]
+  },
+  "@non_relational_act": {
+    "definition": "Ação intencional sem efeito sobre um paciente. O verbo requer apenas um argumento.",
+    "examples": [
+      "dançar",
+      "meditar",
+      "trabalhar"
+    ]
+  },
+  "@relational_act": {
+    "definition": "Ação intencional que afeta um paciente. O verbo requer pelo menos dois argumentos.",
+    "examples": [
+      "quebrar",
+      "alimentar",
+      "acariciar"
+    ]
+  },
+  "@aspectual": {
+    "definition": "Evento aspectual sem leitura causativa.",
+    "examples": [
+      "começar",
+      "terminar",
+      "parar"
+    ]
+  },
+  "@cause_aspectual": {
+    "definition": "Evento aspectual com leitura causativa.",
+    "examples": [
+      "fazer parar",
+      "provocar início",
+      "forçar fim"
+    ]
+  },
+  "@causative": {
+    "definition": "Um evento (não um agente) causa mudança no mundo, situação ou entidade.",
+    "examples": [
+      "desencadear",
+      "provocar",
+      "gerar"
+    ]
+  },
+  "@causative_relational": {
+    "definition": "Um evento causa mudança de estado ou constituição em um paciente, com dois argumentos.",
+    "examples": [
+      "derreter",
+      "envenenar",
+      "quebrar"
+    ]
+  },
+  "@change": {
+    "definition": "Indica mudança ou transição (de estado, posse, localização etc), independente da causa.",
+    "examples": [
+      "mudar",
+      "variar",
+      "transformar"
+    ]
+  },
+  "@natural_transition": {
+    "definition": "Mudança ou transição que ocorre naturalmente.",
+    "examples": [
+      "crescer",
+      "murchar",
+      "envelhecer"
+    ]
+  },
+  "@creation": {
+    "definition": "Mudança que resulta na criação de algo novo.",
+    "examples": [
+      "criar",
+      "inventar",
+      "produzir"
+    ]
+  },
+  "@stative": {
+    "definition": "Estado ou condição que tende a permanecer ao longo do tempo.",
+    "examples": [
+      "ser",
+      "estar",
+      "permanecer"
+    ]
+  },
+  "@existence": {
+    "definition": "Verbos relacionados à existência de algo.",
+    "examples": [
+      "existir",
+      "ocorrer",
+      "haver"
+    ]
+  },
+  "@relational_state": {
+    "definition": "Situações estativas que envolvem mais de um participante.",
+    "examples": [
+      "pertencer",
+      "conter",
+      "localizar-se"
+    ]
+  },
+  "@phenomenon": {
+    "definition": "Verbos com sujeito não agente (fenômenos naturais, estímulos, doenças).",
+    "examples": [
+      "chover",
+      "trovejar",
+      "adoecer"
+    ]
+  },
+  "@psy_event": {
+    "definition": "Eventos psicológicos.",
+    "examples": [
+      "sofrer",
+      "sentir",
+      "sonhar"
+    ]
+  },
+  "@cognitive_event": {
+    "definition": "Eventos relacionados ao pensamento ou cognição.",
+    "examples": [
+      "pensar",
+      "lembrar",
+      "entender"
+    ]
+  },
+  "@emotion": {
+    "definition": "Eventos relacionados a emoções ou sentimentos.",
+    "examples": [
+      "amar",
+      "odiar",
+      "temer"
+    ]
+  },
+  "@perception": {
+    "definition": "Eventos relacionados à percepção.",
+    "examples": [
+      "ver",
+      "ouvir",
+      "cheirar"
+    ]
+  },
+  "@experience": {
+    "definition": "Eventos em que um experienciador percebe algo.",
+    "examples": [
+      "experimentar",
+      "sentir",
+      "vivenciar"
+    ]
+  },
+  "@modal": {
+    "definition": "Verbos relacionados à modalidade (epistêmica, deôntica etc).",
+    "examples": [
+      "poder",
+      "dever",
+      "precisar"
+    ]
+  },
+  "@reciprocal_act": {
+    "definition": "Ações intencionais entre dois ou mais agentes mútuos.",
+    "examples": [
+      "abraçar-se",
+      "cumprimentar-se",
+      "beijar-se"
+    ]
+  },
+  "@reflexive_act": {
+    "definition": "Ações voltadas para o próprio agente.",
+    "examples": [
+      "banhar-se",
+      "proteger-se",
+      "elogiar-se"
+    ]
+  },
+  "@transfer": {
+    "definition": "Mudança de posse ou controle entre participantes.",
+    "examples": [
+      "dar",
+      "receber",
+      "enviar"
+    ]
+  },
+  "@communication_event": {
+    "definition": "Eventos de troca de informação.",
+    "examples": [
+      "informar",
+      "notificar",
+      "anunciar"
+    ]
+  },
+  "@manipulation": {
+    "definition": "Ações físicas diretas sobre objetos.",
+    "examples": [
+      "segurar",
+      "cortar",
+      "dobrar"
+    ]
+  },
+  "@consumption": {
+    "definition": "Uso ou ingestão de recursos ou substâncias.",
+    "examples": [
+      "comer",
+      "beber",
+      "gastar"
+    ]
+  },
+  "@evaluation": {
+    "definition": "Ações de avaliação ou julgamento.",
+    "examples": [
+      "criticar",
+      "elogiar",
+      "avaliar"
+    ]
+  },
+  "@obligation": {
+    "definition": "Ações que impõem ou expressam deveres.",
+    "examples": [
+      "obrigar",
+      "proibir",
+      "permitir"
+    ]
+  },
+  "@tendency": {
+    "definition": "Expressam tendência ou predisposição.",
+    "examples": [
+      "tender",
+      "inclinar-se",
+      "propender"
+    ]
+  },
+  "@success_failure": {
+    "definition": "Expressam tentativa, sucesso ou fracasso.",
+    "examples": [
+      "tentar",
+      "conseguir",
+      "falhar"
+    ]
+  },
+  "@support": {
+    "definition": "Ações que oferecem ajuda ou suporte.",
+    "examples": [
+      "ajudar",
+      "colaborar",
+      "assistir"
+    ]
+  },
+  "@social_interaction": {
+    "definition": "Ações sociais genéricas entre pessoas.",
+    "examples": [
+      "reunir",
+      "cumprimentar",
+      "convidar"
+    ]
+  },
+  "@body_process": {
+    "definition": "Processos corporais naturais e não controlados.",
+    "examples": [
+      "respirar",
+      "suar",
+      "tremer"
+    ]
+  }
+}

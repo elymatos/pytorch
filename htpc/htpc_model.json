@@ -1,86 +1,206 @@
 {
   "metadata": {
-    "trained_on": "2025-04-03T00:45:13.609240",
-    "num_sentences": 22,
-    "vocab_size": 18
+    "trained_on": "2025-04-03T10:18:14.460097",
+    "num_sentences": 5,
+    "vocab_size": 28
   },
   "token_transitions": {
-    "the": "garden",
-    "cat": "walked",
-    "slept": "on",
-    "on": "the",
-    "dog": "walked",
-    "a": "girl",
-    "boy": "played",
-    "played": "with",
-    "with": "the",
-    "girl": "played",
-    "ran": "through",
-    "in": "the",
-    "through": "the",
-    "walked": "through"
+    "a": "criança",
+    "menina": "estava",
+    "estava": "tomando",
+    "tomando": "café_da_manhã",
+    "café_da_manhã": "juntos",
+    "com": "cuidado",
+    "o": "café_da_manhã",
+    "cachorro": "na",
+    "na": "sala",
+    "homem": "preparou",
+    "preparou": "o",
+    "depois": "estudou",
+    "do": "café_da_manhã",
+    "fomos": "caminhar",
+    "caminhar": "no",
+    "no": "parque",
+    "criança": "tomou",
+    "tomou": "o",
+    "e": "tomou",
+    "estudou": "matemática",
+    "grupo": "chegou",
+    "chegou": "cedo",
+    "cedo": "e"
   },
   "bigram_memory": {
-    "the|||cat": 9,
-    "cat|||slept": 1,
-    "slept|||on": 2,
-    "on|||the": 2,
-    "the|||mat": 2,
-    "the|||dog": 11,
-    "dog|||slept": 1,
-    "a|||boy": 2,
-    "boy|||played": 2,
-    "played|||with": 4,
-    "with|||the": 4,
-    "the|||puppy": 2,
-    "a|||girl": 2,
-    "girl|||played": 2,
-    "dog|||ran": 4,
-    "ran|||in": 4,
-    "in|||the": 8,
-    "the|||park": 8,
-    "the|||garden": 8,
-    "ran|||through": 4,
-    "through|||the": 8,
-    "dog|||walked": 4,
-    "walked|||in": 4,
-    "walked|||through": 4,
-    "cat|||ran": 4,
-    "cat|||walked": 4
+    "a|||menina": 1,
+    "menina|||estava": 1,
+    "estava|||tomando": 1,
+    "tomando|||café_da_manhã": 1,
+    "café_da_manhã|||com": 2,
+    "com|||o": 1,
+    "o|||cachorro": 1,
+    "cachorro|||na": 1,
+    "na|||sala": 1,
+    "o|||homem": 1,
+    "homem|||preparou": 1,
+    "preparou|||o": 1,
+    "o|||café_da_manhã": 3,
+    "com|||cuidado": 1,
+    "depois|||do": 1,
+    "do|||café_da_manhã": 1,
+    "café_da_manhã|||fomos": 1,
+    "fomos|||caminhar": 1,
+    "caminhar|||no": 1,
+    "no|||parque": 1,
+    "a|||criança": 1,
+    "criança|||tomou": 1,
+    "tomou|||o": 2,
+    "café_da_manhã|||e": 1,
+    "e|||depois": 1,
+    "depois|||estudou": 1,
+    "estudou|||matemática": 1,
+    "o|||grupo": 1,
+    "grupo|||chegou": 1,
+    "chegou|||cedo": 1,
+    "cedo|||e": 1,
+    "e|||tomou": 1,
+    "café_da_manhã|||juntos": 1
   },
   "phrase_memory": {
-    "the__cat|||cat__slept": 1,
-    "cat__slept|||slept__on": 1,
-    "slept__on|||on__the": 2,
-    "on__the|||the__mat": 2,
-    "the__dog|||dog__slept": 1,
-    "dog__slept|||slept__on": 1,
-    "a__boy|||boy__played": 2,
-    "boy__played|||played__with": 2,
-    "played__with|||with__the": 4,
-    "with__the|||the__dog": 2,
-    "with__the|||the__puppy": 2,
-    "a__girl|||girl__played": 2,
-    "girl__played|||played__with": 2,
-    "the__dog|||dog__ran": 4,
-    "dog__ran|||ran__in": 2,
-    "ran__in|||in__the": 4,
-    "in__the|||the__park": 4,
-    "in__the|||the__garden": 4,
-    "dog__ran|||ran__through": 2,
-    "ran__through|||through__the": 4,
-    "through__the|||the__park": 4,
-    "through__the|||the__garden": 4,
-    "the__dog|||dog__walked": 4,
-    "dog__walked|||walked__in": 2,
-    "walked__in|||in__the": 4,
-    "dog__walked|||walked__through": 2,
-    "walked__through|||through__the": 4,
-    "the__cat|||cat__ran": 4,
-    "cat__ran|||ran__in": 2,
-    "cat__ran|||ran__through": 2,
-    "the__cat|||cat__walked": 4,
-    "cat__walked|||walked__in": 2,
-    "cat__walked|||walked__through": 2
+    "a__menina|||menina__estava": 1,
+    "menina__estava|||estava__tomando": 1,
+    "estava__tomando|||tomando__café_da_manhã": 1,
+    "tomando__café_da_manhã|||café_da_manhã__com": 1,
+    "café_da_manhã__com|||com__o": 1,
+    "com__o|||o__cachorro": 1,
+    "o__cachorro|||cachorro__na": 1,
+    "cachorro__na|||na__sala": 1,
+    "o__homem|||homem__preparou": 1,
+    "homem__preparou|||preparou__o": 1,
+    "preparou__o|||o__café_da_manhã": 1,
+    "o__café_da_manhã|||café_da_manhã__com": 1,
+    "café_da_manhã__com|||com__cuidado": 1,
+    "depois__do|||do__café_da_manhã": 1,
+    "do__café_da_manhã|||café_da_manhã__fomos": 1,
+    "café_da_manhã__fomos|||fomos__caminhar": 1,
+    "fomos__caminhar|||caminhar__no": 1,
+    "caminhar__no|||no__parque": 1,
+    "a__criança|||criança__tomou": 1,
+    "criança__tomou|||tomou__o": 1,
+    "tomou__o|||o__café_da_manhã": 2,
+    "o__café_da_manhã|||café_da_manhã__e": 1,
+    "café_da_manhã__e|||e__depois": 1,
+    "e__depois|||depois__estudou": 1,
+    "depois__estudou|||estudou__matemática": 1,
+    "o__grupo|||grupo__chegou": 1,
+    "grupo__chegou|||chegou__cedo": 1,
+    "chegou__cedo|||cedo__e": 1,
+    "cedo__e|||e__tomou": 1,
+    "e__tomou|||tomou__o": 1,
+    "o__café_da_manhã|||café_da_manhã__juntos": 1
+  },
+  "phrase_hierarchy": {
+    "a__menina|||menina__estava": [
+      "a menina estava tomando café_da_manhã"
+    ],
+    "menina__estava|||estava__tomando": [
+      "menina estava tomando café_da_manhã com"
+    ],
+    "estava__tomando|||tomando__café_da_manhã": [
+      "estava tomando café_da_manhã com o",
+      "estava tomando café_da_manhã com cuidado",
+      "estava tomando café_da_manhã fomos caminhar",
+      "estava tomando café_da_manhã e depois"
+    ],
+    "tomando__café_da_manhã|||café_da_manhã__com": [
+      "tomando café_da_manhã com o cachorro"
+    ],
+    "café_da_manhã__com|||com__o": [
+      "café_da_manhã com o cachorro na",
+      "café_da_manhã com o homem preparou",
+      "café_da_manhã com o café_da_manhã com",
+      "café_da_manhã com o café_da_manhã e",
+      "café_da_manhã com o grupo chegou",
+      "café_da_manhã com o café_da_manhã juntos"
+    ],
+    "com__o|||o__cachorro": [
+      "com o cachorro na sala"
+    ],
+    "o__homem|||homem__preparou": [
+      "o homem preparou o café_da_manhã"
+    ],
+    "homem__preparou|||preparou__o": [
+      "homem preparou o cachorro na",
+      "homem preparou o homem preparou",
+      "homem preparou o café_da_manhã com",
+      "homem preparou o café_da_manhã e",
+      "homem preparou o grupo chegou",
+      "homem preparou o café_da_manhã juntos"
+    ],
+    "preparou__o|||o__café_da_manhã": [
+      "preparou o café_da_manhã com o",
+      "preparou o café_da_manhã com cuidado",
+      "preparou o café_da_manhã fomos caminhar",
+      "preparou o café_da_manhã e depois"
+    ],
+    "o__café_da_manhã|||café_da_manhã__com": [
+      "o café_da_manhã com o cachorro"
+    ],
+    "depois__do|||do__café_da_manhã": [
+      "depois do café_da_manhã com o",
+      "depois do café_da_manhã com cuidado",
+      "depois do café_da_manhã fomos caminhar",
+      "depois do café_da_manhã e depois"
+    ],
+    "do__café_da_manhã|||café_da_manhã__fomos": [
+      "do café_da_manhã fomos caminhar no"
+    ],
+    "café_da_manhã__fomos|||fomos__caminhar": [
+      "café_da_manhã fomos caminhar no parque"
+    ],
+    "a__criança|||criança__tomou": [
+      "a criança tomou o café_da_manhã"
+    ],
+    "criança__tomou|||tomou__o": [
+      "criança tomou o cachorro na",
+      "criança tomou o homem preparou",
+      "criança tomou o café_da_manhã com",
+      "criança tomou o café_da_manhã e",
+      "criança tomou o grupo chegou",
+      "criança tomou o café_da_manhã juntos"
+    ],
+    "tomou__o|||o__café_da_manhã": [
+      "tomou o café_da_manhã com o",
+      "tomou o café_da_manhã com cuidado",
+      "tomou o café_da_manhã fomos caminhar",
+      "tomou o café_da_manhã e depois"
+    ],
+    "o__café_da_manhã|||café_da_manhã__e": [
+      "o café_da_manhã e depois estudou",
+      "o café_da_manhã e tomou o"
+    ],
+    "café_da_manhã__e|||e__depois": [
+      "café_da_manhã e depois do café_da_manhã",
+      "café_da_manhã e depois estudou matemática"
+    ],
+    "o__grupo|||grupo__chegou": [
+      "o grupo chegou cedo e"
+    ],
+    "grupo__chegou|||chegou__cedo": [
+      "grupo chegou cedo e tomou"
+    ],
+    "chegou__cedo|||cedo__e": [
+      "chegou cedo e depois estudou",
+      "chegou cedo e tomou o"
+    ],
+    "cedo__e|||e__tomou": [
+      "cedo e tomou o café_da_manhã"
+    ],
+    "e__tomou|||tomou__o": [
+      "e tomou o cachorro na",
+      "e tomou o homem preparou",
+      "e tomou o café_da_manhã com",
+      "e tomou o café_da_manhã e",
+      "e tomou o grupo chegou",
+      "e tomou o café_da_manhã juntos"
+    ]
   }
 }

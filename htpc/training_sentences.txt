@@ -1,3 +1,5 @@
-the cat|dog slept on the mat
-a boy|girl played with the dog|puppy
-the dog|cat ran|walked in|through the park|garden
+o homem|jovem tomou o café da manhã cedo
+a menina estava brincando|correndo com o cachorro|gato na sala|cozinha
+Nós a admiramos|agradecemos|indicamos pela sua competência e espírito de equipe
+a menina estava tomando café da manhã com o cachorro na sala
+
