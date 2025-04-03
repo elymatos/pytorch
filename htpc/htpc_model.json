@@ -1,206 +1,204 @@
 {
   "metadata": {
-    "trained_on": "2025-04-03T10:18:14.460097",
-    "num_sentences": 5,
-    "vocab_size": 28
+    "trained_on": "2025-04-03T13:39:30.697795",
+    "num_sentences": 11,
+    "vocab_size": 9
   },
   "token_transitions": {
-    "a": "criança",
-    "menina": "estava",
-    "estava": "tomando",
-    "tomando": "café_da_manhã",
-    "café_da_manhã": "juntos",
-    "com": "cuidado",
-    "o": "café_da_manhã",
-    "cachorro": "na",
-    "na": "sala",
-    "homem": "preparou",
-    "preparou": "o",
-    "depois": "estudou",
-    "do": "café_da_manhã",
-    "fomos": "caminhar",
-    "caminhar": "no",
-    "no": "parque",
-    "criança": "tomou",
-    "tomou": "o",
-    "e": "tomou",
-    "estudou": "matemática",
-    "grupo": "chegou",
-    "chegou": "cedo",
-    "cedo": "e"
+    "spec": "noun",
+    "noun": "fin",
+    "fin": "pron",
+    "ger": "café_da_manhã",
+    "café_da_manhã": "adv",
+    "adp": "spec",
+    "pron": "café_da_manhã",
+    "adv": "and",
+    "and": "fin"
   },
   "bigram_memory": {
-    "a|||menina": 1,
-    "menina|||estava": 1,
-    "estava|||tomando": 1,
-    "tomando|||café_da_manhã": 1,
-    "café_da_manhã|||com": 2,
-    "com|||o": 1,
-    "o|||cachorro": 1,
-    "cachorro|||na": 1,
-    "na|||sala": 1,
-    "o|||homem": 1,
-    "homem|||preparou": 1,
-    "preparou|||o": 1,
-    "o|||café_da_manhã": 3,
-    "com|||cuidado": 1,
-    "depois|||do": 1,
-    "do|||café_da_manhã": 1,
-    "café_da_manhã|||fomos": 1,
-    "fomos|||caminhar": 1,
-    "caminhar|||no": 1,
-    "no|||parque": 1,
-    "a|||criança": 1,
-    "criança|||tomou": 1,
-    "tomou|||o": 2,
-    "café_da_manhã|||e": 1,
-    "e|||depois": 1,
-    "depois|||estudou": 1,
-    "estudou|||matemática": 1,
-    "o|||grupo": 1,
-    "grupo|||chegou": 1,
-    "chegou|||cedo": 1,
-    "cedo|||e": 1,
-    "e|||tomou": 1,
-    "café_da_manhã|||juntos": 1
+    "spec|||noun": 11,
+    "noun|||fin": 10,
+    "fin|||ger": 2,
+    "ger|||café_da_manhã": 2,
+    "café_da_manhã|||adp": 4,
+    "adp|||spec": 6,
+    "spec|||café_da_manhã": 6,
+    "adp|||noun": 2,
+    "fin|||pron": 3,
+    "pron|||café_da_manhã": 3,
+    "adv|||adp": 1,
+    "café_da_manhã|||fin": 1,
+    "fin|||adp": 1,
+    "café_da_manhã|||and": 2,
+    "and|||adv": 2,
+    "adv|||fin": 2,
+    "fin|||noun": 2,
+    "fin|||adv": 4,
+    "adv|||and": 4,
+    "and|||fin": 4,
+    "café_da_manhã|||adv": 4
   },
   "phrase_memory": {
-    "a__menina|||menina__estava": 1,
-    "menina__estava|||estava__tomando": 1,
-    "estava__tomando|||tomando__café_da_manhã": 1,
-    "tomando__café_da_manhã|||café_da_manhã__com": 1,
-    "café_da_manhã__com|||com__o": 1,
-    "com__o|||o__cachorro": 1,
-    "o__cachorro|||cachorro__na": 1,
-    "cachorro__na|||na__sala": 1,
-    "o__homem|||homem__preparou": 1,
-    "homem__preparou|||preparou__o": 1,
-    "preparou__o|||o__café_da_manhã": 1,
-    "o__café_da_manhã|||café_da_manhã__com": 1,
-    "café_da_manhã__com|||com__cuidado": 1,
-    "depois__do|||do__café_da_manhã": 1,
-    "do__café_da_manhã|||café_da_manhã__fomos": 1,
-    "café_da_manhã__fomos|||fomos__caminhar": 1,
-    "fomos__caminhar|||caminhar__no": 1,
-    "caminhar__no|||no__parque": 1,
-    "a__criança|||criança__tomou": 1,
-    "criança__tomou|||tomou__o": 1,
-    "tomou__o|||o__café_da_manhã": 2,
-    "o__café_da_manhã|||café_da_manhã__e": 1,
-    "café_da_manhã__e|||e__depois": 1,
-    "e__depois|||depois__estudou": 1,
-    "depois__estudou|||estudou__matemática": 1,
-    "o__grupo|||grupo__chegou": 1,
-    "grupo__chegou|||chegou__cedo": 1,
-    "chegou__cedo|||cedo__e": 1,
-    "cedo__e|||e__tomou": 1,
-    "e__tomou|||tomou__o": 1,
-    "o__café_da_manhã|||café_da_manhã__juntos": 1
+    "spec__noun|||noun__fin": 6,
+    "noun__fin|||fin__ger": 2,
+    "fin__ger|||ger__café_da_manhã": 2,
+    "ger__café_da_manhã|||café_da_manhã__adp": 2,
+    "café_da_manhã__adp|||adp__spec": 2,
+    "adp__spec|||spec__noun": 5,
+    "spec__café_da_manhã|||café_da_manhã__adp": 1,
+    "café_da_manhã__adp|||adp__noun": 2,
+    "noun__fin|||fin__pron": 1,
+    "fin__pron|||pron__café_da_manhã": 3,
+    "pron__café_da_manhã|||café_da_manhã__adp": 1,
+    "adv__adp|||adp__spec": 1,
+    "adp__spec|||spec__café_da_manhã": 1,
+    "spec__café_da_manhã|||café_da_manhã__fin": 1,
+    "café_da_manhã__fin|||fin__adp": 1,
+    "fin__adp|||adp__spec": 1,
+    "spec__café_da_manhã|||café_da_manhã__and": 2,
+    "café_da_manhã__and|||and__adv": 2,
+    "and__adv|||adv__fin": 2,
+    "adv__fin|||fin__noun": 2,
+    "noun__fin|||fin__adv": 4,
+    "fin__adv|||adv__and": 4,
+    "adv__and|||and__fin": 4,
+    "spec__café_da_manhã|||café_da_manhã__adv": 2,
+    "and__fin|||fin__pron": 2,
+    "pron__café_da_manhã|||café_da_manhã__adv": 2
   },
   "phrase_hierarchy": {
-    "a__menina|||menina__estava": [
-      "a menina estava tomando café_da_manhã"
+    "spec__noun|||noun__fin": [
+      "spec noun fin ger café_da_manhã",
+      "spec noun fin pron café_da_manhã",
+      "spec noun fin adp spec",
+      "spec noun fin adv and"
     ],
-    "menina__estava|||estava__tomando": [
-      "menina estava tomando café_da_manhã com"
+    "noun__fin|||fin__ger": [
+      "noun fin ger café_da_manhã adp"
     ],
-    "estava__tomando|||tomando__café_da_manhã": [
-      "estava tomando café_da_manhã com o",
-      "estava tomando café_da_manhã com cuidado",
-      "estava tomando café_da_manhã fomos caminhar",
-      "estava tomando café_da_manhã e depois"
+    "fin__ger|||ger__café_da_manhã": [
+      "fin ger café_da_manhã adp spec",
+      "fin ger café_da_manhã adp noun",
+      "fin ger café_da_manhã fin adp",
+      "fin ger café_da_manhã and adv"
     ],
-    "tomando__café_da_manhã|||café_da_manhã__com": [
-      "tomando café_da_manhã com o cachorro"
+    "ger__café_da_manhã|||café_da_manhã__adp": [
+      "ger café_da_manhã adp spec noun",
+      "ger café_da_manhã adp spec café_da_manhã"
     ],
-    "café_da_manhã__com|||com__o": [
-      "café_da_manhã com o cachorro na",
-      "café_da_manhã com o homem preparou",
-      "café_da_manhã com o café_da_manhã com",
-      "café_da_manhã com o café_da_manhã e",
-      "café_da_manhã com o grupo chegou",
-      "café_da_manhã com o café_da_manhã juntos"
+    "café_da_manhã__adp|||adp__spec": [
+      "café_da_manhã adp spec noun fin",
+      "café_da_manhã adp spec café_da_manhã adp",
+      "café_da_manhã adp spec café_da_manhã fin",
+      "café_da_manhã adp spec café_da_manhã and",
+      "café_da_manhã adp spec café_da_manhã adv"
     ],
-    "com__o|||o__cachorro": [
-      "com o cachorro na sala"
+    "adp__spec|||spec__noun": [
+      "adp spec noun fin ger",
+      "adp spec noun fin pron",
+      "adp spec noun fin adv"
     ],
-    "o__homem|||homem__preparou": [
-      "o homem preparou o café_da_manhã"
+    "spec__café_da_manhã|||café_da_manhã__adp": [
+      "spec café_da_manhã adp spec noun",
+      "spec café_da_manhã adp spec café_da_manhã"
     ],
-    "homem__preparou|||preparou__o": [
-      "homem preparou o cachorro na",
-      "homem preparou o homem preparou",
-      "homem preparou o café_da_manhã com",
-      "homem preparou o café_da_manhã e",
-      "homem preparou o grupo chegou",
-      "homem preparou o café_da_manhã juntos"
+    "café_da_manhã__adp|||adp__noun": [
+      "café_da_manhã adp noun fin ger",
+      "café_da_manhã adp noun fin pron",
+      "café_da_manhã adp noun fin adv"
     ],
-    "preparou__o|||o__café_da_manhã": [
-      "preparou o café_da_manhã com o",
-      "preparou o café_da_manhã com cuidado",
-      "preparou o café_da_manhã fomos caminhar",
-      "preparou o café_da_manhã e depois"
+    "noun__fin|||fin__pron": [
+      "noun fin pron café_da_manhã adp",
+      "noun fin pron café_da_manhã adv"
     ],
-    "o__café_da_manhã|||café_da_manhã__com": [
-      "o café_da_manhã com o cachorro"
+    "fin__pron|||pron__café_da_manhã": [
+      "fin pron café_da_manhã adp spec",
+      "fin pron café_da_manhã adp noun",
+      "fin pron café_da_manhã fin adp",
+      "fin pron café_da_manhã and adv"
     ],
-    "depois__do|||do__café_da_manhã": [
-      "depois do café_da_manhã com o",
-      "depois do café_da_manhã com cuidado",
-      "depois do café_da_manhã fomos caminhar",
-      "depois do café_da_manhã e depois"
+    "pron__café_da_manhã|||café_da_manhã__adp": [
+      "pron café_da_manhã adp spec noun",
+      "pron café_da_manhã adp spec café_da_manhã"
     ],
-    "do__café_da_manhã|||café_da_manhã__fomos": [
-      "do café_da_manhã fomos caminhar no"
+    "adv__adp|||adp__spec": [
+      "adv adp spec noun fin",
+      "adv adp spec café_da_manhã adp",
+      "adv adp spec café_da_manhã fin",
+      "adv adp spec café_da_manhã and",
+      "adv adp spec café_da_manhã adv"
     ],
-    "café_da_manhã__fomos|||fomos__caminhar": [
-      "café_da_manhã fomos caminhar no parque"
+    "adp__spec|||spec__café_da_manhã": [
+      "adp spec café_da_manhã adp spec",
+      "adp spec café_da_manhã adp noun",
+      "adp spec café_da_manhã fin adp",
+      "adp spec café_da_manhã and adv"
     ],
-    "a__criança|||criança__tomou": [
-      "a criança tomou o café_da_manhã"
+    "spec__café_da_manhã|||café_da_manhã__fin": [
+      "spec café_da_manhã fin ger café_da_manhã",
+      "spec café_da_manhã fin pron café_da_manhã",
+      "spec café_da_manhã fin adp spec",
+      "spec café_da_manhã fin adv and"
     ],
-    "criança__tomou|||tomou__o": [
-      "criança tomou o cachorro na",
-      "criança tomou o homem preparou",
-      "criança tomou o café_da_manhã com",
-      "criança tomou o café_da_manhã e",
-      "criança tomou o grupo chegou",
-      "criança tomou o café_da_manhã juntos"
+    "café_da_manhã__fin|||fin__adp": [
+      "café_da_manhã fin adp spec noun",
+      "café_da_manhã fin adp spec café_da_manhã"
     ],
-    "tomou__o|||o__café_da_manhã": [
-      "tomou o café_da_manhã com o",
-      "tomou o café_da_manhã com cuidado",
-      "tomou o café_da_manhã fomos caminhar",
-      "tomou o café_da_manhã e depois"
+    "fin__adp|||adp__spec": [
+      "fin adp spec noun fin",
+      "fin adp spec café_da_manhã adp",
+      "fin adp spec café_da_manhã fin",
+      "fin adp spec café_da_manhã and",
+      "fin adp spec café_da_manhã adv"
     ],
-    "o__café_da_manhã|||café_da_manhã__e": [
-      "o café_da_manhã e depois estudou",
-      "o café_da_manhã e tomou o"
+    "spec__café_da_manhã|||café_da_manhã__and": [
+      "spec café_da_manhã and adv fin",
+      "spec café_da_manhã and fin pron"
     ],
-    "café_da_manhã__e|||e__depois": [
-      "café_da_manhã e depois do café_da_manhã",
-      "café_da_manhã e depois estudou matemática"
+    "café_da_manhã__and|||and__adv": [
+      "café_da_manhã and adv adp spec",
+      "café_da_manhã and adv fin noun",
+      "café_da_manhã and adv and fin"
     ],
-    "o__grupo|||grupo__chegou": [
-      "o grupo chegou cedo e"
+    "and__adv|||adv__fin": [
+      "and adv fin ger café_da_manhã",
+      "and adv fin pron café_da_manhã",
+      "and adv fin adp spec",
+      "and adv fin adv and"
     ],
-    "grupo__chegou|||chegou__cedo": [
-      "grupo chegou cedo e tomou"
+    "adv__fin|||fin__noun": [
+      "adv fin noun fin ger",
+      "adv fin noun fin pron",
+      "adv fin noun fin adv"
     ],
-    "chegou__cedo|||cedo__e": [
-      "chegou cedo e depois estudou",
-      "chegou cedo e tomou o"
+    "noun__fin|||fin__adv": [
+      "noun fin adv adp spec",
+      "noun fin adv fin noun",
+      "noun fin adv and fin"
     ],
-    "cedo__e|||e__tomou": [
-      "cedo e tomou o café_da_manhã"
+    "fin__adv|||adv__and": [
+      "fin adv and adv fin",
+      "fin adv and fin pron"
     ],
-    "e__tomou|||tomou__o": [
-      "e tomou o cachorro na",
-      "e tomou o homem preparou",
-      "e tomou o café_da_manhã com",
-      "e tomou o café_da_manhã e",
-      "e tomou o grupo chegou",
-      "e tomou o café_da_manhã juntos"
+    "adv__and|||and__fin": [
+      "adv and fin ger café_da_manhã",
+      "adv and fin pron café_da_manhã",
+      "adv and fin adp spec",
+      "adv and fin adv and"
+    ],
+    "spec__café_da_manhã|||café_da_manhã__adv": [
+      "spec café_da_manhã adv adp spec",
+      "spec café_da_manhã adv fin noun",
+      "spec café_da_manhã adv and fin"
+    ],
+    "and__fin|||fin__pron": [
+      "and fin pron café_da_manhã adp",
+      "and fin pron café_da_manhã adv"
+    ],
+    "pron__café_da_manhã|||café_da_manhã__adv": [
+      "pron café_da_manhã adv adp spec",
+      "pron café_da_manhã adv fin noun",
+      "pron café_da_manhã adv and fin"
     ]
   }
 }

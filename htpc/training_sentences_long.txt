@@ -1,5 +1,5 @@
-a menina estava tomando café da manhã com o cachorro na sala
-o homem preparou o café da manhã com cuidado
-depois do café da manhã fomos caminhar no parque
-a criança tomou o café da manhã e depois estudou matemática
-o grupo chegou cedo e tomou o café da manhã juntos
+SPEC|PRON NOUN FIN GER café da manhã ADP SPEC NOUN ADP SPEC NOUN
+SPEC NOUN FIN SPEC|PRON café da manhã ADP NOUN
+ADV ADP SPEC café da manhã FIN ADP SPEC NOUN
+PRON|SPEC NOUN FIN SPEC café da manhã AND ADV FIN NOUN
+PRON|SPEC NOUN FIN ADV AND FIN SPEC|PRON café da manhã ADV
