@@ -4,3 +4,4 @@ ADV ADP SPEC café da manhã FIN ADP SPEC NOUN
 PRON|SPEC NOUN FIN SPEC café da manhã AND ADV FIN NOUN
 PRON|SPEC NOUN FIN ADV AND FIN SPEC|PRON café da manhã ADV
 SPEC|PRON NOUN FIN SPEC|PRON NOUN
+pron adv fin spec qu pron inf adp pron

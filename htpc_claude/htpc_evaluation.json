@@ -1,0 +1,196 @@
+{
+  "pattern_recognition_rate": 0.375,
+  "phrase_recognition_rate": 1.0,
+  "hierarchical_accuracy": 0,
+  "subject_verb_detection_rate": 0,
+  "ambiguity_resolution_rate": 0.0,
+  "detailed_results": [
+    {
+      "sentence": "SPEC|PRON NOUN FIN GER café da manhã ADP SPEC NOUN ADP SPEC NOUN",
+      "token_recognition_rate": 0.5833333333333334,
+      "phrase_recognition_rate": 1.0,
+      "ambiguity_count": 1,
+      "ambiguity_resolution_rate": 0.0,
+      "recognized_patterns": [
+        [
+          [
+            "noun",
+            "fin",
+            "ger",
+            "café_da_manhã",
+            "adp",
+            "spec",
+            "noun"
+          ],
+          [
+            [
+              [
+                [
+                  "noun",
+                  "fin"
+                ],
+                [
+                  "fin",
+                  "ger"
+                ]
+              ],
+              "noun fin ger"
+            ],
+            [
+              [
+                [
+                  "fin",
+                  "ger"
+                ],
+                [
+                  "ger",
+                  "café_da_manhã"
+                ]
+              ],
+              "fin ger café_da_manhã"
+            ],
+            [
+              [
+                [
+                  "ger",
+                  "café_da_manhã"
+                ],
+                [
+                  "café_da_manhã",
+                  "adp"
+                ]
+              ],
+              "ger café_da_manhã adp"
+            ],
+            [
+              [
+                [
+                  "café_da_manhã",
+                  "adp"
+                ],
+                [
+                  "adp",
+                  "spec"
+                ]
+              ],
+              "café_da_manhã adp spec"
+            ],
+            [
+              [
+                [
+                  "adp",
+                  "spec"
+                ],
+                [
+                  "spec",
+                  "noun"
+                ]
+              ],
+              "adp spec noun"
+            ]
+          ]
+        ]
+      ],
+      "hierarchical_structure": []
+    },
+    {
+      "sentence": "SPEC NOUN FIN SPEC|PRON café da manhã ADP NOUN",
+      "token_recognition_rate": 0.25,
+      "phrase_recognition_rate": 0,
+      "ambiguity_count": 1,
+      "ambiguity_resolution_rate": 0.0,
+      "recognized_patterns": [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          []
+        ]
+      ],
+      "hierarchical_structure": []
+    },
+    {
+      "sentence": "ADV ADP SPEC café da manhã FIN ADP SPEC NOUN",
+      "token_recognition_rate": 0.25,
+      "phrase_recognition_rate": 0,
+      "ambiguity_count": 0,
+      "ambiguity_resolution_rate": 1.0,
+      "recognized_patterns": [
+        [
+          [
+            "café_da_manhã",
+            "fin"
+          ],
+          []
+        ]
+      ],
+      "hierarchical_structure": []
+    },
+    {
+      "sentence": "PRON|SPEC NOUN FIN SPEC café da manhã AND ADV FIN NOUN",
+      "token_recognition_rate": 0.4,
+      "phrase_recognition_rate": 0,
+      "ambiguity_count": 1,
+      "ambiguity_resolution_rate": 0.0,
+      "recognized_patterns": [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          []
+        ],
+        [
+          [
+            "adv",
+            "fin"
+          ],
+          []
+        ]
+      ],
+      "hierarchical_structure": []
+    },
+    {
+      "sentence": "PRON|SPEC NOUN FIN ADV AND FIN SPEC|PRON café da manhã ADV",
+      "token_recognition_rate": 0.36363636363636365,
+      "phrase_recognition_rate": 0,
+      "ambiguity_count": 2,
+      "ambiguity_resolution_rate": 0.0,
+      "recognized_patterns": [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          []
+        ],
+        [
+          [
+            "and",
+            "fin"
+          ],
+          []
+        ]
+      ],
+      "hierarchical_structure": []
+    },
+    {
+      "sentence": "SPEC|PRON NOUN FIN SPEC|PRON NOUN",
+      "token_recognition_rate": 0.2857142857142857,
+      "phrase_recognition_rate": 0,
+      "ambiguity_count": 2,
+      "ambiguity_resolution_rate": 0.0,
+      "recognized_patterns": [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          []
+        ]
+      ],
+      "hierarchical_structure": []
+    }
+  ]
+}

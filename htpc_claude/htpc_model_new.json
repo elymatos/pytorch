@@ -1,0 +1,1487 @@
+{
+  "metadata": {
+    "trained_on": "2025-04-03T23:43:06.738127",
+    "num_sentences": 16,
+    "vocab_size": 11
+  },
+  "token_transitions": {
+    "spec": "qu",
+    "noun": "fin",
+    "fin": "pron",
+    "ger": "café_da_manhã",
+    "café_da_manhã": "adv",
+    "adp": "pron",
+    "pron": "inf",
+    "adv": "fin",
+    "and": "fin",
+    "qu": "pron",
+    "inf": "adp"
+  },
+  "bigram_memory": {
+    "spec|||noun": 15,
+    "noun|||fin": 14,
+    "fin|||ger": 2,
+    "ger|||café_da_manhã": 2,
+    "café_da_manhã|||adp": 4,
+    "adp|||spec": 6,
+    "spec|||café_da_manhã": 6,
+    "adp|||noun": 2,
+    "fin|||pron": 5,
+    "pron|||café_da_manhã": 3,
+    "adv|||adp": 1,
+    "café_da_manhã|||fin": 1,
+    "fin|||adp": 1,
+    "café_da_manhã|||and": 2,
+    "and|||adv": 2,
+    "adv|||fin": 3,
+    "fin|||noun": 2,
+    "fin|||adv": 4,
+    "adv|||and": 4,
+    "and|||fin": 4,
+    "café_da_manhã|||adv": 4,
+    "pron|||adv": 1,
+    "spec|||qu": 1,
+    "qu|||pron": 1,
+    "pron|||inf": 1,
+    "inf|||adp": 1,
+    "adp|||pron": 1
+  },
+  "phrase_memory": {
+    "spec__noun|||noun__fin": 8,
+    "noun__fin|||fin__ger": 2,
+    "fin__ger|||ger__café_da_manhã": 2,
+    "ger__café_da_manhã|||café_da_manhã__adp": 2,
+    "café_da_manhã__adp|||adp__spec": 2,
+    "adp__spec|||spec__noun": 5,
+    "spec__café_da_manhã|||café_da_manhã__adp": 1,
+    "café_da_manhã__adp|||adp__noun": 2,
+    "noun__fin|||fin__pron": 3,
+    "fin__pron|||pron__café_da_manhã": 3,
+    "pron__café_da_manhã|||café_da_manhã__adp": 1,
+    "adv__adp|||adp__spec": 1,
+    "adp__spec|||spec__café_da_manhã": 1,
+    "spec__café_da_manhã|||café_da_manhã__fin": 1,
+    "café_da_manhã__fin|||fin__adp": 1,
+    "fin__adp|||adp__spec": 1,
+    "spec__café_da_manhã|||café_da_manhã__and": 2,
+    "café_da_manhã__and|||and__adv": 2,
+    "and__adv|||adv__fin": 2,
+    "adv__fin|||fin__noun": 2,
+    "noun__fin|||fin__adv": 4,
+    "fin__adv|||adv__and": 4,
+    "adv__and|||and__fin": 4,
+    "spec__café_da_manhã|||café_da_manhã__adv": 2,
+    "and__fin|||fin__pron": 2,
+    "pron__café_da_manhã|||café_da_manhã__adv": 2,
+    "pron__adv|||adv__fin": 1,
+    "spec__qu|||qu__pron": 1,
+    "qu__pron|||pron__inf": 1,
+    "pron__inf|||inf__adp": 1,
+    "inf__adp|||adp__pron": 1
+  },
+  "phrase_hierarchy": {
+    "spec__noun|||noun__fin": [
+      [
+        [
+          [
+            "fin",
+            "ger"
+          ],
+          [
+            "ger",
+            "café_da_manhã"
+          ]
+        ],
+        "spec noun fin ger café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "pron"
+          ],
+          [
+            "pron",
+            "café_da_manhã"
+          ]
+        ],
+        "spec noun fin pron café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "spec noun fin adp spec"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adv"
+          ],
+          [
+            "adv",
+            "and"
+          ]
+        ],
+        "spec noun fin adv and"
+      ]
+    ],
+    "noun__fin|||fin__ger": [
+      [
+        [
+          [
+            "ger",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adp"
+          ]
+        ],
+        "noun fin ger café_da_manhã adp"
+      ]
+    ],
+    "fin__ger|||ger__café_da_manhã": [
+      [
+        [
+          [
+            "café_da_manhã",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "fin ger café_da_manhã adp spec"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "adp"
+          ],
+          [
+            "adp",
+            "noun"
+          ]
+        ],
+        "fin ger café_da_manhã adp noun"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "fin"
+          ],
+          [
+            "fin",
+            "adp"
+          ]
+        ],
+        "fin ger café_da_manhã fin adp"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "and"
+          ],
+          [
+            "and",
+            "adv"
+          ]
+        ],
+        "fin ger café_da_manhã and adv"
+      ]
+    ],
+    "ger__café_da_manhã|||café_da_manhã__adp": [
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "noun"
+          ]
+        ],
+        "ger café_da_manhã adp spec noun"
+      ],
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "café_da_manhã"
+          ]
+        ],
+        "ger café_da_manhã adp spec café_da_manhã"
+      ]
+    ],
+    "café_da_manhã__adp|||adp__spec": [
+      [
+        [
+          [
+            "spec",
+            "noun"
+          ],
+          [
+            "noun",
+            "fin"
+          ]
+        ],
+        "café_da_manhã adp spec noun fin"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adp"
+          ]
+        ],
+        "café_da_manhã adp spec café_da_manhã adp"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "fin"
+          ]
+        ],
+        "café_da_manhã adp spec café_da_manhã fin"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "and"
+          ]
+        ],
+        "café_da_manhã adp spec café_da_manhã and"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adv"
+          ]
+        ],
+        "café_da_manhã adp spec café_da_manhã adv"
+      ],
+      [
+        [
+          [
+            "spec",
+            "qu"
+          ],
+          [
+            "qu",
+            "pron"
+          ]
+        ],
+        "café_da_manhã adp spec qu pron"
+      ]
+    ],
+    "adp__spec|||spec__noun": [
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "ger"
+          ]
+        ],
+        "adp spec noun fin ger"
+      ],
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "pron"
+          ]
+        ],
+        "adp spec noun fin pron"
+      ],
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "adv"
+          ]
+        ],
+        "adp spec noun fin adv"
+      ]
+    ],
+    "spec__café_da_manhã|||café_da_manhã__adp": [
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "noun"
+          ]
+        ],
+        "spec café_da_manhã adp spec noun"
+      ],
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "café_da_manhã"
+          ]
+        ],
+        "spec café_da_manhã adp spec café_da_manhã"
+      ]
+    ],
+    "café_da_manhã__adp|||adp__noun": [
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "ger"
+          ]
+        ],
+        "café_da_manhã adp noun fin ger"
+      ],
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "pron"
+          ]
+        ],
+        "café_da_manhã adp noun fin pron"
+      ],
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "adv"
+          ]
+        ],
+        "café_da_manhã adp noun fin adv"
+      ]
+    ],
+    "noun__fin|||fin__pron": [
+      [
+        [
+          [
+            "pron",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adp"
+          ]
+        ],
+        "noun fin pron café_da_manhã adp"
+      ],
+      [
+        [
+          [
+            "pron",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adv"
+          ]
+        ],
+        "noun fin pron café_da_manhã adv"
+      ],
+      [
+        [
+          [
+            "pron",
+            "adv"
+          ],
+          [
+            "adv",
+            "fin"
+          ]
+        ],
+        "noun fin pron adv fin"
+      ],
+      [
+        [
+          [
+            "pron",
+            "inf"
+          ],
+          [
+            "inf",
+            "adp"
+          ]
+        ],
+        "noun fin pron inf adp"
+      ]
+    ],
+    "fin__pron|||pron__café_da_manhã": [
+      [
+        [
+          [
+            "café_da_manhã",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "fin pron café_da_manhã adp spec"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "adp"
+          ],
+          [
+            "adp",
+            "noun"
+          ]
+        ],
+        "fin pron café_da_manhã adp noun"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "fin"
+          ],
+          [
+            "fin",
+            "adp"
+          ]
+        ],
+        "fin pron café_da_manhã fin adp"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "and"
+          ],
+          [
+            "and",
+            "adv"
+          ]
+        ],
+        "fin pron café_da_manhã and adv"
+      ]
+    ],
+    "pron__café_da_manhã|||café_da_manhã__adp": [
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "noun"
+          ]
+        ],
+        "pron café_da_manhã adp spec noun"
+      ],
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "café_da_manhã"
+          ]
+        ],
+        "pron café_da_manhã adp spec café_da_manhã"
+      ]
+    ],
+    "adv__adp|||adp__spec": [
+      [
+        [
+          [
+            "spec",
+            "noun"
+          ],
+          [
+            "noun",
+            "fin"
+          ]
+        ],
+        "adv adp spec noun fin"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adp"
+          ]
+        ],
+        "adv adp spec café_da_manhã adp"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "fin"
+          ]
+        ],
+        "adv adp spec café_da_manhã fin"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "and"
+          ]
+        ],
+        "adv adp spec café_da_manhã and"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adv"
+          ]
+        ],
+        "adv adp spec café_da_manhã adv"
+      ],
+      [
+        [
+          [
+            "spec",
+            "qu"
+          ],
+          [
+            "qu",
+            "pron"
+          ]
+        ],
+        "adv adp spec qu pron"
+      ]
+    ],
+    "adp__spec|||spec__café_da_manhã": [
+      [
+        [
+          [
+            "café_da_manhã",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "adp spec café_da_manhã adp spec"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "adp"
+          ],
+          [
+            "adp",
+            "noun"
+          ]
+        ],
+        "adp spec café_da_manhã adp noun"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "fin"
+          ],
+          [
+            "fin",
+            "adp"
+          ]
+        ],
+        "adp spec café_da_manhã fin adp"
+      ],
+      [
+        [
+          [
+            "café_da_manhã",
+            "and"
+          ],
+          [
+            "and",
+            "adv"
+          ]
+        ],
+        "adp spec café_da_manhã and adv"
+      ]
+    ],
+    "spec__café_da_manhã|||café_da_manhã__fin": [
+      [
+        [
+          [
+            "fin",
+            "ger"
+          ],
+          [
+            "ger",
+            "café_da_manhã"
+          ]
+        ],
+        "spec café_da_manhã fin ger café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "pron"
+          ],
+          [
+            "pron",
+            "café_da_manhã"
+          ]
+        ],
+        "spec café_da_manhã fin pron café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "spec café_da_manhã fin adp spec"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adv"
+          ],
+          [
+            "adv",
+            "and"
+          ]
+        ],
+        "spec café_da_manhã fin adv and"
+      ]
+    ],
+    "café_da_manhã__fin|||fin__adp": [
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "noun"
+          ]
+        ],
+        "café_da_manhã fin adp spec noun"
+      ],
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "café_da_manhã"
+          ]
+        ],
+        "café_da_manhã fin adp spec café_da_manhã"
+      ]
+    ],
+    "fin__adp|||adp__spec": [
+      [
+        [
+          [
+            "spec",
+            "noun"
+          ],
+          [
+            "noun",
+            "fin"
+          ]
+        ],
+        "fin adp spec noun fin"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adp"
+          ]
+        ],
+        "fin adp spec café_da_manhã adp"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "fin"
+          ]
+        ],
+        "fin adp spec café_da_manhã fin"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "and"
+          ]
+        ],
+        "fin adp spec café_da_manhã and"
+      ],
+      [
+        [
+          [
+            "spec",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adv"
+          ]
+        ],
+        "fin adp spec café_da_manhã adv"
+      ],
+      [
+        [
+          [
+            "spec",
+            "qu"
+          ],
+          [
+            "qu",
+            "pron"
+          ]
+        ],
+        "fin adp spec qu pron"
+      ]
+    ],
+    "spec__café_da_manhã|||café_da_manhã__and": [
+      [
+        [
+          [
+            "and",
+            "adv"
+          ],
+          [
+            "adv",
+            "fin"
+          ]
+        ],
+        "spec café_da_manhã and adv fin"
+      ],
+      [
+        [
+          [
+            "and",
+            "fin"
+          ],
+          [
+            "fin",
+            "pron"
+          ]
+        ],
+        "spec café_da_manhã and fin pron"
+      ]
+    ],
+    "café_da_manhã__and|||and__adv": [
+      [
+        [
+          [
+            "adv",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "café_da_manhã and adv adp spec"
+      ],
+      [
+        [
+          [
+            "adv",
+            "fin"
+          ],
+          [
+            "fin",
+            "noun"
+          ]
+        ],
+        "café_da_manhã and adv fin noun"
+      ],
+      [
+        [
+          [
+            "adv",
+            "and"
+          ],
+          [
+            "and",
+            "fin"
+          ]
+        ],
+        "café_da_manhã and adv and fin"
+      ]
+    ],
+    "and__adv|||adv__fin": [
+      [
+        [
+          [
+            "fin",
+            "ger"
+          ],
+          [
+            "ger",
+            "café_da_manhã"
+          ]
+        ],
+        "and adv fin ger café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "pron"
+          ],
+          [
+            "pron",
+            "café_da_manhã"
+          ]
+        ],
+        "and adv fin pron café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "and adv fin adp spec"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adv"
+          ],
+          [
+            "adv",
+            "and"
+          ]
+        ],
+        "and adv fin adv and"
+      ]
+    ],
+    "adv__fin|||fin__noun": [
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "ger"
+          ]
+        ],
+        "adv fin noun fin ger"
+      ],
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "pron"
+          ]
+        ],
+        "adv fin noun fin pron"
+      ],
+      [
+        [
+          [
+            "noun",
+            "fin"
+          ],
+          [
+            "fin",
+            "adv"
+          ]
+        ],
+        "adv fin noun fin adv"
+      ]
+    ],
+    "noun__fin|||fin__adv": [
+      [
+        [
+          [
+            "adv",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "noun fin adv adp spec"
+      ],
+      [
+        [
+          [
+            "adv",
+            "fin"
+          ],
+          [
+            "fin",
+            "noun"
+          ]
+        ],
+        "noun fin adv fin noun"
+      ],
+      [
+        [
+          [
+            "adv",
+            "and"
+          ],
+          [
+            "and",
+            "fin"
+          ]
+        ],
+        "noun fin adv and fin"
+      ]
+    ],
+    "fin__adv|||adv__and": [
+      [
+        [
+          [
+            "and",
+            "adv"
+          ],
+          [
+            "adv",
+            "fin"
+          ]
+        ],
+        "fin adv and adv fin"
+      ],
+      [
+        [
+          [
+            "and",
+            "fin"
+          ],
+          [
+            "fin",
+            "pron"
+          ]
+        ],
+        "fin adv and fin pron"
+      ]
+    ],
+    "adv__and|||and__fin": [
+      [
+        [
+          [
+            "fin",
+            "ger"
+          ],
+          [
+            "ger",
+            "café_da_manhã"
+          ]
+        ],
+        "adv and fin ger café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "pron"
+          ],
+          [
+            "pron",
+            "café_da_manhã"
+          ]
+        ],
+        "adv and fin pron café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "adv and fin adp spec"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adv"
+          ],
+          [
+            "adv",
+            "and"
+          ]
+        ],
+        "adv and fin adv and"
+      ]
+    ],
+    "spec__café_da_manhã|||café_da_manhã__adv": [
+      [
+        [
+          [
+            "adv",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "spec café_da_manhã adv adp spec"
+      ],
+      [
+        [
+          [
+            "adv",
+            "fin"
+          ],
+          [
+            "fin",
+            "noun"
+          ]
+        ],
+        "spec café_da_manhã adv fin noun"
+      ],
+      [
+        [
+          [
+            "adv",
+            "and"
+          ],
+          [
+            "and",
+            "fin"
+          ]
+        ],
+        "spec café_da_manhã adv and fin"
+      ]
+    ],
+    "and__fin|||fin__pron": [
+      [
+        [
+          [
+            "pron",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adp"
+          ]
+        ],
+        "and fin pron café_da_manhã adp"
+      ],
+      [
+        [
+          [
+            "pron",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adv"
+          ]
+        ],
+        "and fin pron café_da_manhã adv"
+      ],
+      [
+        [
+          [
+            "pron",
+            "adv"
+          ],
+          [
+            "adv",
+            "fin"
+          ]
+        ],
+        "and fin pron adv fin"
+      ],
+      [
+        [
+          [
+            "pron",
+            "inf"
+          ],
+          [
+            "inf",
+            "adp"
+          ]
+        ],
+        "and fin pron inf adp"
+      ]
+    ],
+    "pron__café_da_manhã|||café_da_manhã__adv": [
+      [
+        [
+          [
+            "adv",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "pron café_da_manhã adv adp spec"
+      ],
+      [
+        [
+          [
+            "adv",
+            "fin"
+          ],
+          [
+            "fin",
+            "noun"
+          ]
+        ],
+        "pron café_da_manhã adv fin noun"
+      ],
+      [
+        [
+          [
+            "adv",
+            "and"
+          ],
+          [
+            "and",
+            "fin"
+          ]
+        ],
+        "pron café_da_manhã adv and fin"
+      ]
+    ],
+    "pron__adv|||adv__fin": [
+      [
+        [
+          [
+            "fin",
+            "ger"
+          ],
+          [
+            "ger",
+            "café_da_manhã"
+          ]
+        ],
+        "pron adv fin ger café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "pron"
+          ],
+          [
+            "pron",
+            "café_da_manhã"
+          ]
+        ],
+        "pron adv fin pron café_da_manhã"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adp"
+          ],
+          [
+            "adp",
+            "spec"
+          ]
+        ],
+        "pron adv fin adp spec"
+      ],
+      [
+        [
+          [
+            "fin",
+            "adv"
+          ],
+          [
+            "adv",
+            "and"
+          ]
+        ],
+        "pron adv fin adv and"
+      ]
+    ],
+    "spec__qu|||qu__pron": [
+      [
+        [
+          [
+            "pron",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adp"
+          ]
+        ],
+        "spec qu pron café_da_manhã adp"
+      ],
+      [
+        [
+          [
+            "pron",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adv"
+          ]
+        ],
+        "spec qu pron café_da_manhã adv"
+      ],
+      [
+        [
+          [
+            "pron",
+            "adv"
+          ],
+          [
+            "adv",
+            "fin"
+          ]
+        ],
+        "spec qu pron adv fin"
+      ],
+      [
+        [
+          [
+            "pron",
+            "inf"
+          ],
+          [
+            "inf",
+            "adp"
+          ]
+        ],
+        "spec qu pron inf adp"
+      ]
+    ],
+    "qu__pron|||pron__inf": [
+      [
+        [
+          [
+            "inf",
+            "adp"
+          ],
+          [
+            "adp",
+            "pron"
+          ]
+        ],
+        "qu pron inf adp pron"
+      ]
+    ],
+    "pron__inf|||inf__adp": [
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "noun"
+          ]
+        ],
+        "pron inf adp spec noun"
+      ],
+      [
+        [
+          [
+            "adp",
+            "spec"
+          ],
+          [
+            "spec",
+            "café_da_manhã"
+          ]
+        ],
+        "pron inf adp spec café_da_manhã"
+      ]
+    ],
+    "inf__adp|||adp__pron": [
+      [
+        [
+          [
+            "pron",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adp"
+          ]
+        ],
+        "inf adp pron café_da_manhã adp"
+      ],
+      [
+        [
+          [
+            "pron",
+            "café_da_manhã"
+          ],
+          [
+            "café_da_manhã",
+            "adv"
+          ]
+        ],
+        "inf adp pron café_da_manhã adv"
+      ],
+      [
+        [
+          [
+            "pron",
+            "adv"
+          ],
+          [
+            "adv",
+            "fin"
+          ]
+        ],
+        "inf adp pron adv fin"
+      ],
+      [
+        [
+          [
+            "pron",
+            "inf"
+          ],
+          [
+            "inf",
+            "adp"
+          ]
+        ],
+        "inf adp pron inf adp"
+      ]
+    ]
+  },
+  "discourse_patterns": {},
+  "triple_discourse_patterns": {}
+}
