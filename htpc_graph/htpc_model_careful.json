@@ -1,0 +1,3329 @@
+{
+  "nodes": {
+    "node_0": {
+      "id": "node_0",
+      "type": "AND",
+      "level": "L1",
+      "value": "the",
+      "frequency": 32
+    },
+    "node_1": {
+      "id": "node_1",
+      "type": "AND",
+      "level": "L1",
+      "value": "cat",
+      "frequency": 7
+    },
+    "node_2": {
+      "id": "node_2",
+      "type": "AND",
+      "level": "L1",
+      "value": "sat",
+      "frequency": 1
+    },
+    "node_3": {
+      "id": "node_3",
+      "type": "AND",
+      "level": "L1",
+      "value": "on",
+      "frequency": 2
+    },
+    "node_4": {
+      "id": "node_4",
+      "type": "AND",
+      "level": "L1",
+      "value": "mat",
+      "frequency": 4
+    },
+    "node_5": {
+      "id": "node_5",
+      "type": "AND",
+      "level": "L1",
+      "value": ".",
+      "frequency": 20
+    },
+    "node_6": {
+      "id": "node_6",
+      "type": "AND",
+      "level": "L1",
+      "value": "dog",
+      "frequency": 4
+    },
+    "node_7": {
+      "id": "node_7",
+      "type": "AND",
+      "level": "L1",
+      "value": "barked",
+      "frequency": 1
+    },
+    "node_8": {
+      "id": "node_8",
+      "type": "AND",
+      "level": "L1",
+      "value": "at",
+      "frequency": 1
+    },
+    "node_9": {
+      "id": "node_9",
+      "type": "AND",
+      "level": "L1",
+      "value": "ran",
+      "frequency": 1
+    },
+    "node_10": {
+      "id": "node_10",
+      "type": "AND",
+      "level": "L1",
+      "value": "away",
+      "frequency": 1
+    },
+    "node_11": {
+      "id": "node_11",
+      "type": "AND",
+      "level": "L1",
+      "value": "from",
+      "frequency": 3
+    },
+    "node_12": {
+      "id": "node_12",
+      "type": "AND",
+      "level": "L1",
+      "value": "man",
+      "frequency": 4
+    },
+    "node_13": {
+      "id": "node_13",
+      "type": "AND",
+      "level": "L1",
+      "value": "watched",
+      "frequency": 1
+    },
+    "node_14": {
+      "id": "node_14",
+      "type": "AND",
+      "level": "L1",
+      "value": "and",
+      "frequency": 4
+    },
+    "node_15": {
+      "id": "node_15",
+      "type": "AND",
+      "level": "L1",
+      "value": "woman",
+      "frequency": 3
+    },
+    "node_16": {
+      "id": "node_16",
+      "type": "AND",
+      "level": "L1",
+      "value": "called",
+      "frequency": 1
+    },
+    "node_17": {
+      "id": "node_17",
+      "type": "AND",
+      "level": "L1",
+      "value": "walked",
+      "frequency": 1
+    },
+    "node_18": {
+      "id": "node_18",
+      "type": "AND",
+      "level": "L1",
+      "value": "home",
+      "frequency": 1
+    },
+    "node_19": {
+      "id": "node_19",
+      "type": "AND",
+      "level": "L1",
+      "value": "together",
+      "frequency": 1
+    },
+    "node_20": {
+      "id": "node_20",
+      "type": "AND",
+      "level": "L1",
+      "value": "returned",
+      "frequency": 1
+    },
+    "node_21": {
+      "id": "node_21",
+      "type": "AND",
+      "level": "L1",
+      "value": "to",
+      "frequency": 4
+    },
+    "node_22": {
+      "id": "node_22",
+      "type": "AND",
+      "level": "L1",
+      "value": "later",
+      "frequency": 1
+    },
+    "node_23": {
+      "id": "node_23",
+      "type": "AND",
+      "level": "L1",
+      "value": "dogs",
+      "frequency": 2
+    },
+    "node_24": {
+      "id": "node_24",
+      "type": "AND",
+      "level": "L1",
+      "value": "often",
+      "frequency": 1
+    },
+    "node_25": {
+      "id": "node_25",
+      "type": "AND",
+      "level": "L1",
+      "value": "chase",
+      "frequency": 1
+    },
+    "node_26": {
+      "id": "node_26",
+      "type": "AND",
+      "level": "L1",
+      "value": "cats",
+      "frequency": 2
+    },
+    "node_27": {
+      "id": "node_27",
+      "type": "AND",
+      "level": "L1",
+      "value": "when",
+      "frequency": 3
+    },
+    "node_28": {
+      "id": "node_28",
+      "type": "AND",
+      "level": "L1",
+      "value": "they",
+      "frequency": 1
+    },
+    "node_29": {
+      "id": "node_29",
+      "type": "AND",
+      "level": "L1",
+      "value": "see",
+      "frequency": 2
+    },
+    "node_30": {
+      "id": "node_30",
+      "type": "AND",
+      "level": "L1",
+      "value": "them",
+      "frequency": 1
+    },
+    "node_31": {
+      "id": "node_31",
+      "type": "AND",
+      "level": "L1",
+      "value": "usually",
+      "frequency": 1
+    },
+    "node_32": {
+      "id": "node_32",
+      "type": "AND",
+      "level": "L1",
+      "value": "avoid",
+      "frequency": 1
+    },
+    "node_33": {
+      "id": "node_33",
+      "type": "AND",
+      "level": "L1",
+      "value": "possible",
+      "frequency": 1
+    },
+    "node_34": {
+      "id": "node_34",
+      "type": "AND",
+      "level": "L1",
+      "value": "was",
+      "frequency": 1
+    },
+    "node_35": {
+      "id": "node_35",
+      "type": "AND",
+      "level": "L1",
+      "value": "in",
+      "frequency": 3
+    },
+    "node_36": {
+      "id": "node_36",
+      "type": "AND",
+      "level": "L1",
+      "value": "living",
+      "frequency": 2
+    },
+    "node_37": {
+      "id": "node_37",
+      "type": "AND",
+      "level": "L1",
+      "value": "room",
+      "frequency": 2
+    },
+    "node_38": {
+      "id": "node_38",
+      "type": "AND",
+      "level": "L1",
+      "value": "had",
+      "frequency": 1
+    },
+    "node_39": {
+      "id": "node_39",
+      "type": "AND",
+      "level": "L1",
+      "value": "a",
+      "frequency": 1
+    },
+    "node_40": {
+      "id": "node_40",
+      "type": "AND",
+      "level": "L1",
+      "value": "large",
+      "frequency": 1
+    },
+    "node_41": {
+      "id": "node_41",
+      "type": "AND",
+      "level": "L1",
+      "value": "window",
+      "frequency": 3
+    },
+    "node_42": {
+      "id": "node_42",
+      "type": "AND",
+      "level": "L1",
+      "value": "through",
+      "frequency": 1
+    },
+    "node_43": {
+      "id": "node_43",
+      "type": "AND",
+      "level": "L1",
+      "value": ",",
+      "frequency": 4
+    },
+    "node_44": {
+      "id": "node_44",
+      "type": "AND",
+      "level": "L1",
+      "value": "you",
+      "frequency": 1
+    },
+    "node_45": {
+      "id": "node_45",
+      "type": "AND",
+      "level": "L1",
+      "value": "could",
+      "frequency": 1
+    },
+    "node_46": {
+      "id": "node_46",
+      "type": "AND",
+      "level": "L1",
+      "value": "garden",
+      "frequency": 4
+    },
+    "node_47": {
+      "id": "node_47",
+      "type": "AND",
+      "level": "L1",
+      "value": "there",
+      "frequency": 1
+    },
+    "node_48": {
+      "id": "node_48",
+      "type": "AND",
+      "level": "L1",
+      "value": "were",
+      "frequency": 1
+    },
+    "node_49": {
+      "id": "node_49",
+      "type": "AND",
+      "level": "L1",
+      "value": "many",
+      "frequency": 1
+    },
+    "node_50": {
+      "id": "node_50",
+      "type": "AND",
+      "level": "L1",
+      "value": "flowers",
+      "frequency": 1
+    },
+    "node_51": {
+      "id": "node_51",
+      "type": "AND",
+      "level": "L1",
+      "value": "liked",
+      "frequency": 1
+    },
+    "node_52": {
+      "id": "node_52",
+      "type": "AND",
+      "level": "L1",
+      "value": "watch",
+      "frequency": 2
+    },
+    "node_53": {
+      "id": "node_53",
+      "type": "AND",
+      "level": "L1",
+      "value": "birds",
+      "frequency": 4
+    },
+    "node_54": {
+      "id": "node_54",
+      "type": "AND",
+      "level": "L1",
+      "value": "would",
+      "frequency": 4
+    },
+    "node_55": {
+      "id": "node_55",
+      "type": "AND",
+      "level": "L1",
+      "value": "come",
+      "frequency": 1
+    },
+    "node_56": {
+      "id": "node_56",
+      "type": "AND",
+      "level": "L1",
+      "value": "eat",
+      "frequency": 1
+    },
+    "node_57": {
+      "id": "node_57",
+      "type": "AND",
+      "level": "L1",
+      "value": "seeds",
+      "frequency": 1
+    },
+    "node_58": {
+      "id": "node_58",
+      "type": "AND",
+      "level": "L1",
+      "value": "feeder",
+      "frequency": 2
+    },
+    "node_59": {
+      "id": "node_59",
+      "type": "AND",
+      "level": "L1",
+      "value": "too",
+      "frequency": 1
+    },
+    "node_60": {
+      "id": "node_60",
+      "type": "AND",
+      "level": "L1",
+      "value": "but",
+      "frequency": 1
+    },
+    "node_61": {
+      "id": "node_61",
+      "type": "AND",
+      "level": "L1",
+      "value": "never",
+      "frequency": 1
+    },
+    "node_62": {
+      "id": "node_62",
+      "type": "AND",
+      "level": "L1",
+      "value": "caught",
+      "frequency": 1
+    },
+    "node_63": {
+      "id": "node_63",
+      "type": "AND",
+      "level": "L1",
+      "value": "any",
+      "frequency": 1
+    },
+    "node_64": {
+      "id": "node_64",
+      "type": "AND",
+      "level": "L1",
+      "value": "it",
+      "frequency": 1
+    },
+    "node_65": {
+      "id": "node_65",
+      "type": "AND",
+      "level": "L1",
+      "value": "rained",
+      "frequency": 1
+    },
+    "node_66": {
+      "id": "node_66",
+      "type": "AND",
+      "level": "L1",
+      "value": "stayed",
+      "frequency": 1
+    },
+    "node_67": {
+      "id": "node_67",
+      "type": "AND",
+      "level": "L1",
+      "value": "inside",
+      "frequency": 1
+    },
+    "node_68": {
+      "id": "node_68",
+      "type": "AND",
+      "level": "L1",
+      "value": "rain",
+      "frequency": 2
+    },
+    "node_69": {
+      "id": "node_69",
+      "type": "AND",
+      "level": "L1",
+      "value": "make",
+      "frequency": 1
+    },
+    "node_70": {
+      "id": "node_70",
+      "type": "AND",
+      "level": "L1",
+      "value": "look",
+      "frequency": 1
+    },
+    "node_71": {
+      "id": "node_71",
+      "type": "AND",
+      "level": "L1",
+      "value": "green",
+      "frequency": 1
+    },
+    "node_72": {
+      "id": "node_72",
+      "type": "AND",
+      "level": "L1",
+      "value": "fresh",
+      "frequency": 1
+    },
+    "node_73": {
+      "id": "node_73",
+      "type": "AND",
+      "level": "L1",
+      "value": "after",
+      "frequency": 1
+    },
+    "node_74": {
+      "id": "node_74",
+      "type": "AND",
+      "level": "L1",
+      "value": "return",
+      "frequency": 1
+    },
+    "node_75": {
+      "id": "node_75",
+      "type": "AND",
+      "level": "L1",
+      "value": "enjoyed",
+      "frequency": 1
+    },
+    "node_76": {
+      "id": "node_76",
+      "type": "AND",
+      "level": "L1",
+      "value": "watching",
+      "frequency": 1
+    },
+    "node_77": {
+      "id": "node_77",
+      "type": "AND",
+      "level": "L1",
+      "value": "nature",
+      "frequency": 1
+    },
+    "node_78": {
+      "id": "node_78",
+      "type": "AND",
+      "level": "L1",
+      "value": "their",
+      "frequency": 1
+    },
+    "node_79": {
+      "id": "node_79",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_3",
+      "frequency": 1,
+      "components": [
+        "node_67",
+        "node_2"
+      ]
+    },
+    "node_80": {
+      "id": "node_80",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_0",
+      "frequency": 1,
+      "components": [
+        "node_21",
+        "node_29",
+        "node_43",
+        "node_8",
+        "node_11",
+        "node_69",
+        "node_3",
+        "node_13",
+        "node_73",
+        "node_16",
+        "node_52",
+        "node_35",
+        "node_42"
+      ]
+    },
+    "node_81": {
+      "id": "node_81",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_5",
+      "frequency": 1,
+      "components": [
+        "node_41",
+        "node_37",
+        "node_50",
+        "node_33",
+        "node_58",
+        "node_19",
+        "node_4",
+        "node_63",
+        "node_6",
+        "node_22",
+        "node_72",
+        "node_30",
+        "node_1",
+        "node_12",
+        "node_46"
+      ]
+    },
+    "node_82": {
+      "id": "node_82",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_6",
+      "frequency": 1,
+      "components": [
+        "node_14",
+        "node_0"
+      ]
+    },
+    "node_83": {
+      "id": "node_83",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_11",
+      "frequency": 1,
+      "components": [
+        "node_57",
+        "node_10",
+        "node_77"
+      ]
+    },
+    "node_84": {
+      "id": "node_84",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_14",
+      "frequency": 1,
+      "components": [
+        "node_1",
+        "node_12",
+        "node_71"
+      ]
+    },
+    "node_85": {
+      "id": "node_85",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_15",
+      "frequency": 1,
+      "components": [
+        "node_14",
+        "node_0"
+      ]
+    },
+    "node_86": {
+      "id": "node_86",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_21",
+      "frequency": 1,
+      "components": [
+        "node_20",
+        "node_74",
+        "node_51",
+        "node_55"
+      ]
+    },
+    "node_87": {
+      "id": "node_87",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_27",
+      "frequency": 1,
+      "components": [
+        "node_26",
+        "node_23"
+      ]
+    },
+    "node_88": {
+      "id": "node_88",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_29",
+      "frequency": 1,
+      "components": [
+        "node_28",
+        "node_45"
+      ]
+    },
+    "node_89": {
+      "id": "node_89",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_35",
+      "frequency": 1,
+      "components": [
+        "node_34",
+        "node_53"
+      ]
+    },
+    "node_90": {
+      "id": "node_90",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_41",
+      "frequency": 1,
+      "components": [
+        "node_78",
+        "node_40",
+        "node_0"
+      ]
+    },
+    "node_91": {
+      "id": "node_91",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_43",
+      "frequency": 1,
+      "components": [
+        "node_41",
+        "node_65",
+        "node_46",
+        "node_68"
+      ]
+    },
+    "node_92": {
+      "id": "node_92",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_52",
+      "frequency": 1,
+      "components": [
+        "node_54",
+        "node_21"
+      ]
+    },
+    "node_93": {
+      "id": "node_93",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_53",
+      "frequency": 1,
+      "components": [
+        "node_52",
+        "node_0"
+      ]
+    },
+    "node_94": {
+      "id": "node_94",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_in_node_54",
+      "frequency": 1,
+      "components": [
+        "node_6",
+        "node_68",
+        "node_53"
+      ]
+    },
+    "node_95": {
+      "id": "node_95",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_0",
+      "frequency": 1,
+      "components": [
+        "node_15",
+        "node_41",
+        "node_68",
+        "node_53",
+        "node_58",
+        "node_4",
+        "node_6",
+        "node_36",
+        "node_1",
+        "node_12",
+        "node_46"
+      ]
+    },
+    "node_96": {
+      "id": "node_96",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_1",
+      "frequency": 1,
+      "components": [
+        "node_9",
+        "node_2",
+        "node_51",
+        "node_20",
+        "node_66",
+        "node_5",
+        "node_14"
+      ]
+    },
+    "node_97": {
+      "id": "node_97",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_4",
+      "frequency": 1,
+      "components": [
+        "node_22",
+        "node_34",
+        "node_5"
+      ]
+    },
+    "node_98": {
+      "id": "node_98",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_6",
+      "frequency": 1,
+      "components": [
+        "node_54",
+        "node_7",
+        "node_5"
+      ]
+    },
+    "node_99": {
+      "id": "node_99",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_11",
+      "frequency": 1,
+      "components": [
+        "node_78",
+        "node_0"
+      ]
+    },
+    "node_100": {
+      "id": "node_100",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_12",
+      "frequency": 1,
+      "components": [
+        "node_14",
+        "node_5",
+        "node_13"
+      ]
+    },
+    "node_101": {
+      "id": "node_101",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_14",
+      "frequency": 1,
+      "components": [
+        "node_15",
+        "node_6",
+        "node_72"
+      ]
+    },
+    "node_102": {
+      "id": "node_102",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_15",
+      "frequency": 1,
+      "components": [
+        "node_17",
+        "node_16",
+        "node_75"
+      ]
+    },
+    "node_103": {
+      "id": "node_103",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_21",
+      "frequency": 1,
+      "components": [
+        "node_56",
+        "node_52",
+        "node_0"
+      ]
+    },
+    "node_104": {
+      "id": "node_104",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_23",
+      "frequency": 1,
+      "components": [
+        "node_24",
+        "node_27"
+      ]
+    },
+    "node_105": {
+      "id": "node_105",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_26",
+      "frequency": 1,
+      "components": [
+        "node_31",
+        "node_27"
+      ]
+    },
+    "node_106": {
+      "id": "node_106",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_27",
+      "frequency": 1,
+      "components": [
+        "node_33",
+        "node_28",
+        "node_64"
+      ]
+    },
+    "node_107": {
+      "id": "node_107",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_29",
+      "frequency": 1,
+      "components": [
+        "node_30",
+        "node_0"
+      ]
+    },
+    "node_108": {
+      "id": "node_108",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_37",
+      "frequency": 1,
+      "components": [
+        "node_38",
+        "node_5"
+      ]
+    },
+    "node_109": {
+      "id": "node_109",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_41",
+      "frequency": 1,
+      "components": [
+        "node_5",
+        "node_43"
+      ]
+    },
+    "node_110": {
+      "id": "node_110",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_43",
+      "frequency": 1,
+      "components": [
+        "node_47",
+        "node_44",
+        "node_0"
+      ]
+    },
+    "node_111": {
+      "id": "node_111",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_46",
+      "frequency": 1,
+      "components": [
+        "node_70",
+        "node_5",
+        "node_43"
+      ]
+    },
+    "node_112": {
+      "id": "node_112",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_52",
+      "frequency": 1,
+      "components": [
+        "node_0",
+        "node_53"
+      ]
+    },
+    "node_113": {
+      "id": "node_113",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_53",
+      "frequency": 1,
+      "components": [
+        "node_35",
+        "node_59",
+        "node_54"
+      ]
+    },
+    "node_114": {
+      "id": "node_114",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_54",
+      "frequency": 1,
+      "components": [
+        "node_69",
+        "node_74",
+        "node_52",
+        "node_55"
+      ]
+    },
+    "node_115": {
+      "id": "node_115",
+      "type": "OR",
+      "level": "L1",
+      "value": "OR_out_node_68",
+      "frequency": 1,
+      "components": [
+        "node_54",
+        "node_43"
+      ]
+    },
+    "node_116": {
+      "id": "node_116",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_cat",
+      "frequency": 7,
+      "components": [
+        "node_0",
+        "node_1"
+      ]
+    },
+    "node_117": {
+      "id": "node_117",
+      "type": "AND",
+      "level": "L2",
+      "value": "on_the",
+      "frequency": 2,
+      "components": [
+        "node_3",
+        "node_0"
+      ]
+    },
+    "node_118": {
+      "id": "node_118",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_mat",
+      "frequency": 4,
+      "components": [
+        "node_0",
+        "node_4"
+      ]
+    },
+    "node_119": {
+      "id": "node_119",
+      "type": "AND",
+      "level": "L2",
+      "value": "mat_.",
+      "frequency": 2,
+      "components": [
+        "node_4",
+        "node_5"
+      ]
+    },
+    "node_120": {
+      "id": "node_120",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_dog",
+      "frequency": 3,
+      "components": [
+        "node_0",
+        "node_6"
+      ]
+    },
+    "node_121": {
+      "id": "node_121",
+      "type": "AND",
+      "level": "L2",
+      "value": "from_the",
+      "frequency": 2,
+      "components": [
+        "node_11",
+        "node_0"
+      ]
+    },
+    "node_122": {
+      "id": "node_122",
+      "type": "AND",
+      "level": "L2",
+      "value": "dog_.",
+      "frequency": 2,
+      "components": [
+        "node_6",
+        "node_5"
+      ]
+    },
+    "node_123": {
+      "id": "node_123",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_man",
+      "frequency": 4,
+      "components": [
+        "node_0",
+        "node_12"
+      ]
+    },
+    "node_124": {
+      "id": "node_124",
+      "type": "AND",
+      "level": "L2",
+      "value": "man_and",
+      "frequency": 2,
+      "components": [
+        "node_12",
+        "node_14"
+      ]
+    },
+    "node_125": {
+      "id": "node_125",
+      "type": "AND",
+      "level": "L2",
+      "value": "and_woman",
+      "frequency": 2,
+      "components": [
+        "node_14",
+        "node_15"
+      ]
+    },
+    "node_126": {
+      "id": "node_126",
+      "type": "AND",
+      "level": "L2",
+      "value": "to_the",
+      "frequency": 2,
+      "components": [
+        "node_21",
+        "node_0"
+      ]
+    },
+    "node_127": {
+      "id": "node_127",
+      "type": "AND",
+      "level": "L2",
+      "value": "in_the",
+      "frequency": 3,
+      "components": [
+        "node_35",
+        "node_0"
+      ]
+    },
+    "node_128": {
+      "id": "node_128",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_living",
+      "frequency": 2,
+      "components": [
+        "node_0",
+        "node_36"
+      ]
+    },
+    "node_129": {
+      "id": "node_129",
+      "type": "AND",
+      "level": "L2",
+      "value": "living_room",
+      "frequency": 2,
+      "components": [
+        "node_36",
+        "node_37"
+      ]
+    },
+    "node_130": {
+      "id": "node_130",
+      "type": "AND",
+      "level": "L2",
+      "value": "window_.",
+      "frequency": 2,
+      "components": [
+        "node_41",
+        "node_5"
+      ]
+    },
+    "node_131": {
+      "id": "node_131",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_garden",
+      "frequency": 4,
+      "components": [
+        "node_0",
+        "node_46"
+      ]
+    },
+    "node_132": {
+      "id": "node_132",
+      "type": "AND",
+      "level": "L2",
+      "value": "garden_.",
+      "frequency": 2,
+      "components": [
+        "node_46",
+        "node_5"
+      ]
+    },
+    "node_133": {
+      "id": "node_133",
+      "type": "AND",
+      "level": "L2",
+      "value": "birds_would",
+      "frequency": 2,
+      "components": [
+        "node_53",
+        "node_54"
+      ]
+    },
+    "node_134": {
+      "id": "node_134",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_feeder",
+      "frequency": 2,
+      "components": [
+        "node_0",
+        "node_58"
+      ]
+    },
+    "node_135": {
+      "id": "node_135",
+      "type": "AND",
+      "level": "L2",
+      "value": "feeder_.",
+      "frequency": 2,
+      "components": [
+        "node_58",
+        "node_5"
+      ]
+    },
+    "node_136": {
+      "id": "node_136",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_birds",
+      "frequency": 2,
+      "components": [
+        "node_0",
+        "node_53"
+      ]
+    },
+    "node_137": {
+      "id": "node_137",
+      "type": "AND",
+      "level": "L2",
+      "value": ",_the",
+      "frequency": 2,
+      "components": [
+        "node_43",
+        "node_0"
+      ]
+    },
+    "node_138": {
+      "id": "node_138",
+      "type": "AND",
+      "level": "L2",
+      "value": "the_rain",
+      "frequency": 2,
+      "components": [
+        "node_0",
+        "node_68"
+      ]
+    }
+  },
+  "edges": [
+    {
+      "source": "node_0",
+      "target": "node_1",
+      "type": "sequence",
+      "weight": 7
+    },
+    {
+      "source": "node_1",
+      "target": "node_2",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_2",
+      "target": "node_3",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_3",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_0",
+      "target": "node_4",
+      "type": "sequence",
+      "weight": 4
+    },
+    {
+      "source": "node_4",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_0",
+      "target": "node_6",
+      "type": "sequence",
+      "weight": 3
+    },
+    {
+      "source": "node_6",
+      "target": "node_7",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_7",
+      "target": "node_8",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_8",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_9",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_9",
+      "target": "node_10",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_10",
+      "target": "node_11",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_11",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_6",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_0",
+      "target": "node_12",
+      "type": "sequence",
+      "weight": 4
+    },
+    {
+      "source": "node_12",
+      "target": "node_13",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_13",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_14",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_14",
+      "target": "node_6",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_15",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_15",
+      "target": "node_16",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_16",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_12",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_12",
+      "target": "node_14",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_14",
+      "target": "node_15",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_15",
+      "target": "node_17",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_17",
+      "target": "node_18",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_18",
+      "target": "node_19",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_19",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_20",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_20",
+      "target": "node_21",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_21",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_4",
+      "target": "node_22",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_22",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_23",
+      "target": "node_24",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_24",
+      "target": "node_25",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_25",
+      "target": "node_26",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_26",
+      "target": "node_27",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_27",
+      "target": "node_28",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_28",
+      "target": "node_29",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_29",
+      "target": "node_30",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_30",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_26",
+      "target": "node_31",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_31",
+      "target": "node_32",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_32",
+      "target": "node_23",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_23",
+      "target": "node_27",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_27",
+      "target": "node_33",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_33",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_4",
+      "target": "node_34",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_34",
+      "target": "node_35",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_35",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 3
+    },
+    {
+      "source": "node_0",
+      "target": "node_36",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_36",
+      "target": "node_37",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_37",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_37",
+      "target": "node_38",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_38",
+      "target": "node_39",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_39",
+      "target": "node_40",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_40",
+      "target": "node_41",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_41",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_42",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_41",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_41",
+      "target": "node_43",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_43",
+      "target": "node_44",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_44",
+      "target": "node_45",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_45",
+      "target": "node_29",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_29",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_46",
+      "type": "sequence",
+      "weight": 4
+    },
+    {
+      "source": "node_46",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_46",
+      "target": "node_43",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_43",
+      "target": "node_47",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_47",
+      "target": "node_48",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_48",
+      "target": "node_49",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_49",
+      "target": "node_50",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_50",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_51",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_51",
+      "target": "node_21",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_21",
+      "target": "node_52",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_52",
+      "target": "node_53",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_53",
+      "target": "node_35",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_53",
+      "target": "node_54",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_54",
+      "target": "node_55",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_55",
+      "target": "node_21",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_21",
+      "target": "node_56",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_56",
+      "target": "node_57",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_57",
+      "target": "node_11",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_58",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_58",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_6",
+      "target": "node_54",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_54",
+      "target": "node_52",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_52",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_53",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_53",
+      "target": "node_59",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_59",
+      "target": "node_60",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_60",
+      "target": "node_61",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_61",
+      "target": "node_62",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_62",
+      "target": "node_63",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_63",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_27",
+      "target": "node_64",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_64",
+      "target": "node_65",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_65",
+      "target": "node_43",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_43",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_1",
+      "target": "node_66",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_66",
+      "target": "node_67",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_67",
+      "target": "node_3",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_68",
+      "type": "sequence",
+      "weight": 2
+    },
+    {
+      "source": "node_68",
+      "target": "node_54",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_54",
+      "target": "node_69",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_69",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_46",
+      "target": "node_70",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_70",
+      "target": "node_71",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_71",
+      "target": "node_14",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_14",
+      "target": "node_72",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_72",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_73",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_68",
+      "target": "node_43",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_54",
+      "target": "node_74",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_74",
+      "target": "node_21",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_15",
+      "target": "node_75",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_75",
+      "target": "node_76",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_76",
+      "target": "node_77",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_77",
+      "target": "node_11",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_11",
+      "target": "node_78",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_78",
+      "target": "node_41",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_67",
+      "target": "node_79",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_2",
+      "target": "node_79",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_79",
+      "target": "node_3",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_21",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_29",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_43",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_8",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_11",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_69",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_3",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_13",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_73",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_16",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_52",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_35",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_42",
+      "target": "node_80",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_80",
+      "target": "node_0",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_41",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_37",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_50",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_33",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_58",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_19",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_4",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_63",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_6",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_22",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_72",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_30",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_12",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_46",
+      "target": "node_81",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_81",
+      "target": "node_5",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_14",
+      "target": "node_82",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_82",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_82",
+      "target": "node_6",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_57",
+      "target": "node_83",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_10",
+      "target": "node_83",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_77",
+      "target": "node_83",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_83",
+      "target": "node_11",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_84",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_12",
+      "target": "node_84",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_71",
+      "target": "node_84",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_84",
+      "target": "node_14",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_14",
+      "target": "node_85",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_85",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_85",
+      "target": "node_15",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_20",
+      "target": "node_86",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_74",
+      "target": "node_86",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_51",
+      "target": "node_86",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_55",
+      "target": "node_86",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_86",
+      "target": "node_21",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_26",
+      "target": "node_87",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_23",
+      "target": "node_87",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_87",
+      "target": "node_27",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_28",
+      "target": "node_88",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_45",
+      "target": "node_88",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_88",
+      "target": "node_29",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_34",
+      "target": "node_89",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_53",
+      "target": "node_89",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_89",
+      "target": "node_35",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_78",
+      "target": "node_90",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_40",
+      "target": "node_90",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_90",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_90",
+      "target": "node_41",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_41",
+      "target": "node_91",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_65",
+      "target": "node_91",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_46",
+      "target": "node_91",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_68",
+      "target": "node_91",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_91",
+      "target": "node_43",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_54",
+      "target": "node_92",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_21",
+      "target": "node_92",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_92",
+      "target": "node_52",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_52",
+      "target": "node_93",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_93",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_93",
+      "target": "node_53",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_6",
+      "target": "node_94",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_68",
+      "target": "node_94",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_53",
+      "target": "node_94",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_94",
+      "target": "node_54",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_15",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_41",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_68",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_53",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_58",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_4",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_6",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_36",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_1",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_12",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_95",
+      "target": "node_46",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_95",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_96",
+      "target": "node_9",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_96",
+      "target": "node_2",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_96",
+      "target": "node_51",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_96",
+      "target": "node_20",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_96",
+      "target": "node_66",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_96",
+      "target": "node_5",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_96",
+      "target": "node_14",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_96",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_97",
+      "target": "node_22",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_97",
+      "target": "node_34",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_97",
+      "target": "node_5",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_4",
+      "target": "node_97",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_98",
+      "target": "node_54",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_98",
+      "target": "node_7",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_98",
+      "target": "node_5",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_6",
+      "target": "node_98",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_99",
+      "target": "node_78",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_99",
+      "target": "node_0",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_11",
+      "target": "node_99",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_100",
+      "target": "node_14",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_100",
+      "target": "node_5",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_100",
+      "target": "node_13",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_12",
+      "target": "node_100",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_101",
+      "target": "node_15",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_101",
+      "target": "node_6",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_101",
+      "target": "node_72",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_14",
+      "target": "node_101",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_102",
+      "target": "node_17",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_102",
+      "target": "node_16",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_102",
+      "target": "node_75",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_15",
+      "target": "node_102",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_103",
+      "target": "node_56",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_103",
+      "target": "node_52",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_103",
+      "target": "node_0",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_21",
+      "target": "node_103",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_104",
+      "target": "node_24",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_104",
+      "target": "node_27",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_23",
+      "target": "node_104",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_105",
+      "target": "node_31",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_105",
+      "target": "node_27",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_26",
+      "target": "node_105",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_106",
+      "target": "node_33",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_106",
+      "target": "node_28",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_106",
+      "target": "node_64",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_27",
+      "target": "node_106",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_107",
+      "target": "node_30",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_107",
+      "target": "node_0",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_29",
+      "target": "node_107",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_108",
+      "target": "node_38",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_108",
+      "target": "node_5",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_37",
+      "target": "node_108",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_109",
+      "target": "node_5",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_109",
+      "target": "node_43",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_41",
+      "target": "node_109",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_110",
+      "target": "node_47",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_110",
+      "target": "node_44",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_110",
+      "target": "node_0",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_43",
+      "target": "node_110",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_111",
+      "target": "node_70",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_111",
+      "target": "node_5",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_111",
+      "target": "node_43",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_46",
+      "target": "node_111",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_112",
+      "target": "node_0",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_112",
+      "target": "node_53",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_52",
+      "target": "node_112",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_113",
+      "target": "node_35",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_113",
+      "target": "node_59",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_113",
+      "target": "node_54",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_53",
+      "target": "node_113",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_114",
+      "target": "node_69",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_114",
+      "target": "node_74",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_114",
+      "target": "node_52",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_114",
+      "target": "node_55",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_54",
+      "target": "node_114",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_115",
+      "target": "node_54",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_115",
+      "target": "node_43",
+      "type": "alternative",
+      "weight": 1
+    },
+    {
+      "source": "node_68",
+      "target": "node_115",
+      "type": "sequence",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_116",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_1",
+      "target": "node_116",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_3",
+      "target": "node_117",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_117",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_118",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_4",
+      "target": "node_118",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_4",
+      "target": "node_119",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_5",
+      "target": "node_119",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_120",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_6",
+      "target": "node_120",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_11",
+      "target": "node_121",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_121",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_6",
+      "target": "node_122",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_5",
+      "target": "node_122",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_123",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_12",
+      "target": "node_123",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_12",
+      "target": "node_124",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_14",
+      "target": "node_124",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_14",
+      "target": "node_125",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_15",
+      "target": "node_125",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_21",
+      "target": "node_126",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_126",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_35",
+      "target": "node_127",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_127",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_128",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_36",
+      "target": "node_128",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_36",
+      "target": "node_129",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_37",
+      "target": "node_129",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_41",
+      "target": "node_130",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_5",
+      "target": "node_130",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_131",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_46",
+      "target": "node_131",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_46",
+      "target": "node_132",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_5",
+      "target": "node_132",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_53",
+      "target": "node_133",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_54",
+      "target": "node_133",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_134",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_58",
+      "target": "node_134",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_58",
+      "target": "node_135",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_5",
+      "target": "node_135",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_136",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_53",
+      "target": "node_136",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_43",
+      "target": "node_137",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_137",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_0",
+      "target": "node_138",
+      "type": "composition",
+      "weight": 1
+    },
+    {
+      "source": "node_68",
+      "target": "node_138",
+      "type": "composition",
+      "weight": 1
+    }
+  ],
+  "metadata": {
+    "token_count": 79,
+    "or_count": 37,
+    "and_count": 102,
+    "levels": {
+      "L1": 116,
+      "L2": 23,
+      "L3": 0,
+      "L4": 0,
+      "L5": 0
+    }
+  }
+}
