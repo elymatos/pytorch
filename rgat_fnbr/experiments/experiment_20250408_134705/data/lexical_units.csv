@@ -1,0 +1,121 @@
+lu_id,lu_name,lemma,sense_description
+100,discutir.v,discutir,Ato de discutir em determinado contexto.
+101,voar.v,voar,Ato de voar em determinado contexto.
+102,pular.v,pular,O processo de pular realizado por um agente.
+103,olhar.v,olhar,Ação de olhar com um propósito específico.
+104,notar.v,notar,O processo de notar realizado por um agente.
+105,dirigir.v,dirigir,Engajar-se no ato de dirigir com um objetivo.
+106,destruir.v,destruir,Ação de destruir com um propósito específico.
+107,navegar.v,navegar,Ação de navegar com um propósito específico.
+108,sentir.v,sentir,Realizar a ação de sentir de maneira intencional.
+109,perceber.v,perceber,Ação de perceber com um propósito específico.
+110,apreciar.v,apreciar,Engajar-se no ato de apreciar com um objetivo.
+111,analisar.v,analisar,O processo de analisar realizado por um agente.
+112,gritar.v,gritar,O processo de gritar realizado por um agente.
+113,saborear.v,saborear,Realizar a ação de saborear de maneira intencional.
+114,sussurrar.v,sussurrar,Engajar-se no ato de sussurrar com um objetivo.
+115,trocar.v,trocar,O processo de trocar realizado por um agente.
+116,ponderar.v,ponderar,Ato de ponderar em determinado contexto.
+117,dizer.v,dizer,Engajar-se no ato de dizer com um objetivo.
+118,refletir.v,refletir,Engajar-se no ato de refletir com um objetivo.
+119,gostar.v,gostar,Realizar a ação de gostar de maneira intencional.
+120,considerar.v,considerar,O processo de considerar realizado por um agente.
+121,criar.v,criar,Engajar-se no ato de criar com um objetivo.
+122,pensar.v,pensar,O processo de pensar realizado por um agente.
+123,vender.v,vender,Ato de vender em determinado contexto.
+124,barganhar.v,barganhar,Realizar a ação de barganhar de maneira intencional.
+125,comprar.v,comprar,Ato de comprar em determinado contexto.
+126,falar.v,falar,Realizar a ação de falar de maneira intencional.
+127,emocionar.v,emocionar,Engajar-se no ato de emocionar com um objetivo.
+128,negociar.v,negociar,Realizar a ação de negociar de maneira intencional.
+129,fabricar.v,fabricar,Ação de fabricar com um propósito específico.
+130,desenvolver.v,desenvolver,O processo de desenvolver realizado por um agente.
+131,devorar.v,devorar,O processo de devorar realizado por um agente.
+132,comer.v,comer,Ação de comer com um propósito específico.
+133,odiar.v,odiar,Ato de odiar em determinado contexto.
+134,nadar.v,nadar,Ação de nadar com um propósito específico.
+135,amar.v,amar,Engajar-se no ato de amar com um objetivo.
+136,andar.v,andar,Engajar-se no ato de andar com um objetivo.
+137,ver.v,ver,O processo de ver realizado por um agente.
+138,degustar.v,degustar,Engajar-se no ato de degustar com um objetivo.
+139,observar.v,observar,O processo de observar realizado por um agente.
+200,emoção.n,emoção,O emoção como entidade ou conceito abstrato.
+201,corpo.n,corpo,O corpo como entidade ou conceito abstrato.
+202,reflexão.n,reflexão,O reflexão como entidade ou conceito abstrato.
+203,jornada.n,jornada,Estado ou condição relacionada a jornada.
+204,vista.n,vista,O vista como entidade ou conceito abstrato.
+205,lugar.n,lugar,O lugar como entidade ou conceito abstrato.
+206,duração.n,duração,Objeto ou entidade classificada como duração.
+207,tempo.n,tempo,O tempo como entidade ou conceito abstrato.
+208,refeição.n,refeição,Representação ou instância de refeição.
+209,período.n,período,Estado ou condição relacionada a período.
+210,coração.n,coração,Objeto ou entidade classificada como coração.
+211,comunicação.n,comunicação,Manifestação concreta ou abstrata de comunicação.
+212,ideia.n,ideia,Estado ou condição relacionada a ideia.
+213,mensagem.n,mensagem,Representação ou instância de mensagem.
+214,discurso.n,discurso,Estado ou condição relacionada a discurso.
+215,ódio.n,ódio,Representação ou instância de ódio.
+216,instante.n,instante,Representação ou instância de instante.
+217,perna.n,perna,Manifestação concreta ou abstrata de perna.
+218,localização.n,localização,Estado ou condição relacionada a localização.
+219,nutrição.n,nutrição,Manifestação concreta ou abstrata de nutrição.
+220,ponderação.n,ponderação,Manifestação concreta ou abstrata de ponderação.
+221,área.n,área,Estado ou condição relacionada a área.
+222,paixão.n,paixão,O paixão como entidade ou conceito abstrato.
+223,olhar.n,olhar,O olhar como entidade ou conceito abstrato.
+224,observação.n,observação,Manifestação concreta ou abstrata de observação.
+225,comida.n,comida,Objeto ou entidade classificada como comida.
+226,momento.n,momento,Manifestação concreta ou abstrata de momento.
+227,prato.n,prato,Manifestação concreta ou abstrata de prato.
+228,pensamento.n,pensamento,Manifestação concreta ou abstrata de pensamento.
+229,viagem.n,viagem,O viagem como entidade ou conceito abstrato.
+230,sentimento.n,sentimento,O sentimento como entidade ou conceito abstrato.
+231,movimento.n,movimento,O movimento como entidade ou conceito abstrato.
+232,deslocamento.n,deslocamento,Manifestação concreta ou abstrata de deslocamento.
+233,braço.n,braço,Objeto ou entidade classificada como braço.
+234,visão.n,visão,O visão como entidade ou conceito abstrato.
+235,região.n,região,Estado ou condição relacionada a região.
+236,diálogo.n,diálogo,Estado ou condição relacionada a diálogo.
+237,panorama.n,panorama,Estado ou condição relacionada a panorama.
+238,passeio.n,passeio,Representação ou instância de passeio.
+239,cabeça.n,cabeça,Manifestação concreta ou abstrata de cabeça.
+300,limitado.a,limitado,Estado de apresentar-se como limitado.
+301,resistente.a,resistente,Propriedade distintiva de ser resistente.
+302,insípido.a,insípido,Estado de apresentar-se como insípido.
+303,reflexivo.a,reflexivo,Condição temporária ou permanente de ser reflexivo.
+304,amplo.a,amplo,Propriedade distintiva de ser amplo.
+305,rápido.a,rápido,Estado de apresentar-se como rápido.
+306,falante.a,falante,Qualidade ou característica de ser falante.
+307,amargo.a,amargo,Propriedade distintiva de ser amargo.
+308,analítico.a,analítico,Atributo ou traço definidor de ser analítico.
+309,sensível.a,sensível,Qualidade ou característica de ser sensível.
+310,duradouro.a,duradouro,Qualidade ou característica de ser duradouro.
+311,racional.a,racional,Atributo ou traço definidor de ser racional.
+312,robusto.a,robusto,Qualidade ou característica de ser robusto.
+313,observador.a,observador,Qualidade ou característica de ser observador.
+314,detalhista.a,detalhista,Estado de apresentar-se como detalhista.
+315,imenso.a,imenso,Estado de apresentar-se como imenso.
+316,frio.a,frio,Propriedade distintiva de ser frio.
+317,frágil.a,frágil,Propriedade distintiva de ser frágil.
+318,calado.a,calado,Propriedade distintiva de ser calado.
+319,longo.a,longo,Estado de apresentar-se como longo.
+320,indiferente.a,indiferente,Propriedade distintiva de ser indiferente.
+321,comunicativo.a,comunicativo,Qualidade ou característica de ser comunicativo.
+322,forte.a,forte,Estado de apresentar-se como forte.
+323,ágil.a,ágil,Propriedade distintiva de ser ágil.
+324,emotivo.a,emotivo,Qualidade ou característica de ser emotivo.
+325,expressivo.a,expressivo,Propriedade distintiva de ser expressivo.
+326,apaixonado.a,apaixonado,Condição temporária ou permanente de ser apaixonado.
+327,eloquente.a,eloquente,Propriedade distintiva de ser eloquente.
+328,estático.a,estático,Condição temporária ou permanente de ser estático.
+329,atento.a,atento,Propriedade distintiva de ser atento.
+330,perceptivo.a,perceptivo,Atributo ou traço definidor de ser perceptivo.
+331,veloz.a,veloz,Propriedade distintiva de ser veloz.
+332,fraco.a,fraco,Estado de apresentar-se como fraco.
+333,saboroso.a,saboroso,Estado de apresentar-se como saboroso.
+334,efêmero.a,efêmero,Condição temporária ou permanente de ser efêmero.
+335,intuitivo.a,intuitivo,Estado de apresentar-se como intuitivo.
+336,delicioso.a,delicioso,Qualidade ou característica de ser delicioso.
+337,vasto.a,vasto,Atributo ou traço definidor de ser vasto.
+338,gostoso.a,gostoso,Atributo ou traço definidor de ser gostoso.
+339,estreito.a,estreito,Qualidade ou característica de ser estreito.

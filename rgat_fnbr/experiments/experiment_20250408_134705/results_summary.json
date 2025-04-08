@@ -1,0 +1,28 @@
+{
+    "experiment_timestamp": "2025-04-08 13:47:08",
+    "metrics": {
+        "test_auc": 0.7839506172839507,
+        "pr_auc": 0.6323543968690243,
+        "roc_auc": 0.7839506172839507
+    },
+    "config": {
+        "generate_sample_data": true,
+        "num_frames": 30,
+        "num_lexical_units": 120,
+        "display_sample_data": true,
+        "use_enhanced_features": false,
+        "use_bert": true,
+        "use_pos": true,
+        "use_graph_features": true,
+        "visualize_graph": true,
+        "hidden_channels": 128,
+        "out_channels": 64,
+        "attention_heads": 8,
+        "dropout": 0.3,
+        "use_multi_relation": false,
+        "relation_embedding_dim": 32,
+        "use_advanced_task": false,
+        "epochs": 200,
+        "base_dir": "experiments"
+    }
+}

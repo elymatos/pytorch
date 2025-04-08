@@ -1,0 +1,31 @@
+frame_id,frame_name,frame_definition
+1,Promise,The promise frame describes situations in which participants interact through promise-related activities.
+2,Space,This frame involves entities that participate in the space process.
+3,Communication,A Communicator conveys a Message to an Addressee using a particular Medium.
+4,Taste,"In this frame, a taste_agent engages with a taste_patient in a specific context."
+5,Process,This frame characterizes scenarios where process is the primary activity or state.
+6,Assessment,The assessment frame describes situations in which participants interact through assessment-related activities.
+7,Change,The change frame describes situations in which participants interact through change-related activities.
+8,Time,"In this frame, a time_agent engages with a time_patient in a specific context."
+9,Food,"In this frame, a food_agent engages with a food_patient in a specific context."
+10,Remembering,The remembering frame describes situations in which participants interact through remembering-related activities.
+11,Body,This frame involves entities that participate in the body process.
+12,Teaching,This frame involves entities that participate in the teaching process.
+13,Destruction,This frame characterizes scenarios where destruction is the primary activity or state.
+14,Perception,A Perceiver perceives a Phenomenon using a particular sensory modality.
+15,Smell,This frame involves entities that participate in the smell process.
+16,Medical,The medical frame describes situations in which participants interact through medical-related activities.
+17,Causation,The causation frame describes situations in which participants interact through causation-related activities.
+18,Sound,"In the sound frame, we find entities involved in processes related to sound events or states."
+19,Punishment,The punishment frame describes situations in which participants interact through punishment-related activities.
+20,Learning,This frame involves entities that participate in the learning process.
+21,Touch,This frame characterizes scenarios where touch is the primary activity or state.
+22,Opinion,"In the opinion frame, we find entities involved in processes related to opinion events or states."
+23,Substance,This frame involves entities that participate in the substance process.
+24,Relations,This frame characterizes scenarios where relations is the primary activity or state.
+25,Competition,This frame involves entities that participate in the competition process.
+26,Leadership,"In the leadership frame, we find entities involved in processes related to leadership events or states."
+27,Judgment,The judgment frame describes situations in which participants interact through judgment-related activities.
+28,Health,"In the health frame, we find entities involved in processes related to health events or states."
+29,Reward,The reward frame describes situations in which participants interact through reward-related activities.
+30,Phenomenon,"In the phenomenon frame, we find entities involved in processes related to phenomenon events or states."
