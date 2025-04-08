@@ -7,7 +7,6 @@ evidence from both forward and backward directions for improved accuracy.
 
 import numpy as np
 
-
 class BidirectionalModule:
     def __init__(self):
         """
@@ -117,7 +116,7 @@ class BidirectionalModule:
         # Add any other fields that don't need adjustment
         for key, value in backward_results.items():
             if key not in adjusted and key not in ['predefined', 'new', 'composite', 'all',
-                                                   'pos', 'integrated', 'next_pos', 'position_predictions']:
+                                                 'pos', 'integrated', 'next_pos', 'position_predictions']:
                 adjusted[key] = value
 
         return adjusted
@@ -141,6 +140,8 @@ class BidirectionalModule:
                 forward_results,
                 backward_results
             )
+        elif 'constructions' in forward_results:
+            combined['constructions'] = forward_results['constructions']
 
         # Combine attention results
         if 'pos' in forward_results and 'pos' in backward_results:
@@ -148,6 +149,8 @@ class BidirectionalModule:
                 forward_results,
                 backward_results
             )
+        elif 'attention' in forward_results:
+            combined['attention'] = forward_results['attention']
 
         # Combine prediction results
         if 'next_pos' in forward_results and 'prev_pos' in backward_results:
@@ -155,6 +158,12 @@ class BidirectionalModule:
                 forward_results,
                 backward_results
             )
+        elif 'predictions' in forward_results:
+            combined['predictions'] = forward_results['predictions']
+
+        # Add prediction error if available
+        if 'prediction_error' in forward_results:
+            combined['prediction_error'] = forward_results['prediction_error']
 
         return combined
 
@@ -186,7 +195,7 @@ class BidirectionalModule:
 
                 # Check if this span overlaps with any forward span
                 if not any(max(span[0], f_span[0]) < min(span[1], f_span[1])
-                           for f_span in forward_spans):
+                          for f_span in forward_spans):
                     # No overlap, add this construction
                     combined[const_type].append(const)
                     combined['all'].append(const)
@@ -194,8 +203,8 @@ class BidirectionalModule:
         # Ensure 'all' has all constructions
         if not combined['all']:
             combined['all'] = (combined['predefined'] +
-                               combined['new'] +
-                               combined['composite'])
+                              combined['new'] +
+                              combined['composite'])
 
         return combined
 
@@ -223,7 +232,7 @@ class BidirectionalModule:
 
                 # Weighted combination
                 pos_combined[pos] = (self.forward_weights * fw_value +
-                                     self.backward_weights * bw_value)
+                                    self.backward_weights * bw_value)
 
             combined['pos'] = pos_combined
 
@@ -231,7 +240,7 @@ class BidirectionalModule:
         if 'integrated' in forward_results and 'integrated' in backward_results:
             integrated_combined = {}
             all_positions = set(list(forward_results['integrated'].keys()) +
-                                list(backward_results['integrated'].keys()))
+                               list(backward_results['integrated'].keys()))
 
             for pos in all_positions:
                 if isinstance(pos, int):  # Only combine position-based attention
@@ -240,7 +249,7 @@ class BidirectionalModule:
 
                     # Weighted combination
                     integrated_combined[pos] = (self.forward_weights * fw_value +
-                                                self.backward_weights * bw_value)
+                                               self.backward_weights * bw_value)
 
             combined['integrated'] = integrated_combined
 
@@ -273,10 +282,10 @@ class BidirectionalModule:
 
         # Combine position-specific predictions
         if ('position_predictions' in forward_results and
-                'position_predictions' in backward_results):
+            'position_predictions' in backward_results):
             position_combined = {}
             all_positions = set(list(forward_results['position_predictions'].keys()) +
-                                list(backward_results['position_predictions'].keys()))
+                              list(backward_results['position_predictions'].keys()))
 
             for pos in all_positions:
                 fw_preds = forward_results['position_predictions'].get(pos, {})
@@ -292,11 +301,11 @@ class BidirectionalModule:
 
                     # Weighted combination
                     pos_combined[tag] = (self.forward_weights * fw_value +
-                                         self.backward_weights * bw_value)
+                                        self.backward_weights * bw_value)
 
                 # Normalize
                 total = sum(pos_combined.values()) or 1.0
-                pos_combined = {tag: val / total for tag, val in pos_combined.items()}
+                pos_combined = {tag: val/total for tag, val in pos_combined.items()}
 
                 position_combined[pos] = pos_combined
 

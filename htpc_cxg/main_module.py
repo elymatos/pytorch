@@ -11,9 +11,8 @@ from attention_module import AttentionModule
 from bidirectional_module import BidirectionalModule
 from predictive_coding_module import PredictiveCodingModule
 
-
 class MainModule(BaseModule, ConstructionModule, AttentionModule,
-                 BidirectionalModule, PredictiveCodingModule):
+                BidirectionalModule, PredictiveCodingModule):
     def __init__(self, predefined_constructions=None, min_chunk_size=1):
         """
         Initialize the main module with all components.
@@ -83,6 +82,11 @@ class MainModule(BaseModule, ConstructionModule, AttentionModule,
             backward_error = results['backward'].get('prediction_error', {}).get('total_error', 0.0)
 
             self.update_direction_weights(forward_error, backward_error)
+
+        # Make sure combined results has all required fields directly accessible
+        if 'combined' in results:
+            # Force direct access to main result fields without nesting
+            results.update(results['combined'])
 
         return results
 
@@ -241,15 +245,31 @@ class MainModule(BaseModule, ConstructionModule, AttentionModule,
         # Process the partial sequence
         results = self.process_sequence(partial_sequence)
 
+        # Try to get predictions from different possible result structures
+        predictions = None
+        if 'combined' in results and 'predictions' in results['combined']:
+            predictions = results['combined']['predictions']
+        else:
+            predictions = results.get('predictions', {})
+
         # Get the next tag predictions
-        predictions = results.get('combined', {}).get('predictions', {}).get('next_pos', {})
+        next_pos = {}
+        if predictions and 'next_pos' in predictions:
+            next_pos = predictions['next_pos']
 
         # Sort by probability
-        sorted_predictions = sorted(predictions.items(), key=lambda x: x[1], reverse=True)
+        sorted_predictions = sorted(next_pos.items(), key=lambda x: x[1], reverse=True)
+
+        # Get constructions
+        constructions = None
+        if 'combined' in results and 'constructions' in results['combined']:
+            constructions = results['combined']['constructions']
+        else:
+            constructions = results.get('constructions', {})
 
         return {
             'next_pos_predictions': sorted_predictions,
-            'constructions': results.get('combined', {}).get('constructions', {})
+            'constructions': constructions
         }
 
     def reset(self):

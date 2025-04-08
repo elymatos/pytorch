@@ -7,7 +7,6 @@ process sequences, and analyze the results.
 
 from main_module import MainModule
 
-
 def main():
     """
     Main function to demonstrate the system.
@@ -16,10 +15,10 @@ def main():
 
     # Define some predefined constructions
     predefined_constructions = [
-        ('DET', 'NOUN'),  # Simple noun phrase
-        ('DET', 'ADJ', 'NOUN'),  # Modified noun phrase
-        ('VERB', 'DET', 'NOUN'),  # Simple verb phrase with object
-        ('NOUN', 'VERB'),  # Simple subject-verb
+        ('DET', 'NOUN'),                   # Simple noun phrase
+        ('DET', 'ADJ', 'NOUN'),            # Modified noun phrase
+        ('VERB', 'DET', 'NOUN'),           # Simple verb phrase with object
+        ('NOUN', 'VERB'),                  # Simple subject-verb
         ('DET', 'NOUN', 'VERB', 'DET', 'NOUN')  # Simple sentence
     ]
 
@@ -41,17 +40,24 @@ def main():
 
     # Process each sequence
     for i, sequence in enumerate(sequences):
-        print(f"\n--- Processing Sequence {i + 1}: {sequence} ---")
+        print(f"\n--- Processing Sequence {i+1}: {sequence} ---")
 
         # Process the sequence with bidirectional analysis
         results = system.process_sequence(sequence, bidirectional=True)
 
         # Print identified constructions
         print("\nIdentified Constructions:")
-        if 'combined' in results and 'constructions' in results['combined']:
+        constructions = None
+
+        # Try various possible locations for constructions in the results
+        if 'constructions' in results:
+            constructions = results['constructions']
+        elif 'combined' in results and 'constructions' in results['combined']:
             constructions = results['combined']['constructions']
+
+        if constructions:
             for const_type in ['predefined', 'new', 'composite']:
-                if const_type in constructions:
+                if const_type in constructions and constructions[const_type]:
                     print(f"  {const_type.capitalize()}:")
                     for const in constructions[const_type]:
                         const_id = const['id']
@@ -59,40 +65,71 @@ def main():
                         end = const['end']
                         const_sequence = sequence[start:end]
                         print(f"    {const_id}: {const_sequence} (position {start}-{end})")
+                else:
+                    print(f"  {const_type.capitalize()}: None identified")
+        else:
+            print("  No constructions identified")
 
         # Print attention highlights
         print("\nAttention Highlights:")
-        if 'combined' in results and 'attention' in results['combined']:
+        attention = None
+
+        # Try various possible locations for attention in the results
+        if 'attention' in results:
+            attention = results['attention']
+        elif 'combined' in results and 'attention' in results['combined']:
             attention = results['combined']['attention']
-            if 'integrated' in attention:
-                integrated = attention['integrated']
 
-                # Find positions with highest attention
-                sorted_positions = sorted(
-                    [(pos, val) for pos, val in integrated.items() if isinstance(pos, int)],
-                    key=lambda x: x[1],
-                    reverse=True
-                )
+        if attention and 'integrated' in attention:
+            integrated = attention['integrated']
 
+            # Find positions with highest attention
+            sorted_positions = sorted(
+                [(pos, val) for pos, val in integrated.items() if isinstance(pos, int)],
+                key=lambda x: x[1],
+                reverse=True
+            )
+
+            if sorted_positions:
                 for pos, value in sorted_positions[:3]:
                     if pos < len(sequence):
                         print(f"  Position {pos}: {sequence[pos]} (attention: {value:.2f})")
+            else:
+                print("  No position-specific attention values found")
+        else:
+            print("  No attention data available")
 
         # Print predictions
         print("\nNext POS Predictions:")
-        if 'combined' in results and 'predictions' in results['combined']:
+        predictions = None
+
+        # Try various possible locations for predictions in the results
+        if 'predictions' in results:
+            predictions = results['predictions']
+        elif 'combined' in results and 'predictions' in results['combined']:
             predictions = results['combined']['predictions']
-            if 'next_pos' in predictions:
-                next_pos = predictions['next_pos']
+
+        if predictions and 'next_pos' in predictions:
+            next_pos = predictions['next_pos']
+            if next_pos:
                 sorted_preds = sorted(next_pos.items(), key=lambda x: x[1], reverse=True)
 
                 for pos, prob in sorted_preds[:3]:
                     print(f"  {pos}: {prob:.2f}")
+            else:
+                print("  No next POS predictions available")
+        else:
+            print("  No prediction data available")
 
         # Print prediction errors
+        prediction_error = None
         if 'combined' in results and 'prediction_error' in results['combined']:
-            error = results['combined']['prediction_error']
-            print(f"\nPrediction Error: {error.get('total_error', 0.0):.4f}")
+            prediction_error = results['combined']['prediction_error']
+        else:
+            prediction_error = results.get('prediction_error')
+
+        if prediction_error:
+            print(f"\nPrediction Error: {prediction_error.get('total_error', 0.0):.4f}")
 
     # Demonstrate adding a new construction
     print("\n--- Adding a New Construction ---")
@@ -149,9 +186,20 @@ def main():
     pred_results = system.predict_for_partial_sequence(partial)
 
     print("Next POS predictions:")
-    for pos, prob in pred_results['next_pos_predictions'][:3]:
-        print(f"  {pos}: {prob:.2f}")
+    if 'next_pos_predictions' in pred_results and pred_results['next_pos_predictions']:
+        for pos, prob in pred_results['next_pos_predictions'][:3]:
+            print(f"  {pos}: {prob:.2f}")
+    else:
+        # Try direct access to predictions
+        predictions = pred_results.get('predictions', {})
+        if 'next_pos' in predictions:
+            next_pos = predictions['next_pos']
+            sorted_preds = sorted(next_pos.items(), key=lambda x: x[1], reverse=True)
 
+            for pos, prob in sorted_preds[:3]:
+                print(f"  {pos}: {prob:.2f}")
+        else:
+            print("  No predictions available.")
 
 if __name__ == "__main__":
     main()
