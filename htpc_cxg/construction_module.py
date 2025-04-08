@@ -8,7 +8,6 @@ grammatical constructions of varying sizes, including their hierarchical relatio
 from collections import defaultdict, Counter
 import numpy as np
 
-
 class ConstructionModule:
     def __init__(self, min_chunk_size=1, predefined_constructions=None):
         """
@@ -25,6 +24,11 @@ class ConstructionModule:
         self.specialization_relations = defaultdict(list)  # general_id -> [specialized_ids]
         self.construction_frequencies = Counter()  # Frequency counts for constructions
         self.construction_transitions = defaultdict(Counter)  # Transitions between constructions
+
+        # Add functional equivalence structures
+        self.functional_equivalences = {}  # Maps categories to lists of construction IDs
+        self.construction_categories = {}  # Maps construction IDs to their categories
+        self.template_constructions = {}  # Template constructions that allow substitutions
 
         # Register predefined constructions if provided
         if predefined_constructions:
@@ -47,8 +51,8 @@ class ConstructionModule:
                 'predefined': True,
                 'frequency': 0,  # Will track occurrences in actual data
                 'confidence': 1.0,  # High initial confidence
-                'entropy': 0.0,  # Entropy of internal transitions
-                'cohesion': 0.0  # Measure of internal cohesion
+                'entropy': 0.0,   # Entropy of internal transitions
+                'cohesion': 0.0   # Measure of internal cohesion
             }
 
     def identify_constructions(self, pos_sequence):
@@ -59,7 +63,7 @@ class ConstructionModule:
             pos_sequence: List of POS tags
 
         Returns:
-            dict: Dictionary with keys 'predefined', 'new', and 'composite',
+            dict: Dictionary with keys 'predefined', 'new', 'composite',
                  each containing a list of identified constructions
         """
         # First: identify occurrences of predefined constructions
@@ -71,18 +75,144 @@ class ConstructionModule:
         # Third: identify higher-level constructions (combinations of existing ones)
         higher_level = self._identify_composite_constructions(matched_predefined, new_constructions)
 
+        # Fourth: identify constructions using templates with substitutions
+        template_matches = self._identify_template_matches(pos_sequence, matched_predefined + new_constructions)
+
         # Update statistics and hierarchical relationships
-        self._update_construction_statistics(matched_predefined, new_constructions, higher_level)
+        self._update_construction_statistics(matched_predefined, new_constructions, higher_level + template_matches)
 
         # All identified constructions
-        all_constructions = matched_predefined + new_constructions + higher_level
+        all_constructions = matched_predefined + new_constructions + higher_level + template_matches
 
         return {
             'predefined': matched_predefined,
             'new': new_constructions,
-            'composite': higher_level,
+            'composite': higher_level + template_matches,
             'all': all_constructions
         }
+
+    def _identify_template_matches(self, pos_sequence, existing_matches):
+        """
+        Identify matches for template constructions that allow substitutions.
+
+        Args:
+            pos_sequence: List of POS tags
+            existing_matches: List of dictionaries with already identified construction matches
+
+        Returns:
+            list: List of dictionaries with template construction match information
+        """
+        if not self.template_constructions:
+            return []
+
+        template_matches = []
+
+        # Track positions covered by existing constructions
+        position_constructions = {}
+        for match in existing_matches:
+            for pos in range(match['start'], match['end']):
+                if pos not in position_constructions:
+                    position_constructions[pos] = []
+                position_constructions[pos].append(match)
+
+        # Check each template construction
+        for template_id, template_info in self.template_constructions.items():
+            template_seq = template_info['pos_sequence']
+            template_len = len(template_seq)
+
+            # Skip if sequence is shorter than template
+            if len(pos_sequence) < template_len:
+                continue
+
+            # Substitution slots that allow equivalence
+            substitution_slots = template_info.get('substitution_slots', {})
+
+            # Sliding window to find matches
+            for start_pos in range(len(pos_sequence) - template_len + 1):
+                match_info = self._check_template_match(
+                    template_id, template_seq, substitution_slots,
+                    pos_sequence, position_constructions, start_pos
+                )
+
+                if match_info:
+                    template_matches.append(match_info)
+
+        # Resolve overlaps
+        return self._resolve_overlapping_matches(template_matches)
+
+    def _check_template_match(self, template_id, template_seq, substitution_slots,
+                             pos_sequence, position_constructions, start_pos):
+        """
+        Check if a template matches at a given position with substitutions.
+
+        Args:
+            template_id: Template construction ID
+            template_seq: Sequence of POS tags or category names in the template
+            substitution_slots: Dict mapping positions to allowed functional categories
+            pos_sequence: Full POS sequence being analyzed
+            position_constructions: Dict mapping positions to constructions
+            start_pos: Starting position to check
+
+        Returns:
+            dict: Match information if template matches, None otherwise
+        """
+        # Track substitutions made
+        substitutions = {}
+        end_pos = start_pos
+
+        # Check each position in the template
+        for i, template_item in enumerate(template_seq):
+            pos = start_pos + i
+
+            # If this position allows substitution
+            if i in substitution_slots:
+                allowed_categories = substitution_slots[i]
+
+                # Check if any construction at this position belongs to an allowed category
+                if pos in position_constructions:
+                    found_match = False
+
+                    for match in position_constructions[pos]:
+                        # Skip if match doesn't start at this position
+                        if match['start'] != pos:
+                            continue
+
+                        const_id = match['id']
+                        categories = self.construction_categories.get(const_id, [])
+
+                        # Check if any of the construction's categories are allowed
+                        if any(cat in allowed_categories for cat in categories):
+                            found_match = True
+                            substitutions[i] = {
+                                'const_id': const_id,
+                                'end': match['end']
+                            }
+                            # Update end position
+                            end_pos = max(end_pos, match['end'])
+                            break
+
+                    if not found_match:
+                        return None  # No matching construction for this substitution slot
+                else:
+                    return None  # No construction at this position
+            else:
+                # No substitution - must match exactly
+                if pos >= len(pos_sequence) or pos_sequence[pos] != template_item:
+                    return None  # Direct mismatch
+                end_pos = pos + 1
+
+        # If we got here, we found a match
+        match_info = {
+            'id': f"t_{template_id}_{start_pos}",
+            'template_id': template_id,
+            'start': start_pos,
+            'end': end_pos,
+            'type': 'template',
+            'length': end_pos - start_pos,
+            'substitutions': substitutions
+        }
+
+        return match_info
 
     def _match_predefined_constructions(self, pos_sequence):
         """
@@ -111,7 +241,7 @@ class ConstructionModule:
 
             # Sliding window search through the sequence
             for i in range(seq_len - const_len + 1):
-                if tuple(pos_sequence[i:i + const_len]) == const_pos:
+                if tuple(pos_sequence[i:i+const_len]) == const_pos:
                     matches.append({
                         'id': const_id,
                         'start': i,
@@ -387,7 +517,7 @@ class ConstructionModule:
                 if len(seq2) < len(seq1):
                     # Try to find seq2 as a contiguous subsequence in seq1
                     for i in range(len(seq1) - len(seq2) + 1):
-                        if seq1[i:i + len(seq2)] == seq2:
+                        if seq1[i:i+len(seq2)] == seq2:
                             specialization_map[other_id].append(const_id)
                             break
 
@@ -399,36 +529,88 @@ class ConstructionModule:
         """
         self.specialization_relations = self._identify_specialization_relations()
 
-    def _annotate_construction_function(self, construction_id):
+    def define_functional_equivalence(self, category_name, construction_ids):
         """
-        Annotate the grammatical function of a construction.
+        Define a set of constructions that are functionally equivalent.
 
         Args:
-            construction_id: Construction ID
+            category_name: Name of the functional category (e.g., 'NP')
+            construction_ids: List of construction IDs that can function in this category
+        """
+        # Register the category
+        if category_name not in self.functional_equivalences:
+            self.functional_equivalences[category_name] = []
+
+        # Add constructions to the category
+        for const_id in construction_ids:
+            if const_id in self.construction_registry:
+                if const_id not in self.functional_equivalences[category_name]:
+                    self.functional_equivalences[category_name].append(const_id)
+
+                # Update the construction's categories
+                if const_id not in self.construction_categories:
+                    self.construction_categories[const_id] = []
+
+                if category_name not in self.construction_categories[const_id]:
+                    self.construction_categories[const_id].append(category_name)
+
+    def define_template_construction(self, pos_sequence, substitution_slots=None):
+        """
+        Define a template construction that allows substitutions.
+
+        Args:
+            pos_sequence: Base sequence of POS tags
+            substitution_slots: Dict mapping positions to allowed functional categories
+                e.g., {0: ['NP']} means position 0 can be any construction in the 'NP' category
 
         Returns:
-            str: Functional annotation (e.g., 'NP', 'VP', etc.)
+            str: ID of the new template construction
         """
-        if construction_id not in self.construction_registry:
-            return "Unknown"
+        const_id = f"template_{len(self.construction_registry)}"
 
-        const_info = self.construction_registry[construction_id]
-        seq = const_info['pos_sequence']
+        self.construction_registry[const_id] = {
+            'pos_sequence': tuple(pos_sequence),
+            'predefined': True,
+            'is_template': True,
+            'substitution_slots': substitution_slots or {},
+            'frequency': 0,
+            'confidence': 0.8,
+            'entropy': 0.0,
+            'cohesion': 0.0
+        }
 
-        # Simple heuristic-based annotation
-        if not seq:
-            return "Unknown"
+        self.template_constructions[const_id] = {
+            'pos_sequence': tuple(pos_sequence),
+            'substitution_slots': substitution_slots or {}
+        }
 
-        # Very simple rules for illustration
-        if seq[0] == 'DET' and 'NOUN' in seq:
-            return "NP"  # Noun Phrase
-        elif seq[0] == 'VERB':
-            return "VP"  # Verb Phrase
-        elif 'PREP' in seq:
-            return "PP"  # Prepositional Phrase
+        return const_id
 
-        # Default
-        return "Unknown"
+    def get_equivalent_constructions(self, const_id):
+        """
+        Get constructions that are functionally equivalent to the given one.
+
+        Args:
+            const_id: Construction ID
+
+        Returns:
+            list: List of equivalent construction IDs
+        """
+        equivalents = []
+
+        # Check if this construction belongs to any categories
+        categories = self.construction_categories.get(const_id, [])
+
+        # For each category, get all constructions
+        for category in categories:
+            category_constructions = self.functional_equivalences.get(category, [])
+
+            # Add all constructions except self
+            for equiv_id in category_constructions:
+                if equiv_id != const_id and equiv_id not in equivalents:
+                    equivalents.append(equiv_id)
+
+        return equivalents
 
     def annotate_all_constructions(self):
         """
@@ -486,7 +668,7 @@ class ConstructionModule:
         """
         for const_id, const_info in self.construction_registry.items():
             if const_info.get('composite', False) and \
-                    const_info.get('components', []) == [const_id1, const_id2]:
+               const_info.get('components', []) == [const_id1, const_id2]:
                 return const_id
 
         return None

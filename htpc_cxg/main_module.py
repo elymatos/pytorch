@@ -1,3 +1,77 @@
+def reset(self):
+    """
+    Reset the system state.
+
+    Returns:
+        bool: True if reset was successful
+    """
+    # Reset base module
+    self.forward_transitions.clear()
+    self.backward_transitions.clear()
+    self.pos_frequencies.clear()
+    self.total_pos_count = 0
+    self.transition_counts.clear()
+    self.total_transitions = 0
+
+    # Reset construction module (but keep predefined constructions)
+    predefined = {}
+    for const_id, const_info in self.construction_registry.items():
+        if const_info.get('predefined', False):
+            predefined[const_id] = const_info
+
+    self.construction_registry = predefined
+    self.hierarchical_relations.clear()
+    self.specialization_relations.clear()
+    self.construction_frequencies.clear()
+    self.construction_transitions.clear()
+
+    # Reset functional equivalence structures
+    # (preserve category definitions but clear individual construction categorizations)
+    categories = set(self.functional_equivalences.keys())
+    self.functional_equivalences = {cat: [] for cat in categories}
+    self.construction_categories = {}
+
+    # Rebuild functional equivalences for predefined constructions
+    for const_id in predefined:
+        function = self._annotate_construction_function(const_id)
+        if function != "Unknown":
+            if function not in self.functional_equivalences:
+                self.functional_equivalences[function] = []
+            self.functional_equivalences[function].append(const_id)
+
+            if const_id not in self.construction_categories:
+                self.construction_categories[const_id] = []
+            self.construction_categories[const_id].append(function)
+
+    # Reset attention module
+    self.pos_attention.clear()
+    self.construction_attention.clear()
+    self.cross_level_attention.clear()
+
+    # Reset predictive coding module
+    self.prediction_models['pos_level'].clear()
+    self.prediction_models['construction_level'].clear()
+    self.prediction_models['cross_level'].clear()
+
+    self.prediction_errors['pos_level'] = []
+    self.prediction_errors['construction_level'] = []
+    self.prediction_errors['cross_level'] = []
+
+    # Update shared references
+    self.prediction_models['construction_registry'] = self.construction_registry
+    self.prediction_models['construction_categories'] = self.construction_categories
+    self.prediction_models['functional_equivalences'] = self.functional_equivalences
+
+    # Reset bidirectional module
+    self.forward_weights = 0.5
+    self.backward_weights = 0.5
+    self.direction_confidence = {'forward': 0.5, 'backward': 0.5}
+
+    # Reset processing history
+    self.processing_history = []
+
+    return True
+
 """
 Main Module for the Predictive Coding Construction Grammar System.
 
@@ -5,14 +79,16 @@ This module integrates all components through multiple inheritance
 and provides the main interface for using the system.
 """
 
+
 from base_module import BaseModule
 from construction_module import ConstructionModule
 from attention_module import AttentionModule
 from bidirectional_module import BidirectionalModule
 from predictive_coding_module import PredictiveCodingModule
 
+
 class MainModule(BaseModule, ConstructionModule, AttentionModule,
-                BidirectionalModule, PredictiveCodingModule):
+                 BidirectionalModule, PredictiveCodingModule):
     def __init__(self, predefined_constructions=None, min_chunk_size=1):
         """
         Initialize the main module with all components.
@@ -30,6 +106,11 @@ class MainModule(BaseModule, ConstructionModule, AttentionModule,
 
         # Additional state for the main module
         self.processing_history = []
+
+        # Share construction registry and related structures with prediction module
+        self.prediction_models['construction_registry'] = self.construction_registry
+        self.prediction_models['construction_categories'] = self.construction_categories
+        self.prediction_models['functional_equivalences'] = self.functional_equivalences
 
     def process_sequence(self, pos_sequence, bidirectional=True):
         """
@@ -168,6 +249,46 @@ class MainModule(BaseModule, ConstructionModule, AttentionModule,
 
         return const_id
 
+    def define_functional_equivalence(self, category_name, construction_ids):
+        """
+        Define a set of constructions that are functionally equivalent.
+
+        Args:
+            category_name: Name of the functional category (e.g., 'NP')
+            construction_ids: List of construction IDs that can function in this category
+
+        Returns:
+            bool: True if successful
+        """
+        # Use the method from ConstructionModule
+        ConstructionModule.define_functional_equivalence(self, category_name, construction_ids)
+
+        # Update shared references
+        self.prediction_models['construction_categories'] = self.construction_categories
+        self.prediction_models['functional_equivalences'] = self.functional_equivalences
+
+        return True
+
+    def define_template_construction(self, pos_sequence, substitution_slots=None):
+        """
+        Define a template construction that allows substitutions.
+
+        Args:
+            pos_sequence: Base sequence of POS tags
+            substitution_slots: Dict mapping positions to allowed functional categories
+
+        Returns:
+            str: ID of the new template construction
+        """
+        # Use the method from ConstructionModule
+        template_id = ConstructionModule.define_template_construction(
+            self, pos_sequence, substitution_slots)
+
+        # Update prediction module references
+        self.prediction_models['construction_registry'] = self.construction_registry
+
+        return template_id
+
     def get_most_frequent_constructions(self, n=10):
         """
         Get the most frequent constructions.
@@ -229,6 +350,31 @@ class MainModule(BaseModule, ConstructionModule, AttentionModule,
         if 'function' not in details:
             function = self._annotate_construction_function(const_id)
             details['function'] = function
+
+        # Add functional equivalence information
+        if const_id in self.construction_categories:
+            details['categories'] = self.construction_categories[const_id]
+
+            # Get equivalent constructions
+            equivalents = self.get_equivalent_constructions(const_id)
+            if equivalents:
+                details['equivalent_constructions'] = equivalents
+
+                # Add details for equivalents
+                equiv_details = []
+                for equiv_id in equivalents:
+                    if equiv_id in self.construction_registry:
+                        equiv_details.append({
+                            'id': equiv_id,
+                            'pos_sequence': self.construction_registry[equiv_id]['pos_sequence']
+                        })
+
+                details['equivalent_details'] = equiv_details
+
+        # Add template information if applicable
+        if const_info.get('is_template', False):
+            details['is_template'] = True
+            details['substitution_slots'] = const_info.get('substitution_slots', {})
 
         return details
 

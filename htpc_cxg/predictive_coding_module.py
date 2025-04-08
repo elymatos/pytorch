@@ -209,9 +209,54 @@ class PredictiveCodingModule:
                         predictions[next_pos_in_construction] = predictions.get(
                             next_pos_in_construction, 0) + 1.0
 
+                    # Add predictions based on functional equivalences
+                    self._add_equivalent_construction_predictions(
+                        const_id, relative_pos, predictions)
+
         # Normalize
         total = sum(predictions.values()) or 1.0
         return {tag: prob/total for tag, prob in predictions.items()}
+
+    def _add_equivalent_construction_predictions(self, const_id, relative_pos, predictions):
+        """
+        Add predictions based on functionally equivalent constructions.
+
+        Args:
+            const_id: Current construction ID
+            relative_pos: Relative position within the construction
+            predictions: Dictionary to add predictions to
+        """
+        # Skip if we don't have construction registry (should be passed from main module)
+        if not hasattr(self, 'construction_registry') or not hasattr(self, 'construction_categories'):
+            return
+
+        # Skip if this construction has no categories
+        if const_id not in self.construction_categories:
+            return
+
+        # Get categories this construction belongs to
+        categories = self.construction_categories[const_id]
+
+        for category in categories:
+            # Get all equivalent constructions in this category
+            if category not in self.functional_equivalences:
+                continue
+
+            equivalent_constructions = self.functional_equivalences[category]
+
+            for equiv_id in equivalent_constructions:
+                if equiv_id == const_id:
+                    continue  # Skip self
+
+                if equiv_id in self.construction_registry:
+                    # Use the equivalent construction to make predictions
+                    equiv_pattern = self.construction_registry[equiv_id]['pos_sequence']
+
+                    # If the equivalent has a position that corresponds
+                    if relative_pos + 1 < len(equiv_pattern):
+                        next_pos = equiv_pattern[relative_pos + 1]
+                        # Add with slightly lower weight
+                        predictions[next_pos] = predictions.get(next_pos, 0) + 0.8
 
     def _predict_using_hierarchy(self, pos_sequence, constructions, position):
         """

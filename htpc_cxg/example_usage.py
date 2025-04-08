@@ -201,5 +201,32 @@ def main():
         else:
             print("  No predictions available.")
 
+    # Demonstrate adding a new construction
+    print("\n--- Adding a New Construction ---")
+    new_construction = ('O', 'QUE', 'NOUN','ESTÁ','FAZENDO','NOUN')
+    const_id = system.add_predefined_construction(new_construction)
+    print(f"Added construction {const_id}: {new_construction}")
+
+    # Process a sequence with the new construction
+    test_sequence = ['O', 'QUE', 'DET','NOUN','ESTÁ','FAZENDO','ADP','DET','NOUN']
+    print(f"\nProcessing sequence with new construction: {test_sequence}")
+    results = system.process_sequence(test_sequence)
+
+    # Print identified constructions
+    print("\nIdentified Constructions (should include the new one):")
+    if 'combined' in results and 'constructions' in results['combined']:
+        constructions = results['combined']['constructions']
+        for const_type in ['predefined', 'new', 'composite']:
+            if const_type in constructions:
+                print(f"  {const_type.capitalize()}:")
+                for const in constructions[const_type]:
+                    const_id = const['id']
+                    start = const['start']
+                    end = const['end']
+                    const_sequence = test_sequence[start:end]
+                    print(f"    {const_id}: {const_sequence} (position {start}-{end})")
+
+
+
 if __name__ == "__main__":
     main()
