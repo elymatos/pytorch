@@ -1,46 +1,46 @@
 import torch
 from transformers import BertTokenizer, BertModel
 import numpy as np
-from htm.bindings.sdr import SDR
+from sparse_dot_topn import awesome_cossim_topn
+from scipy.sparse import csr_matrix
 
 # Configuration
-BERT_MODEL = "bert-base-uncased"
+MODEL_NAME = "bert-base-uncased"
 TOP_K = 20
 SDR_DIM = 768
 
-tokenizer = BertTokenizer.from_pretrained(BERT_MODEL)
-model = BertModel.from_pretrained(BERT_MODEL)
+# Load BERT
+tokenizer = BertTokenizer.from_pretrained(MODEL_NAME)
+model = BertModel.from_pretrained(MODEL_NAME)
 model.eval()
 
-
-def text_to_sdr(text: str, top_k=TOP_K) -> SDR:
+def bert_to_sparse_vector(text: str, top_k: int = TOP_K) -> csr_matrix:
+    """Encodes text using BERT and sparsifies using top-k elements, returns sparse CSR vector."""
     inputs = tokenizer(text, return_tensors="pt")
     with torch.no_grad():
         outputs = model(**inputs)
     cls_vector = outputs.last_hidden_state[0, 0, :].numpy()
 
-    # Get top-k activations
+    # Keep top-k indices only
     top_k_indices = np.argpartition(cls_vector, -top_k)[-top_k:]
+    sparse_data = np.zeros_like(cls_vector)
+    sparse_data[top_k_indices] = cls_vector[top_k_indices]
 
-    sdr = SDR([SDR_DIM])
-    sdr.setSparseIndices(sorted(top_k_indices))
-    return sdr
+    # Convert to CSR matrix (1 row, SDR_DIM columns)
+    return csr_matrix(sparse_data.reshape(1, -1))
+# Example sentences
+text_a = "The cat chased the mouse."
+text_b = "A dog ran after a rodent."
 
+vec_a = bert_to_sparse_vector(text_a)
+vec_b = bert_to_sparse_vector(text_b)
 
-def similarity(sdr1: SDR, sdr2: SDR) -> float:
-    overlap = len(set(sdr1.getSparse()) & set(sdr2.getSparse()))
-    union = len(set(sdr1.getSparse()) | set(sdr2.getSparse()))
-    return overlap / union if union != 0 else 0.0
+# Stack them into one sparse matrix
+matrix = csr_matrix(np.vstack([vec_a.toarray(), vec_b.toarray()]))
 
+# Compute top-1 cosine similarity using sparse-dot-topn
+similarity_matrix = awesome_cossim_topn(matrix, matrix, ntop=1, lower_bound=0.0, use_threads=True, n_jobs=1)
 
-# Example
-text1 = "The scientist published a breakthrough paper."
-text2 = "A researcher released an important article."
+similarity_score = similarity_matrix[0, 1]
 
-sdr1 = text_to_sdr(text1)
-sdr2 = text_to_sdr(text2)
-
-print("SDR 1 active bits:", sdr1.getSparse())
-print("SDR 2 active bits:", sdr2.getSparse())
-print("Overlap:", len(set(sdr1.getSparse()) & set(sdr2.getSparse())))
-print("Jaccard similarity:", similarity(sdr1, sdr2))
+print("Cosine similarity (sparse):", similarity_score)
