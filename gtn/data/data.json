@@ -1,0 +1,1154 @@
+[
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "subject verb object",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "transitive"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "word",
+        "text": "The",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "cat",
+        "features": {
+          "pos": "NOUN"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "chased",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "the",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "word",
+        "text": "mouse",
+        "features": {
+          "pos": "NOUN"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject_determiner"
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject_noun"
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "type": "part_of",
+        "label": "object_determiner"
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "type": "part_of",
+        "label": "object_noun"
+      }
+    ],
+    "meta": {
+      "source_text": "The cat chased the mouse.",
+      "language": "en",
+      "construction_type": 0
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "subject verb direct_object indirect_object",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "ditransitive"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "word",
+        "text": "She",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "gave",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "him",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "a",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "word",
+        "text": "book",
+        "features": {
+          "pos": "NOUN"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject"
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "type": "part_of",
+        "label": "indirect_object"
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "type": "part_of",
+        "label": "direct_object_determiner"
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "type": "part_of",
+        "label": "direct_object_noun"
+      }
+    ],
+    "meta": {
+      "source_text": "She gave him a book.",
+      "language": "en",
+      "construction_type": 1
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "subject linking_verb predicate",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "copular"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "word",
+        "text": "The",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "sky",
+        "features": {
+          "pos": "NOUN"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "is",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "blue",
+        "features": {
+          "pos": "ADJ"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject_determiner"
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject_noun"
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "type": "part_of",
+        "label": "linking_verb"
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "type": "part_of",
+        "label": "predicate"
+      }
+    ],
+    "meta": {
+      "source_text": "The sky is blue.",
+      "language": "en",
+      "construction_type": 2
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "phrasal_verb",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "phrasal_verb"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "word",
+        "text": "He",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "construction",
+        "text": "look up",
+        "features": {
+          "pos": "PHRASAL_VERB"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "looked",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "up",
+        "features": {
+          "pos": "PART"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "word",
+        "text": "the",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n7",
+        "type": "word",
+        "text": "information",
+        "features": {
+          "pos": "NOUN"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject"
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "type": "part_of",
+        "label": "verb_phrase"
+      },
+      {
+        "source": "n4",
+        "target": "n3",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n5",
+        "target": "n3",
+        "type": "part_of",
+        "label": "particle"
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "type": "part_of",
+        "label": "object_determiner"
+      },
+      {
+        "source": "n7",
+        "target": "n1",
+        "type": "part_of",
+        "label": "object_noun"
+      }
+    ],
+    "meta": {
+      "source_text": "He looked up the information.",
+      "language": "en",
+      "construction_type": 3
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "conditional",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "conditional"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "construction",
+        "text": "if_clause",
+        "features": {
+          "pos": "CLAUSE"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "If",
+        "features": {
+          "pos": "SCONJ"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "it",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "rains",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "construction",
+        "text": "then_clause",
+        "features": {
+          "pos": "CLAUSE"
+        }
+      },
+      {
+        "id": "n7",
+        "type": "word",
+        "text": "I",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n8",
+        "type": "word",
+        "text": "will",
+        "features": {
+          "pos": "AUX"
+        }
+      },
+      {
+        "id": "n9",
+        "type": "word",
+        "text": "stay",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n10",
+        "type": "word",
+        "text": "home",
+        "features": {
+          "pos": "ADV"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "condition"
+      },
+      {
+        "source": "n3",
+        "target": "n2",
+        "type": "part_of",
+        "label": "conjunction"
+      },
+      {
+        "source": "n4",
+        "target": "n2",
+        "type": "part_of",
+        "label": "subject"
+      },
+      {
+        "source": "n5",
+        "target": "n2",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "type": "part_of",
+        "label": "result"
+      },
+      {
+        "source": "n7",
+        "target": "n6",
+        "type": "part_of",
+        "label": "subject"
+      },
+      {
+        "source": "n8",
+        "target": "n6",
+        "type": "part_of",
+        "label": "auxiliary"
+      },
+      {
+        "source": "n9",
+        "target": "n6",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n10",
+        "target": "n6",
+        "type": "part_of",
+        "label": "adverbial"
+      }
+    ],
+    "meta": {
+      "source_text": "If it rains, I will stay home.",
+      "language": "en",
+      "construction_type": 4
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "passive_voice",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "passive"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "word",
+        "text": "The",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "book",
+        "features": {
+          "pos": "NOUN"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "was",
+        "features": {
+          "pos": "AUX"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "written",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "word",
+        "text": "by",
+        "features": {
+          "pos": "ADP"
+        }
+      },
+      {
+        "id": "n7",
+        "type": "word",
+        "text": "the",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n8",
+        "type": "word",
+        "text": "author",
+        "features": {
+          "pos": "NOUN"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject_determiner"
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject_noun"
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "type": "part_of",
+        "label": "auxiliary"
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "type": "part_of",
+        "label": "agent_marker"
+      },
+      {
+        "source": "n7",
+        "target": "n1",
+        "type": "part_of",
+        "label": "agent_determiner"
+      },
+      {
+        "source": "n8",
+        "target": "n1",
+        "type": "part_of",
+        "label": "agent_noun"
+      }
+    ],
+    "meta": {
+      "source_text": "The book was written by the author.",
+      "language": "en",
+      "construction_type": 5
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "wh_question",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "wh_question"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "word",
+        "text": "What",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "did",
+        "features": {
+          "pos": "AUX"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "you",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "eat",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "word",
+        "text": "for",
+        "features": {
+          "pos": "ADP"
+        }
+      },
+      {
+        "id": "n7",
+        "type": "word",
+        "text": "breakfast",
+        "features": {
+          "pos": "NOUN"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "wh_word"
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "type": "part_of",
+        "label": "auxiliary"
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "type": "part_of",
+        "label": "subject"
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "type": "part_of",
+        "label": "preposition"
+      },
+      {
+        "source": "n7",
+        "target": "n1",
+        "type": "part_of",
+        "label": "object_of_preposition"
+      }
+    ],
+    "meta": {
+      "source_text": "What did you eat for breakfast?",
+      "language": "en",
+      "construction_type": 6
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "comparative",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "comparative"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "construction",
+        "text": "first_component",
+        "features": {
+          "pos": "PHRASE"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "This",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "book",
+        "features": {
+          "pos": "NOUN"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "is",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "word",
+        "text": "longer",
+        "features": {
+          "pos": "ADJ"
+        }
+      },
+      {
+        "id": "n7",
+        "type": "word",
+        "text": "than",
+        "features": {
+          "pos": "SCONJ"
+        }
+      },
+      {
+        "id": "n8",
+        "type": "construction",
+        "text": "second_component",
+        "features": {
+          "pos": "PHRASE"
+        }
+      },
+      {
+        "id": "n9",
+        "type": "word",
+        "text": "that",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n10",
+        "type": "word",
+        "text": "one",
+        "features": {
+          "pos": "NOUN"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "first_element"
+      },
+      {
+        "source": "n3",
+        "target": "n2",
+        "type": "part_of",
+        "label": "determiner"
+      },
+      {
+        "source": "n4",
+        "target": "n2",
+        "type": "part_of",
+        "label": "noun"
+      },
+      {
+        "source": "n5",
+        "target": "n2",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n6",
+        "target": "n2",
+        "type": "part_of",
+        "label": "adjective"
+      },
+      {
+        "source": "n7",
+        "target": "n1",
+        "type": "part_of",
+        "label": "comparison_marker"
+      },
+      {
+        "source": "n8",
+        "target": "n1",
+        "type": "part_of",
+        "label": "second_element"
+      },
+      {
+        "source": "n9",
+        "target": "n8",
+        "type": "part_of",
+        "label": "determiner"
+      },
+      {
+        "source": "n10",
+        "target": "n8",
+        "type": "part_of",
+        "label": "noun"
+      }
+    ],
+    "meta": {
+      "source_text": "This book is longer than that one.",
+      "language": "en",
+      "construction_type": 7
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "relative_clause",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "relative_clause"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "construction",
+        "text": "head_noun_phrase",
+        "features": {
+          "pos": "PHRASE"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "The",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "woman",
+        "features": {
+          "pos": "NOUN"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "construction",
+        "text": "relative_clause",
+        "features": {
+          "pos": "CLAUSE"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "word",
+        "text": "who",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n7",
+        "type": "word",
+        "text": "lives",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n8",
+        "type": "word",
+        "text": "next",
+        "features": {
+          "pos": "ADV"
+        }
+      },
+      {
+        "id": "n9",
+        "type": "word",
+        "text": "door",
+        "features": {
+          "pos": "NOUN"
+        }
+      },
+      {
+        "id": "n10",
+        "type": "word",
+        "text": "is",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n11",
+        "type": "word",
+        "text": "a",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n12",
+        "type": "word",
+        "text": "doctor",
+        "features": {
+          "pos": "NOUN"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "head"
+      },
+      {
+        "source": "n3",
+        "target": "n2",
+        "type": "part_of",
+        "label": "determiner"
+      },
+      {
+        "source": "n4",
+        "target": "n2",
+        "type": "part_of",
+        "label": "noun"
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "type": "part_of",
+        "label": "modifier"
+      },
+      {
+        "source": "n6",
+        "target": "n5",
+        "type": "part_of",
+        "label": "relative_pronoun"
+      },
+      {
+        "source": "n7",
+        "target": "n5",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n8",
+        "target": "n5",
+        "type": "part_of",
+        "label": "adverbial_1"
+      },
+      {
+        "source": "n9",
+        "target": "n5",
+        "type": "part_of",
+        "label": "adverbial_2"
+      },
+      {
+        "source": "n10",
+        "target": "n1",
+        "type": "part_of",
+        "label": "main_verb"
+      },
+      {
+        "source": "n11",
+        "target": "n1",
+        "type": "part_of",
+        "label": "predicate_determiner"
+      },
+      {
+        "source": "n12",
+        "target": "n1",
+        "type": "part_of",
+        "label": "predicate_noun"
+      }
+    ],
+    "meta": {
+      "source_text": "The woman who lives next door is a doctor.",
+      "language": "en",
+      "construction_type": 8
+    }
+  },
+  {
+    "nodes": [
+      {
+        "id": "n1",
+        "type": "construction",
+        "text": "imperative",
+        "features": {
+          "pos": "CONSTRUCTION",
+          "construction_type": "imperative"
+        }
+      },
+      {
+        "id": "n2",
+        "type": "word",
+        "text": "Close",
+        "features": {
+          "pos": "VERB"
+        }
+      },
+      {
+        "id": "n3",
+        "type": "word",
+        "text": "the",
+        "features": {
+          "pos": "DET"
+        }
+      },
+      {
+        "id": "n4",
+        "type": "word",
+        "text": "door",
+        "features": {
+          "pos": "NOUN"
+        }
+      },
+      {
+        "id": "n5",
+        "type": "word",
+        "text": "when",
+        "features": {
+          "pos": "SCONJ"
+        }
+      },
+      {
+        "id": "n6",
+        "type": "word",
+        "text": "you",
+        "features": {
+          "pos": "PRON"
+        }
+      },
+      {
+        "id": "n7",
+        "type": "word",
+        "text": "leave",
+        "features": {
+          "pos": "VERB"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "type": "part_of",
+        "label": "verb"
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "type": "part_of",
+        "label": "object_determiner"
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "type": "part_of",
+        "label": "object_noun"
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "type": "part_of",
+        "label": "adverbial_marker"
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "type": "part_of",
+        "label": "adverbial_subject"
+      },
+      {
+        "source": "n7",
+        "target": "n1",
+        "type": "part_of",
+        "label": "adverbial_verb"
+      }
+    ],
+    "meta": {
+      "source_text": "Close the door when you leave.",
+      "language": "en",
+      "construction_type": 9
+    }
+  }
+]
