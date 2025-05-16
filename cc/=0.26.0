@@ -1,0 +1,42 @@
+Channels:
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/ematos/miniconda3/envs/study
+
+  added / updated specs:
+    - accelerate
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    accelerate-1.0.1           |     pyhd8ed1ab_0         214 KB  conda-forge
+    ca-certificates-2025.4.26  |       hbd8a1cb_0         149 KB  conda-forge
+    openssl-3.5.0              |       h7b32b05_1         3.0 MB  conda-forge
+    psutil-6.0.0               |   py38hfb59056_0         358 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         3.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  accelerate         conda-forge/noarch::accelerate-1.0.1-pyhd8ed1ab_0 
+  psutil             conda-forge/linux-64::psutil-6.0.0-py38hfb59056_0 
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2~ --> conda-forge/noarch::ca-certificates-2025.4.26-hbd8a1cb_0 
+  openssl                                  3.4.1-h7b32b05_0 --> 3.5.0-h7b32b05_1 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi            pkgs/main/linux-64::certifi-2024.8.30~ --> conda-forge/noarch::certifi-2024.8.30-pyhd8ed1ab_0 
+
+
+Proceed ([y]/n)? 

@@ -1,0 +1,65 @@
+[
+    {
+        "sentence": "The blue mailboxes",
+        "construction": "cxn:referring-phrase",
+        "semantic_class": "sem:object-concept",
+        "information_packaging": "inf:reference",
+        "notes": "The referent expression performs reference without predication."
+    },
+    {
+        "sentence": "That huge tree over there",
+        "construction": "cxn:modification-construction",
+        "semantic_class": "sem:property-concept",
+        "information_packaging": "inf:modification",
+        "notes": "\u2018huge\u2019 is a property used as an attributive modifier."
+    },
+    {
+        "sentence": "Frieda is an engineer.",
+        "construction": "cxn:nonprototypical-predication-construction",
+        "semantic_class": "sem:object-concept",
+        "information_packaging": "inf:predication",
+        "notes": "This is a nonprototypical predication using a copula."
+    },
+    {
+        "sentence": "That tree is huge.",
+        "construction": "cxn:predicate-adjectival-construction",
+        "semantic_class": "sem:property-concept",
+        "information_packaging": "inf:predication",
+        "notes": "Property is presented as a predicate rather than a modifier."
+    },
+    {
+        "sentence": "Hiking in the desert is wonderful.",
+        "construction": "cxn:referent-expression",
+        "semantic_class": "sem:event",
+        "information_packaging": "inf:reference",
+        "notes": "\u2018Hiking\u2019 is treated as a referent noun-like phrase."
+    },
+    {
+        "sentence": "The book that I read last night",
+        "construction": "cxn:relative-clause",
+        "semantic_class": "sem:event",
+        "information_packaging": "inf:modification",
+        "notes": "A relative clause modifies a head noun via an embedded event."
+    },
+    {
+        "sentence": "It was Ollie who was playing the piano.",
+        "construction": "cxn:identificational-construction",
+        "semantic_class": "sem:object-concept",
+        "information_packaging": "inf:identificational",
+        "notes": "Separates focus (\u2018Ollie\u2019) from a presupposed proposition."
+    },
+    {
+        "sentence": "There\u2019s a jaguar!",
+        "construction": "cxn:nonpredicational-construction",
+        "semantic_class": "sem:object-concept",
+        "information_packaging": "inf:thetic",
+        "notes": "Entire proposition presented as new; lacks topic-comment division."
+    },
+    {
+        "sentence": "Who is coming?",
+        "construction": "cxn:information-question-construction",
+        "semantic_class": "sem:participant",
+        "information_packaging": "inf:information-question",
+        "notes": "A clause with a content gap awaiting a specific filler."
+    }
+]
